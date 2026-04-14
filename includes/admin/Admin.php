@@ -1088,6 +1088,52 @@ class Openpos_Admin{
                     )
                 ),
                 array(
+                    'name'              => 'openpos_max_login_attempts',
+                    'label'             => __( 'Max Login Attempts', 'openpos' ),
+                    'desc'              => __( 'Maximum failed login attempts before account lockout (default: 5)', 'openpos' ),
+                    'default'           => '5',
+                    'type'              => 'number',
+                    'options' =>  array()
+                ),
+                array(
+                    'name'              => 'openpos_lockout_duration',
+                    'label'             => __( 'Account Lockout Duration (Minutes)', 'openpos' ),
+                    'desc'              => __( 'How long to lock account after max attempts exceeded (default: 15 minutes)', 'openpos' ),
+                    'default'           => '15',
+                    'type'              => 'number',
+                    'options' =>  array()
+                ),
+                array(
+                    'name'              => 'openpos_session_timeout',
+                    'label'             => __( 'Session Timeout (Minutes)', 'openpos' ),
+                    'desc'              => __( 'Automatically logout inactive POS sessions (default: 480 = 8 hours)', 'openpos' ),
+                    'default'           => '480',
+                    'type'              => 'number',
+                    'options' =>  array()
+                ),
+                array(
+                    'name'              => 'openpos_enable_login_logging',
+                    'label'             => __( 'Enable Login Attempt Logging', 'openpos' ),
+                    'desc'              => __( 'Log all login attempts (success and failures) for audit trail', 'openpos' ),
+                    'default'           => 'yes',
+                    'type'              => 'select',
+                    'options' => array(
+                        'yes' => __('Yes','openpos'),
+                        'no' => __('No','openpos'),
+                    )
+                ),
+                array(
+                    'name'              => 'openpos_enable_suspicious_login_warning',
+                    'label'             => __( 'Detect Suspicious Logins', 'openpos' ),
+                    'desc'              => __( 'Warn when login from new IP or impossible travel detected', 'openpos' ),
+                    'default'           => 'yes',
+                    'type'              => 'select',
+                    'options' => array(
+                        'yes' => __('Yes','openpos'),
+                        'no' => __('No','openpos'),
+                    )
+                ),
+                array(
                     'name'              => 'pos_product_grid',
                     'label'             => __( 'Product Grid Size', 'openpos' ),
                     'desc'              => __( 'Grid Size for Products (column x row)  on POS Panel', 'openpos' ),

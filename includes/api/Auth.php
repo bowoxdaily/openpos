@@ -235,6 +235,19 @@ if(!class_exists('OP_REST_API_Auth'))
                 $location = $request->get_param( 'location' );
                 $lang = $request->get_param('lang');
                 $time_stamp = $request->get_param('time_stamp');
+                
+                // Initialize LoginSecurity helper
+                require_once(dirname(__FILE__) . '/LoginSecurity.php');
+                $login_security = new OP_LoginSecurity();
+                
+                $ip = $this->core_class->getClientIp();
+                
+                // Check for account lockout
+                $lockout_check = $login_security->check_lockout($username, $ip);
+                if ($lockout_check['locked']) {
+                    throw new Exception($lockout_check['message']);
+                }
+                
                 $creds = array(
                     'user_login'    => $username,
                     'user_password' => $password,
@@ -252,8 +265,8 @@ if(!class_exists('OP_REST_API_Auth'))
                 if(is_wp_error($user))
                 {
                    $message = strip_tags($user->get_error_message());
+                   $login_security->record_failed_attempt($username, $ip);
                    throw new Exception($message);
-                  
                 }
                 $id = $user->ID;
                 $drawers = array();
@@ -276,14 +289,16 @@ if(!class_exists('OP_REST_API_Auth'))
                 $allow_pos = get_user_meta($id,'_op_allow_pos',true);
                 if(!$allow_pos)
                 {
+                    $login_security->record_failed_attempt($username, $ip);
                     throw new Exception(__('You have no permission to access POS. Please contact with admin to resolve it.','openpos' ));
                 }
 
                 if(!$drawers || empty($drawers))
                 {
+                    $login_security->record_failed_attempt($username, $ip);
                     throw new Exception(__('You have no grant access to any Register POS. Please contact with admin to assign your account to POS Register.','openpos' ));
                 }
-                $ip = $this->core_class->getClientIp();
+                
                 $user_data = $user->data;
                 $cashier_name = $user_data->display_name;
                 if(!$cashier_name)
@@ -300,6 +315,10 @@ if(!class_exists('OP_REST_API_Auth'))
                 }
                 $prefix = sanitize_title($user_data->user_login);
                 $session_id = $this->session_class->generate_session_id($prefix);
+                
+                // Check for suspicious activity
+                $suspicious = $login_security->check_suspicious_activity($id, $ip);
+                
                 $sale_person = array();
                 $payment_methods = array();
                 $cash = array();
@@ -325,11 +344,17 @@ if(!class_exists('OP_REST_API_Auth'))
                     'cash_drawers' => $drawers,
                     'price_included_tax' => $price_included_tax,
                     'avatar' => $avatar,
-                    'location' => $location
+                    'location' => $location,
+                    'suspicious_activity' => $suspicious['suspicious'],
+                    'suspicious_flags' => isset($suspicious['flags']) ? $suspicious['flags'] : []
                 );
 
                 $login_data = apply_filters('op_login_data',$user_login_data,$user);
                 $this->session_class->save($session_id,$login_data);
+                
+                // Record successful login
+                $login_security->record_successful_login($id, $user_data->user_login, $ip, $session_id);
+                
                 $result['response']['data'] = $login_data;
                 $result['response']['status'] = 1;
                 $result['code'] = 200;
@@ -774,6 +799,9 @@ if(!class_exists('OP_REST_API_Auth'))
                 'api_message' => ''
             );
             try{
+                require_once(dirname(__FILE__) . '/LoginSecurity.php');
+                $login_security = new OP_LoginSecurity();
+                
                 $session_id = $request->get_param( 'session_id' );
 
                 $session_data = $this->session_class->data($session_id);
@@ -781,10 +809,22 @@ if(!class_exists('OP_REST_API_Auth'))
                 {
                     throw  new Exception(__('Your login session has been clean. Please try login again','openpos'));
                 }
+                
+                // Validate session timeout
+                $timeout_check = $login_security->validate_session_timeout($session_data, $session_id);
+                if (!$timeout_check['valid']) {
+                    $this->session_class->clean($session_id);
+                    throw new Exception($timeout_check['message']);
+                }
+                
                 $check = true;
                 if($check)
                 {
-                    $session_response_data = $session_data; 
+                    $session_response_data = $session_data;
+                    // Add remaining session time
+                    $session_response_data['session_remaining_seconds'] = $timeout_check['remaining_seconds'] ?? 0;
+                    $session_response_data['session_expires_at'] = $timeout_check['expired_at'] ?? 0;
+                    
                     $result['response']['data'] = apply_filters('op_get_login_with_session_cashdrawer_data',$session_response_data);
                     $result['response']['status'] = 1;
                 }else{
