@@ -8,6 +8,12 @@ global $op_woo;
 global $OPENPOS_SETTING;
 $openpos_type = $OPENPOS_SETTING->get_option('openpos_type','openpos_pos');
 $is_salon_mode = $openpos_type === 'salon';
+
+// Auto-create default salon receipt template if in salon mode
+if ($is_salon_mode && function_exists('openpos_create_default_salon_receipt_templates')) {
+    openpos_create_default_salon_receipt_templates();
+}
+
 $op_nonce = wp_create_nonce( 'op_nonce' );
 $templates = $op_receipt->templates();
 $receipt_types = $op_receipt->receipt_types();

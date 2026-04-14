@@ -37,6 +37,8 @@ require_once( OPENPOS_DIR.'lib/class-op-woo-cart.php' );
 require_once( OPENPOS_DIR.'lib/class-op-woo-order.php' );
 require_once( OPENPOS_DIR.'lib/class-op-session.php' );
 require_once( OPENPOS_DIR.'lib/class-op-receipt.php' );
+require_once( OPENPOS_DIR.'includes/api/LoginSecurity.php' );
+require_once( OPENPOS_DIR.'includes/api/SalonReceiptHelper.php' );
 require_once( OPENPOS_DIR.'lib/class-op-register.php' );
 require_once( OPENPOS_DIR.'lib/class-op-table.php' );
 require_once( OPENPOS_DIR.'lib/class-op-warehouse.php' );
