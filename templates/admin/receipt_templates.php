@@ -7,6 +7,7 @@ global $op_receipt;
 global $op_woo;
 global $OPENPOS_SETTING;
 $openpos_type = $OPENPOS_SETTING->get_option('openpos_type','openpos_pos');
+$is_salon_mode = $openpos_type === 'salon';
 $op_nonce = wp_create_nonce( 'op_nonce' );
 $templates = $op_receipt->templates();
 $receipt_types = $op_receipt->receipt_types();
@@ -87,6 +88,12 @@ if(isset($_GET['id']) && $id = $_GET['id'])
         <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
     </div>
     <h1 class="wp-heading-inline"><?php echo __( 'Receipt templates', 'openpos' ); ?></h1>
+    <?php if($is_salon_mode): ?>
+    <div style="background-color: #d4edda; border: 1px solid #c3e6cb; color: #155724; padding: 12px; margin: 10px 0; border-radius: 4px;">
+        <strong><?php echo __('Salon Mode Active', 'openpos'); ?></strong> - 
+        <?php echo __('Receipts will display service terminology (Client, Therapist, Service) instead of retail terms.', 'openpos'); ?>
+    </div>
+    <?php endif; ?>
     <br class="clear" />
     <div class="container-fluid">
         

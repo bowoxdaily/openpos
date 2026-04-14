@@ -1,0 +1,4 @@
+
+<div id="legalcopy">
+     <p class="legal"><strong>Thank you for visiting!</strong> We appreciate your trust in our services. We look forward to seeing you again soon. <br>For inquiries call us at [phone] or email [email]</p>
+</div>

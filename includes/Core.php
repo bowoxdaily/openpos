@@ -1907,8 +1907,10 @@ class Openpos_Core
             $setting['receipt_css'] = $this->_filesystem->get_contents($theme_file_path);
         }
         // receipt_template_footer
-
-        $file_name = 'receipt_template_footer.txt';
+        $openpos_type = get_option('openpos_type', 'openpos_pos');
+        $is_salon_mode = $openpos_type === 'salon';
+        
+        $file_name = $is_salon_mode ? 'receipt_template_footer_salon.txt' : 'receipt_template_footer.txt';
         $theme_file_path = rtrim(get_stylesheet_directory(),'/').'/woocommerce-openpos/'.$file_name;
         if(file_exists($theme_file_path))
         {
@@ -1922,7 +1924,7 @@ class Openpos_Core
             $setting['receipt_template_footer'] = '';
         }
         //receipt_template_header
-        $file_name = 'receipt_template_header.txt';
+        $file_name = $is_salon_mode ? 'receipt_template_header_salon.txt' : 'receipt_template_header.txt';
         $theme_file_path = rtrim(get_stylesheet_directory(),'/').'/woocommerce-openpos/'.$file_name;
         if(file_exists($theme_file_path))
         {
@@ -1937,7 +1939,7 @@ class Openpos_Core
         }
 
 
-        $file_name = 'receipt_template_body.txt';
+        $file_name = $is_salon_mode ? 'receipt_template_body_salon.txt' : 'receipt_template_body.txt';
 
 
         $file_path = rtrim(OPENPOS_DIR,'/').'/default/'.$file_name;
