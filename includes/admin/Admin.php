@@ -582,11 +582,13 @@ class Openpos_Admin{
         );
         //end
 
+        $is_salon_type = ($openpos_type == 'salon');
+
         $dashboard_display_options = array(
             'board' => __('New DashBoard','openpos'),
             'tiles' => __('Tiles DashBoard','openpos'),
-            'product' => __('Products','openpos'),
-            'category' => __('Categories','openpos'),
+            'product' => $is_salon_type ? __('Services','openpos') : __('Products','openpos'),
+            'category' => $is_salon_type ? __('Service Categories','openpos') : __('Categories','openpos'),
         );
 
         if($openpos_type =='restaurant')
@@ -599,7 +601,7 @@ class Openpos_Admin{
                 'default'           => 'product',
                 'type'              => 'select',
                 'options' => array(
-                    'product' => __('Products','openpos'),
+                    'product' => $is_salon_type ? __('Services','openpos') : __('Products','openpos'),
                     'category' => __('Categories','openpos'),
                 )
             );
@@ -1069,6 +1071,7 @@ class Openpos_Admin{
                     'options' => array(
                         'grocery' => __('Grocery','openpos'),
                         'restaurant' => __('Cafe / Restaurant','openpos'),
+                        'salon' => __('Salon / Spa','openpos'),
                     )
                 ),
                 $dashboard_display,
@@ -2848,27 +2851,45 @@ class Openpos_Admin{
 
     function pos_admin_menu() {
         $openpos_type = $this->settings_api->get_option('openpos_type','openpos_pos');
-        $page = add_menu_page( __( 'Open POS', 'openpos' ), __( 'POS', 'openpos' ),'manage_woocommerce','openpos-dasboard',array($this,'dashboard'),plugins_url('woocommerce-openpos/assets/images/pos.png'),59 );
+        $is_salon_type = ($openpos_type == 'salon');
+
+        $main_title = $is_salon_type ? __( 'Kasir Salon', 'openpos' ) : __( 'Open POS', 'openpos' );
+        $main_menu_title = $is_salon_type ? __( 'Kasir Salon', 'openpos' ) : __( 'POS', 'openpos' );
+        $orders_title = $is_salon_type ? __( 'Kasir Salon - Orders', 'openpos' ) : __( 'POS - Orders', 'openpos' );
+        $transactions_title = $is_salon_type ? __( 'Kasir Salon - Transactions', 'openpos' ) : __( 'POS - Transactions', 'openpos' );
+        $products_title = $is_salon_type ? __( 'Kasir Salon - Services', 'openpos' ) : __( 'POS - Products', 'openpos' );
+        $products_menu_title = $is_salon_type ? __( 'Services Barcode', 'openpos' ) : __( 'Products Barcode', 'openpos' );
+        $staff_title = $is_salon_type ? __( 'Kasir Salon - Staff', 'openpos' ) : __( 'POS - Staffs', 'openpos' );
+        $staff_menu_title = $is_salon_type ? __( 'Salon Staff', 'openpos' ) : __( 'Store Staff', 'openpos' );
+        $registers_title = $is_salon_type ? __( 'Kasir Salon - Registers', 'openpos' ) : __( 'POS - Registers', 'openpos' );
+        $outlets_title = $is_salon_type ? __( 'Kasir Salon - Branches', 'openpos' ) : __( 'POS - Outlets', 'openpos' );
+        $outlets_menu_title = $is_salon_type ? __( 'Branches', 'openpos' ) : __( 'Outlets', 'openpos' );
+        $stock_title = $is_salon_type ? __( 'Kasir Salon - Stock Manager', 'openpos' ) : __( 'POS - Stock Manager', 'openpos' );
+        $reports_title = $is_salon_type ? __( 'Kasir Salon - Reports', 'openpos' ) : __( 'POS - Reports', 'openpos' );
+        $setting_title = $is_salon_type ? __( 'Kasir Salon - Setting', 'openpos' ) : __( 'POS - Setting', 'openpos' );
+        $sessions_title = $is_salon_type ? __( 'Kasir Salon - Sessions', 'openpos' ) : __( 'POS - Sessions', 'openpos' );
+
+        $page = add_menu_page( $main_title, $main_menu_title,'manage_woocommerce','openpos-dasboard',array($this,'dashboard'),plugins_url('woocommerce-openpos/assets/images/pos.png'),59 );
         add_action( 'admin_print_styles-'. $page, array( &$this, 'admin_enqueue' ) );
 
-        $page = add_submenu_page( 'openpos-dasboard', __( 'POS - Orders', 'openpos' ),  __( 'Orders', 'openpos' ) , 'manage_woocommerce', 'op-orders', array( $this, 'orders_page' ) );
+        $page = add_submenu_page( 'openpos-dasboard', $orders_title,  __( 'Orders', 'openpos' ) , 'manage_woocommerce', 'op-orders', array( $this, 'orders_page' ) );
         add_action( 'admin_print_styles-'. $page, array( &$this, 'admin_enqueue' ) );
 
-        $page = add_submenu_page( 'openpos-dasboard', __( 'POS - Transactions', 'openpos' ),  __( 'Transactions', 'openpos' ) , 'manage_woocommerce', 'op-transactions', array( $this, 'transactions_page' ) );
+        $page = add_submenu_page( 'openpos-dasboard', $transactions_title,  __( 'Transactions', 'openpos' ) , 'manage_woocommerce', 'op-transactions', array( $this, 'transactions_page' ) );
         add_action( 'admin_print_styles-'. $page, array( &$this, 'admin_enqueue' ) );
 
-        $page = add_submenu_page( 'openpos-dasboard', __( 'POS - Products', 'openpos' ),  __( 'Products Barcode', 'openpos' ) , 'manage_woocommerce', 'op-products', array( $this, 'products_page' ) );
+        $page = add_submenu_page( 'openpos-dasboard', $products_title,  $products_menu_title , 'manage_woocommerce', 'op-products', array( $this, 'products_page' ) );
         add_action( 'admin_print_styles-'. $page, array( &$this, 'admin_enqueue' ) );
 
-        $page = add_submenu_page( 'openpos-dasboard', __( 'POS - Staffs', 'openpos' ),  __( 'Store Staff', 'openpos' ) , 'manage_options', 'op-cashiers', array( $this, 'cashier_page' ) );
+        $page = add_submenu_page( 'openpos-dasboard', $staff_title,  $staff_menu_title , 'manage_options', 'op-cashiers', array( $this, 'cashier_page' ) );
         add_action( 'admin_print_styles-'. $page, array( &$this, 'admin_enqueue' ) );
 
 
 
-        $page = add_submenu_page( 'openpos-dasboard', __( 'POS - Registers', 'openpos' ),  __( 'Registers', 'openpos' ) , 'manage_options', 'op-registers', array( $this, 'register_page' ) );
+        $page = add_submenu_page( 'openpos-dasboard', $registers_title,  __( 'Registers', 'openpos' ) , 'manage_options', 'op-registers', array( $this, 'register_page' ) );
         add_action( 'admin_print_styles-'. $page, array( &$this, 'admin_enqueue' ) );
 
-        $page = add_submenu_page( 'openpos-dasboard', __( 'POS - Outlets', 'openpos' ),  __( 'Outlets', 'openpos' ) , 'manage_options', 'op-warehouses', array( $this, 'warehouse_page' ) );
+        $page = add_submenu_page( 'openpos-dasboard', $outlets_title,  $outlets_menu_title , 'manage_options', 'op-warehouses', array( $this, 'warehouse_page' ) );
         add_action( 'admin_print_styles-'. $page, array( &$this, 'admin_enqueue' ) );
 
         if($openpos_type == 'restaurant')
@@ -2878,10 +2899,10 @@ class Openpos_Admin{
             add_action( 'admin_print_scripts-'. $page, array( &$this, 'admin_tables_enqueue_scripts' ) );
         }
 
-        $page = add_submenu_page( 'openpos-dasboard', __( 'POS - Stock Manager', 'openpos' ),  __( 'Stock Overview', 'openpos' ) , 'manage_woocommerce', 'op-stock', array( $this, 'stock_page' ) );
+        $page = add_submenu_page( 'openpos-dasboard', $stock_title,  __( 'Stock Overview', 'openpos' ) , 'manage_woocommerce', 'op-stock', array( $this, 'stock_page' ) );
         add_action( 'admin_print_styles-'. $page, array( &$this, 'admin_enqueue' ) );
 
-        $page = add_submenu_page( 'openpos-dasboard', __( 'POS - Reports', 'openpos' ),  __( 'Reports', 'openpos' ) , 'manage_woocommerce', 'op-reports', array( $this, 'report_page' ) );
+        $page = add_submenu_page( 'openpos-dasboard', $reports_title,  __( 'Reports', 'openpos' ) , 'manage_woocommerce', 'op-reports', array( $this, 'report_page' ) );
         add_action( 'admin_print_styles-'. $page, array( &$this, 'admin_enqueue' ) );
 
 
@@ -2889,10 +2910,10 @@ class Openpos_Admin{
         $page = add_submenu_page( 'openpos-dasboard', __( 'Receipt Templates', 'openpos' ),  __( 'Receipt Templates', 'openpos' ) , 'manage_options', 'op-receipt-template', array( $this, 'receipts_page' ) );
         add_action( 'admin_print_styles-'. $page, array( &$this, 'admin_receipt_enqueue' ) );
 
-        $setting_page = add_submenu_page( 'openpos-dasboard', __( 'POS - Setting', 'openpos' ),  __( 'Setting', 'openpos' ) , 'manage_options', 'op-setting', array( $this, 'setting_page' ) );
+        $setting_page = add_submenu_page( 'openpos-dasboard', $setting_title,  __( 'Setting', 'openpos' ) , 'manage_options', 'op-setting', array( $this, 'setting_page' ) );
         add_action( 'admin_print_styles-'. $setting_page, array( $this, 'admin_enqueue_setting' ) );
 
-        $page = add_submenu_page( 'openpos-dasboard', __( 'POS - Sessions', 'openpos' ),  __( 'Login Sessions', 'openpos' ) , 'manage_options', 'op-sessions', array( $this, 'sessions_page' ) );
+        $page = add_submenu_page( 'openpos-dasboard', $sessions_title,  __( 'Login Sessions', 'openpos' ) , 'manage_options', 'op-sessions', array( $this, 'sessions_page' ) );
         add_action( 'admin_print_styles-'. $page, array( &$this, 'admin_enqueue' ) );
 
        
