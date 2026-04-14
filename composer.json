@@ -1,0 +1,16 @@
+{
+    "require": {
+        "nesbot/carbon": "^2.64.1",
+        "phpoffice/phpspreadsheet": "^1.8",
+        "tecnickcom/tcpdf": "^6.7"
+    },
+    "config": {
+
+        "platform-check": false
+    },
+    "autoload": {
+        "psr-4": {
+            "Op\\": "src/" 
+        }
+    }
+}

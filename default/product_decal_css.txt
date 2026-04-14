@@ -1,0 +1,36 @@
+p{
+  margin: 0;
+  padding: 0;
+  font-size:13px;
+}
+.bundle-item,
+.option-item{
+    font-size: .6em;
+    font-style: italic;
+    display: block;
+    color: #000;
+    clear:both;
+}
+
+.item-total{
+   border-top: dotted 1px #000;
+   text-align: right;
+   padding: 5px;
+   font-weight:bold;
+}
+.item-name{
+padding: 5px;
+}
+.item-date{
+text-align: right;
+margin: 0;
+padding: 0 1px;
+font-size: 12px;
+}
+.thankyou,.store-name{
+text-align: center;
+font-size: 12px;
+}
+
+.op-label-cut{page-break-after: always; }
+.op-label-cut:last-child{page-break-after: avoid; }

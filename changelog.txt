@@ -1,0 +1,112 @@
+- 07/11/2025 - 8.1.0
+    - add customer queue screen for restaurant mode
+    - improve kitchen view
+    - fixed bug report by customers
+- 29/10/2015 - 8.0.9.6
+   - add queue page, the place to customer can see their order in processsing
+   - add base link option
+   - fixed customer report bug
+- 13/10/2025 (8.0) - 8.0.3
+   - new feature: cart multi tab, it help staff can ignore a customer without stuck queue. https://prnt.sc/dMx0dA9LRYWg
+   - Change from ajax to restful api
+   - Improve speed for offline search product, it can search LIKE words, not only match words as old
+   - Able use POS on pos.wpos.app with your site url
+   - Speed improvement. Tested with 10,000 products. 
+   - Limit login failed time. 
+   - Fixed customer report bug
+   - NOTE: this is big update, to use it, pls clean browser cache, close browser and open again, uninstall pwa and reinstall + test.
+- 25/08/2025 (7.3.8)
+   - sound beep correct follow time click on product
+   - add debit amount at my account page of customer frontend website
+   - improve code / fix bug report by customers
+- 21/03/2025 ( 7.3.0) 
+   - add tools to remove product cache 
+   - improvement report
+- 11/03/2025 ( 7.2.6) 
+   - Fixed product search in admin
+   - Improved code 
+- 07/03/2025 ( 7.2.4) 
+   - Speedup download product
+   - Improve admin pos page
+   - Add shipping icon for shipping order at order list
+- 24/02/2025 ( 7.2.2) 
+   - Update variation cart item / table item
+   - Improve speed download product list
+   - fixed bug report by customers
+- 23/01/2025 ( 7.1.4) 
+   - fixed bug report by customers
+   - improved code , ui
+- 22/11/2024 ( 7.1.2) 
+   - reorder payment method , shipping  method
+   - fixed bug report by customers
+   - improved code , ui
+- 04/10/2024 ( 7.1.1) 
+   - fixed bug report by customers
+- 06/08/2024 ( version 7.1)
+   - fixed bug report by customers
+   - fixed clear takeaway
+   - add feature auto update plugin
+- 17/07/2024 ( version 7.0)
+   - fixed bug report by customers
+   - fixed all security issues 
+- 06/05/2024 ( version 6.5.7)
+  - new feature print product decal, it use to print food tag in restaurant, milk tea shop. 
+     https://youtu.be/q15_mry-fsk
+  -  improvement code
+- 24/04/2024 ( version 6.5.6)
+  - display popup to print those new item in table / takeaway when click confirm ( cloud icon)
+  - Improvement kitchen screen (KDS)
+  - Fixed bugs report by customers
+- 12/04/2024 ( version 6.5.5)
+  - fixed qrcode generate
+  - add auto logoff feature with this guide  https://wpos.app/knowledge-base/auto-logoff-when-have-no-action-on-screen/
+  - fixed error report by customers
+- 27/03/2024 ( version 6.5.4)
+  - vibrate when have new ready item on chrome
+  - display variation qty  
+  - search customer while add customer to desk
+  - add takeaway delivery / cash counter
+  - Improve code / design
+- 06/02/2024 ( version 6.5.1)
+  - Improve code / design
+  - Fixed bug report by customer
+- 11/12/2023 ( version 6.4.1 - 6.4.2)
+   - Improve code / design
+   - Fixed change price / qty by virtual keyboard on item popup
+- 16/11/2023 ( version 6.4.0)
+   - Set table / takeaway / shipping while place order https://prnt.sc/LA7WAYbuupzc
+   - keep or delete takeaway / desk after checkout https://prnt.sc/gRUBZQOPCMgF
+   - Improve code / design
+- 24/10/2023 ( version 6.3.0 - 6.3.1)
+   - Improve design / code
+   - Fixed bug report by customer
+   - Enable HPOS for woocommerce 8.2
+- 18/09/2023 ( version 6.2.3 + 6.2.4 )
+  - New feature : login / Logon with PIN https://youtu.be/tPdkYX9COwE
+  - Add setting show left menu , hide by default.
+  - Separate coupons menu, support multiple coupon
+- 08/09/2023 ( version 6.2.2) 
+  - Improve design: hide left menu, add category to product list
+  - Fixed bug report by customer
+- 24/08/2023 ( version 6.2.1) 
+  - Fixed bug report by customer
+  - Send order to table https://youtu.be/lcWE3CK4fyo
+  - Add  quick report to logout dialog
+  - Refund fee
+- 11/08/2023 ( version 6.2.0) 
+  - Fixed bug report by customer
+  - Add cash counter feature https://youtu.be/-22r-hg-iL4
+  - Improvement code and style 
+- 20/07/2023 ( version 6.1.6) 
+  - Fixed bug report by customer
+  - Full support HPOS
+  - Improve code
+
+...........
+- 09/10/2018
+     Optimise POS panel template
+     Manage and tracking cashier login session
+     Logout POS by admin with unlink session functions
+     Optimize saved cart , now, it can use for restaurant / cafe 
+- 04/10/2018
+     Release plugins

@@ -1,0 +1,37 @@
+<html><head><style type="text/css" media="print,screen">#op-page-cut{page-break-after: always; }#invoice-POS { padding:  0in 0in 0in 0in;margin: 0 auto;background: #fff;width: 2.28in ;}p{
+  margin: 0;
+  padding: 0;
+  font-size:13px;
+}
+.bundle-item,
+.option-item{
+    font-size: .6em;
+    font-style: italic;
+    display: block;
+    color: #000;
+    clear:both;
+}
+
+.item-total{
+   border-top: dotted 1px #000;
+   text-align: right;
+   padding: 5px;
+   font-weight:bold;
+}
+.item-name{
+padding: 5px;
+}
+.item-date{
+text-align: right;
+margin: 0;
+padding: 0 1px;
+font-size: 12px;
+}
+.thankyou,.store-name{
+text-align: center;
+font-size: 12px;
+}
+
+.op-label-cut{page-break-after: always; }
+.op-label-cut:last-child{page-break-after: avoid; }
+</style></head><body style="margin:0;"><div id="invoice-POS" class="tempalte-type-decal"><% items.forEach(function(item){ %> <% var date = new Date(item.update_time); var tmonthNames = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12" ]; %> <% for(var i=0; i< item.qty; i++){%> <div class="label-container"> <p class="item-date"> <%-date.getDate() %>/<%- tmonthNames[date.getMonth()] %>/<%-date.getFullYear() %> </p> <% if(source == "order"){ %> <p class="store-name"><%- order.order_number_format %></p> <% }else{ %> <p class="store-name"><%- order.label %></p> <% } %> <p class="item-name"> <%= item.name %> <% if(item.sub_name.length > 0){ %> <span class="option-item"> <%- item.sub_name %> </span> <% }; %> <% item.bundles.forEach(function(bundle){ %> <span class="bundle-item"> <%- bundle.qty %>x<%- bundle.label %> </span> <% })%> </p> <p class="item-total">Total: <%= item.final_price_incl_tax.toFixed(2) %></p> <p class="thankyou">Thank You For Your Purchase</p> </div> <p class="op-label-cut"> </p> <% } %> <% }) %></div><p id="op-page-cut">&nbsp;</p></body></html>

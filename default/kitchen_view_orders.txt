@@ -1,0 +1,82 @@
+<% var items_id = []; %>
+<% var total_qty = 0; %>
+<% var serverd_qty = 0; %>
+<div class="kitchen-order order-type-<%- desk.type %>" id="order-<%- id %>">
+    <div class="order-container">
+        <div class="order-header">
+            <h3>
+               <%- desk.name %>
+               <% if(customer != undefined && customer['name'] && customer['name'].length > 0){ %>
+               
+                            <span class="order-customer-name"><%- customer.name %></span>
+               <% } %> 
+            </h3>
+            <span class="order-time-ago"><%= time_ago %></span>
+        </div>
+        <div class="order-items">
+            <ul>
+                <% items.forEach(function(item){ %>
+                    <% items_id.push(item.id );%>
+                    <li class="dining <%- item.dining %> <%- item.done %> ">
+                    <p>
+                    <% if (item.done != "ready" && item.done != "done" && item.done != "done_all" ) { %> 
+                        <a data-id="<%- item.id %>" href="javascript:void(0);" class="is_cook_ready"> <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span> </a> 
+                    <% }else{ %>
+                        <% serverd_qty += item.qty; %>
+                    <% } %> 
+                   <% total_qty += item.qty; %>
+                   <span class="item-qty"><%= item.qty %></span> x <%= item.item %>
+                    <% if(item.dining == 'takeaway'){ %>
+                        <span class="dining-takeaway">takeway</span>
+                    <% }; %>
+                    <% if(item.note.length > 0){ %>
+                        <br/>
+                        <span class="option-item"><i><%- item.note  %></i></span>
+                    <% }; %>
+                    </p>
+                    <% if(item.seller_name.length > 0){ %>
+                        
+                        <span class="item-seller"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> <%- item.seller_name  %></span>
+                    <% }; %>
+                    <% var item_date = new Date(item.order_timestamp);  %>
+                    <span class="item-order-time"><%- item_date.getHours() < 10 ? '0'+item_date.getHours() : item_date.getHours() %>:<%- item_date.getMinutes() < 10 ? '0'+item_date.getMinutes() : item_date.getMinutes() %></span>
+                    </li>
+                <% }); %>
+                <% if(note.length > 0){ %>
+                <li class="order-note">
+                <p><%- note  %></p>
+                </li>
+                <% } %>
+            </ul>
+        </div>
+        
+        <div class="order-action container-fluid">
+           
+           <div class="order-action-btn row">
+                <div class="col-md-4 col-sm-4 col-xs-6">
+                    <span class="<%= serverd_qty == total_qty ? "all-servered" : "" %>"><%= serverd_qty %> / <%= total_qty %></span>
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-6">
+                    <% if (allow_action.length == 0 ) { %> 
+                            <% if(serverd_qty != total_qty){ %>
+                            <a data-id="<%- items_id.join(',') %>" href="javascript:void(0);" class="is_cook_ready"> <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> </a> 
+                            <% }else{ %>
+                            <a data-id="<%- id %>" data-ver="<%- ver %>" href="javascript:void(0);" class="order-action-click" data-action="hide"> <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span> </a> 
+                            <% } %>
+                    <% }else{ %>
+                        <% allow_action.forEach(function(action){ %>
+                            <% if (action == "delete" ) { %> 
+                                <a data-id="<%- items_id.join(',') %>" data-action="<%= action %>" href="javascript:void(0);" class="item-action-click"> <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> </a> 
+                            <% } else { %> 
+                                <a data-id="<%- items_id.join(',') %>" data-action="<%= action %>" href="javascript:void(0);" class="item-action-click"><%= action %> </a> 
+                            <% } %>
+                        <% }) %>
+                    <% } %>
+                </div>
+            
+           
+           </div>
+        </div>
+    </div>
+
+</div>

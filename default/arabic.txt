@@ -1,0 +1,1 @@
+<%- decodeURIComponent(JSON.parse('"'+ product.name.replaceAll("u06", "\\u06").replace(/\"/g,'\\"')+'"')) %>

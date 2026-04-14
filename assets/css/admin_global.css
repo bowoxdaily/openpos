@@ -1,0 +1,195 @@
+.op-admin-wrap  {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    /* background-color: #fff; */
+  }
+#table_div_latest_orders tr td{
+    padding: 5px 0;
+    text-align: center;
+}
+#table_div_latest_orders tr:nth-child(even) td{
+    background-color: #ccc;
+}
+#table_div_latest_orders thead{
+    background: #333;
+    color: #fff;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+#table_div_latest_orders thead th{
+    text-align: center;
+}
+#table_div_latest_orders tr td a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2px 5px;
+    text-transform: uppercase;
+}
+#op-order-list .order_status,
+#table_div_latest_orders .order_status span{
+    color: #fff;
+    background: #9E9E9E;
+    padding: 3px 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+#op-order-list .order_status.completed,
+#table_div_latest_orders .order_status span.completed {
+    background: #4CAF50;
+}
+.wp-list-table #op_source{
+    width: 20px!important;
+}
+.op-product-outlet-stock-variation,
+.op-product-outlet-stock{
+    
+    padding:5px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+.op-product-outlet-stock-variation  p.form-field{
+    
+   
+    border-collapse: collapse;
+    
+}
+.op-product-outlet-stock-variation fieldset{
+    border-bottom: solid 1px #ccc;
+}
+.op-product-outlet-stock-variation fieldset:last-child{
+    border-bottom: solid 1px transparent;
+}
+.op-product-outlet-stock-variation table,
+.op-product-outlet-stock table{
+    background-color: transparent!important;
+    border: solid 1px #fff;
+    margin-left: 8px;
+    border-collapse: collapse;
+
+}
+.op-product-outlet-stock-variation table td,
+.op-product-outlet-stock table td{
+    padding: 5px!important;
+    border: solid 1px #fff!important;
+
+}
+.op-product-outlet-stock-variation table td p,
+.op-product-outlet-stock table td p{
+    background: transparent!important;
+    padding: 0;
+    margin: 0!important;
+}
+.op-product-outlet-stock-variation{
+    display: inline-block;
+    width: 100%!important;
+
+}
+.op-stock-label{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.op-outlet-variation-stock-row{
+    padding: 10px;
+}
+.op-outlet-variation-stock-row input{
+    display: inline-block;
+    max-width: 200px;
+    margin-left: 5px!important;
+}
+.op-outlet-variation-stock-row:nth-child(odd)
+{
+    background-color: #e7f7e74a;
+}
+.op-order-number:hover,
+.op-order-number{
+    font-weight: bold;
+    text-decoration: none;
+}
+.op-order-number:hover{
+    color: red;
+}
+.icon-table-hire{
+    color: #fff;
+    background: #009688;
+    font-size: 12px;
+    padding: 2px 7px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    
+}
+.table-hire-cost-description{
+    font-style: italic;
+    color: #009688;
+}
+.pos-local-time{
+    font-size: 10px;
+    color: #4CAF50;
+    margin: 0;
+}
+.op-user-roles{
+    font-size: 10px;
+    color: #4CAF50;
+}
+.bootgrid-table td.select-cell, .bootgrid-table th.select-cell{
+    width: 50px!important;
+}
+.update-row.loading{
+    text-indent: -99999px;
+    position: relative;
+    z-index: 100;
+    background: #5cb85c;
+    border-color: #5cb85c;
+    color: #fff;
+
+}
+.update-row.loading::before{
+    content: '.....';
+    position: absolute;
+    color: #fff;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    right: 0;
+    bottom: 0;
+    text-indent: 0;
+    font-weight: bold;
+}
+.order-transactions-table thead{
+    background: #333;
+    color: #fff;
+}
+.order-transactions-table tbody tr:nth-child(even)
+{
+    background: #ccc;
+}
+.order-transactions-table tbody tr td{
+    text-align: center;
+}
+.pos_page_op-reports #summary-list{
+    padding: 5px;
+}
+#woocommerce-product-data ul.wc-tabs li.op-product-tab_options a::before {
+    content: "\f513";
+} 
+.woocommerce_options_panel .product-warehouse-form-container p.form-field{
+    padding: 0!important;
+    margin:0;
+}
+.product-warehouse-form-container .op-no-display{
+    display:none!important;
+}
+.op-widget-container{
+    padding: 3px;
+    
+}
+.op-widget-container .op-widget-content{
+    background:#fff;
+    border: solid 1px #ccc;
+    padding: 2px;
+}
+.op-widget-ajax-data.loading{
+    background-color: #acacac;
+}

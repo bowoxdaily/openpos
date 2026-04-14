@@ -1,0 +1,66 @@
+table,p,div,tr,td,th{
+   font-size: 15px;
+}
+table{
+  width: 100%;
+}
+table.list-items{
+  border-bottom:solid 1px #fff;
+  
+}
+table,tr,td,th{
+   border: solid 1px #000;
+   border-collapse: collapse;
+}
+td,th{
+  padding: 5px 2px;
+}
+.text-center{
+  text-align:center;
+}
+.no-border{
+  border: solid 1px transparent;
+  border-right: solid 1px #000;
+}
+.receipt-header{
+	padding: 5px 0 20px 5px;
+}
+.receipt-body{
+padding: 5px 5px 20px 5px;
+}
+.receipt-bottom{
+	padding: 5px 0 10px 5px;
+    text-transform: uppercase;
+}
+.company-info p,.receipt-info p{
+   margin: 0;
+}
+.receipt-signature{
+       border-bottom: solid 1px #000;
+       width: 50%;
+       height:100px;
+}
+.thank-you-label{
+    font-size:30px;;
+}
+.header-left,.header-right{
+	width: 50%;
+    float:left;
+    
+}
+.header-right th{
+	text-align: left;
+    width: 
+}
+.receipt-info-title{
+    margin: 0;
+    padding: 10px;
+    border-bottom: solid 1px #000;
+}
+.receipt-info,.company-info{
+	padding: 10px 3px;
+}
+.receipt-no-value, .receipt-date-value{
+
+ min-width: 205px;
+}

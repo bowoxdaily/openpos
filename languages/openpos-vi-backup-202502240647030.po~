@@ -1,0 +1,3396 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce OpenPos\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-25 14:14+0000\n"
+"PO-Revision-Date: 2024-11-22 03:12+0000\n"
+"Last-Translator: test test\n"
+"Language-Team: Tiếng Việt\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.14; wp-6.7"
+
+#: lib/integration/grconnect.php:406
+msgid " discount"
+msgstr "Giảm giá"
+
+#: templates/admin/warehouse/inventory.php:15
+msgid " of "
+msgstr "của"
+
+#: lib/class-op-woo.php:2028 lib/class-op-woo.php:2042
+msgid " POS Orders"
+msgstr "Đơn hàng từ POS"
+
+#: lib/class-op-report.php:310 lib/class-op-report.php:470
+#: includes/admin/Admin.php:3234 includes/admin/Admin.php:3243
+#: includes/admin/Admin.php:4138 templates/admin/dashboard.php:257
+#: templates/admin/report/report_sales_table.php:8
+#: templates/admin/warehouse/adjust_stock.php:62
+msgid "#"
+msgstr ""
+
+#: templates/admin/tables.php:117
+msgid "% - Percentage Of table total"
+msgstr "% - Phần trăm dựa trên tổng tiền trong hóa đơn của bàn"
+
+#: lib/class-op-woo-order.php:96 lib/class-op-woo-order.php:112
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#. 1: product name 2: items in stock
+#: lib/class-op-warehouse.php:461
+#, php-format
+msgid "%1$s is low in stock. There are %2$d left."
+msgstr ""
+
+#: templates/admin/tables.php:181
+#, php-format
+msgid "%s / Order Total"
+msgstr "%s / Tổng hóa đơn"
+
+#. %s: human-readable time difference
+#: includes/Core.php:952 includes/Core.php:975
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "%s trước"
+
+#. %s: product name
+#: lib/class-op-warehouse.php:502
+#, php-format
+msgid "%s is out of stock."
+msgstr "%s hết hàng."
+
+#: includes/front/Front.php:4606
+#, php-format
+msgid "<b>%s</b> discount value: <b>%s</b>"
+msgstr "<b>%s</b> Giảm giá: <b>%s</b>"
+
+#: includes/admin/Admin.php:880
+msgid "<h2>Barcode Setting</h2>"
+msgstr "Cài đặt mã vạch"
+
+#: includes/admin/Admin.php:764
+msgid "<h2>Sheet Setting</h2>"
+msgstr "Cài đặt In mã vạch"
+
+#: lib/class-op-woo.php:4872
+msgid "<strong>Error:</strong> Have multi user has same PIN."
+msgstr "Lỗi: Mã PIN đã được sử dụng bởi người khác"
+
+#: lib/class-op-woo.php:4861 lib/class-op-woo.php:4876
+msgid "<strong>Error:</strong> Invalid PIN."
+msgstr "Lỗi: Sai mã PIN"
+
+#: lib/class-op-woo.php:4867
+msgid "<strong>Error:</strong> This user already login by other session."
+msgstr "Lỗi: Tài khoản đang sử dụng trong hệ thống"
+
+#: lib/class-op-woo.php:4880
+msgid "<strong>Error:</strong>Do not allow Login."
+msgstr "Lỗi: Bạn không được phép truy cập"
+
+#. %1$s: Order ID. %2$s: Order date
+#: templates/emails/plain/email-order-details.php:23
+#, php-format
+msgid "[Order #%1$s] (%2$s)"
+msgstr ""
+
+#. %s: Order ID.
+#: templates/emails/email-order-details.php:34
+#, php-format
+msgid "[Order #%s]"
+msgstr ""
+
+#: includes/admin/Admin.php:581
+msgid ""
+"[year] : current year, [month] : current month 01 -> 12, [day] : current day "
+"01 -> 31 , [register_id] : register id, [outlet_id] : outlet id, [cashier_id]"
+" : cashier id  "
+msgstr ""
+
+#: lib/class-op-report.php:318 lib/class-op-report.php:547
+#: includes/admin/Admin.php:2672 templates/admin/products.php:20
+#: templates/admin/stock.php:15
+msgid "Action"
+msgstr "Hành động"
+
+#: templates/admin/receipt_templates.php:122 templates/admin/registers.php:122
+#: templates/admin/tables.php:132 templates/admin/tables.php:189
+#: templates/admin/warehouses.php:128 templates/admin/warehouse/new.php:115
+msgid "Active"
+msgstr "Kích hoạt"
+
+#: templates/admin/sessions.php:2
+msgid "Active Login Sessions"
+msgstr "Phiên đang làm việc"
+
+#: includes/admin/Admin.php:1044
+msgid "Add custom item , the item do not exist in your system from POS"
+msgstr ""
+
+#: includes/admin/Admin.php:474
+msgid ""
+"Add discount tax rate, this rate for cart discount and coupon discount on "
+"POS only"
+msgstr ""
+
+#: lib/class-op-woo.php:131
+msgid "Add New Custom Note"
+msgstr ""
+
+#: templates/help.php:7
+msgid "Add new customer"
+msgstr "Thêm khách hàng"
+
+#: templates/admin/warehouses.php:65
+msgid "Add New Outlet"
+msgstr "Thêm kho hàng mới"
+
+#: lib/class-op-woo.php:134
+msgid "Add or remove custom note"
+msgstr "Thêm hoặc loại bỏ ghi chú"
+
+#: includes/admin/Admin.php:1057
+msgid "Add order note from POS"
+msgstr ""
+
+#: includes/Setting.php:41 includes/admin/Admin.php:234
+msgid "Add-on"
+msgstr "Mở rộng"
+
+#: includes/front/Front.php:2585
+msgid "Addition total for exchange items"
+msgstr ""
+
+#: lib/class-op-woo.php:395
+msgid "Additional information:"
+msgstr ""
+
+#: includes/admin/Admin.php:186
+msgid "Addons"
+msgstr "Mở rộng"
+
+#: lib/class-op-woo.php:2267 lib/class-op-woo.php:2269
+#: templates/admin/warehouses.php:167
+msgid "Address"
+msgstr "Địa chỉ "
+
+#: lib/class-op-woo.php:2280 lib/class-op-woo.php:2282
+msgid "Address 2"
+msgstr ""
+
+#: templates/admin/warehouses.php:85 templates/admin/warehouses.php:87
+#: templates/admin/warehouse/new.php:72
+msgid "Address line 1"
+msgstr ""
+
+#: templates/admin/warehouses.php:92 templates/admin/warehouses.php:94
+#: templates/admin/warehouse/new.php:79
+msgid "Address line 2"
+msgstr ""
+
+#: templates/admin/warehouse/adjust_stock.php:20
+#: templates/admin/warehouse/inventory.php:64
+msgid "Adjust Stock"
+msgstr "Tùy chỉnh số lượng"
+
+#: includes/admin/Admin.php:490 includes/admin/Admin.php:723
+msgid "After Tax"
+msgstr "Sau thuế"
+
+#: templates/admin/cashier.php:55 templates/admin/orders.php:63
+#: templates/admin/products.php:63 templates/admin/stock.php:105
+#: templates/admin/transactions.php:38 templates/admin/transactions.php:91
+#: templates/kitchen/view.php:24 templates/admin/warehouse/inventory.php:67
+msgid "All"
+msgstr "Tất cả"
+
+#: includes/front/Front.php:7010
+msgid "All by waiter is busy. Pls try later"
+msgstr ""
+
+#: lib/class-op-woo.php:126
+msgid "All Custom Notes"
+msgstr ""
+
+#: templates/admin/report/report_form.php:59
+msgid "All Outlets"
+msgstr "Tất cả kho hàng"
+
+#: templates/admin/registers.php:137 templates/admin/report/report_form.php:71
+msgid "All Registers"
+msgstr "Tất cả bàn thu ngân"
+
+#: templates/admin/dashboard.php:98
+msgid "All Sales"
+msgstr ""
+
+#: templates/admin/report/report_form.php:80
+msgid "All Staff"
+msgstr "Tất cả nhân viên"
+
+#: templates/admin/tables.php:60 templates/admin/tables.php:145
+msgid "All Tables"
+msgstr "Tất cả bàn"
+
+#: templates/admin/cashier.php:14
+msgid "All Users"
+msgstr "Tất cả người dùng"
+
+#: templates/admin/stock.php:35
+msgid "All Warehouse"
+msgstr "Tất cả kho hàng"
+
+#: includes/admin/Admin.php:1043
+msgid "Allow Add Custom Item"
+msgstr ""
+
+#: includes/admin/Admin.php:1056
+msgid "Allow Add Order Note"
+msgstr ""
+
+#: includes/admin/Admin.php:1121
+msgid ""
+"Allow change product price on POS panel. Require refresh product list to "
+"take effect."
+msgstr ""
+
+#: includes/admin/Admin.php:6812
+msgid "Allow Decimal Qty"
+msgstr ""
+
+#: includes/admin/Admin.php:1267
+msgid "Allow Digital Scale"
+msgstr "Cho phép cân điện tử"
+
+#: includes/admin/Admin.php:696
+msgid "Allow Exchange"
+msgstr "Cho phép đổi hàng"
+
+#: includes/admin/Admin.php:697
+msgid "Allow exchange for order made by current session"
+msgstr ""
+
+#: includes/admin/Admin.php:701
+msgid "Allow for current session"
+msgstr "Chỉ cho phép trong cùng phiên bán hàng"
+
+#: includes/admin/Admin.php:360
+msgid "Allow LayBuy"
+msgstr "Cho phép mua trước trả tiền sau"
+
+#: includes/admin/Admin.php:1109
+msgid "Allow Negative Qty"
+msgstr "Cho phép số lượng âm"
+
+#: includes/admin/Admin.php:1110
+msgid "Allow negative qty , grand total  use as refund"
+msgstr "Dùng cho trường hợp trả hàng và mua thêm"
+
+#: includes/admin/Admin.php:363
+msgid "Allow Order with Pay Later"
+msgstr "Cho phép mua hàng nhưng thanh toán sau - ghi nợ"
+
+#: includes/admin/Admin.php:374
+msgid "Allow Order with Tipping"
+msgstr "Cho phép mua hàng và TIP "
+
+#: includes/admin/Admin.php:6821
+msgid "Allow print decal"
+msgstr ""
+
+#: includes/admin/Admin.php:683
+msgid "Allow Refund"
+msgstr "Cho phép trả hàng"
+
+#: includes/admin/Admin.php:395
+msgid "Allow return cash with remain money amount after exchange"
+msgstr ""
+
+#: includes/admin/Admin.php:1268
+msgid "Allow scan barcode with label generate by digital scale"
+msgstr ""
+
+#: includes/admin/Admin.php:371
+msgid "Allow Tipping"
+msgstr "Cho phép TIP"
+
+#: includes/admin/Admin.php:1120
+msgid "Allow Update Price"
+msgstr "Cho phép sửa giá"
+
+#: includes/admin/Admin.php:689
+msgid "Allow with durations"
+msgstr "Cho phép với khoảng thời gian"
+
+#: includes/admin/Admin.php:702
+msgid "Alway Allow"
+msgstr "Luôn cho phép"
+
+#: includes/admin/Admin.php:688
+msgid "Always allow"
+msgstr "Luôn cho phép"
+
+#: includes/front/Front.php:6736
+#, php-format
+msgid "Amount not match with remain amount: %s"
+msgstr ""
+
+#: includes/front/Front.php:6740
+msgid "Amount value is incorrect"
+msgstr ""
+
+#: templates/admin/warehouses.php:95 templates/admin/warehouse/new.php:82
+msgid "An additional, optional address line for your business location."
+msgstr ""
+
+#. Author of the plugin
+msgid "anhvnit@gmail.com"
+msgstr ""
+
+#: templates/admin/transactions.php:118
+msgid "Are you sure ?"
+msgstr "Bạn chắc chưa ?"
+
+#: templates/admin/orders.php:90
+msgid "Are you sure ? "
+msgstr "Bạn chắc chưa ?"
+
+#: templates/kitchen/view.php:21
+msgid "Area"
+msgstr "Khu vực"
+
+#: lib/class-op-woo.php:3719
+msgid "AT"
+msgstr "Tại"
+
+#: includes/admin/Admin.php:1088
+msgid ""
+"Auto clear product list on your local data after logout. Recommend set to "
+"\"No\" if you have > 500 products."
+msgstr ""
+
+#: includes/admin/Admin.php:1241
+msgid "Auto Suggestion"
+msgstr "Tự động gợi ý"
+
+#: includes/admin/Admin.php:1192
+msgid ""
+"Auto suggestion customer search when type word in customer search. Once "
+"disable, cashier should click \"Enter\" to start search"
+msgstr ""
+
+#: includes/admin/Admin.php:1203
+msgid ""
+"Auto suggestion when type word in product search. Once disable, cashier "
+"should click \"Enter\" to start search"
+msgstr ""
+
+#: includes/admin/Admin.php:1077
+msgid "Auto sync product qty by running process in background"
+msgstr ""
+
+#: templates/admin/warehouse/new.php:54
+msgid "Back"
+msgstr "Quay lại"
+
+#: templates/admin/registers.php:144
+msgid "Balance"
+msgstr "Số dư"
+
+#: lib/class-op-woo.php:3814
+msgid "Bar Drink"
+msgstr "Quầy đồ uống"
+
+#: includes/admin/Admin.php:6194 includes/admin/Admin.php:6204
+msgid "BARCODE"
+msgstr "Mã vạch"
+
+#: lib/class-op-woo.php:1875 templates/admin/products.php:16
+#: templates/admin/stock.php:10 templates/admin/warehouse/adjust_stock.php:36
+#: templates/admin/warehouse/adjust_stock.php:60
+#: templates/admin/warehouse/inventory.php:23
+msgid "Barcode"
+msgstr "Mã vạch"
+
+#: includes/admin/Admin.php:747
+msgid ""
+"Barcode field . Make sure the data is unique on meta key you are selected"
+msgstr ""
+
+#: templates/admin/print_barcode.php:103
+msgid "Barcode Image Size ( w x h ):"
+msgstr ""
+
+#: includes/Setting.php:27 includes/admin/Admin.php:218
+msgid "Barcode Label"
+msgstr ""
+
+#: templates/admin/print_barcode.php:46
+msgid "Barcode Label Composer"
+msgstr ""
+
+#: includes/admin/Admin.php:746
+msgid "Barcode Meta Key"
+msgstr ""
+
+#: lib/class-op-woo.php:1877 lib/class-op-woo.php:1915
+msgid "Barcode refers to use in POS panel."
+msgstr ""
+
+#: includes/admin/Admin.php:491 includes/admin/Admin.php:724
+msgid "Before Tax"
+msgstr "Trước thuế"
+
+#: bill/index.php:64 lib/class-op-register.php:345
+msgid "Bill Screen"
+msgstr "Màn hình thanh toán"
+
+#: templates/emails/receipt.php:295
+msgid "Billing Address"
+msgstr ""
+
+#: lib/class-op-woo.php:1834
+msgid "Billing: "
+msgstr ""
+
+#: templates/admin/receipt_template_composer.php:43
+msgid "Bottom"
+msgstr ""
+
+#: lib/class-op-woo.php:3720
+msgid "BY"
+msgstr "Bởi"
+
+#: templates/admin/orders.php:19 templates/admin/transactions.php:24
+#: templates/admin/report/report_transactions_table.php:13
+msgid "By"
+msgstr "bởi"
+
+#: templates/admin/woocommerce/order_exchanges.php:5
+msgid "by"
+msgstr "bởi"
+
+#: includes/admin/Admin.php:999
+msgid "Cafe / Restaurant"
+msgstr "Nhà hàng / Quán cafe"
+
+#: lib/class-op-receipt.php:837
+msgid "Can not send receipt"
+msgstr "Không thể gửi hóa đơn"
+
+#: lib/class-op-woo.php:4551
+msgid "Cancel"
+msgstr "Hủy"
+
+#: templates/admin/report/print_x_report.php:175
+msgid "Cart Discount"
+msgstr ""
+
+#: includes/admin/Admin.php:718
+msgid "Cart Discount Calculation"
+msgstr ""
+
+#: includes/admin/Admin.php:719
+msgid "Cart discount calculation base on"
+msgstr ""
+
+#: includes/front/Front.php:5203
+msgid "Cart Not Found"
+msgstr "Không tìm thấy giỏ hàng"
+
+#: includes/front/Front.php:5314 includes/front/Front.php:5328
+#: includes/front/Front.php:5343 includes/front/Front.php:5575
+msgid "Cart Not found"
+msgstr "Không tìm thấy giỏ hàng"
+
+#: lib/op-payment.php:26 includes/admin/Admin.php:2293
+#: includes/admin/Admin.php:3291 templates/admin/report/report_form.php:6
+msgid "Cash"
+msgstr "Tiền mặt"
+
+#: templates/admin/dashboard.php:283
+msgid "Cash Balance"
+msgstr "Số dư tiền mặt"
+
+#: lib/op-payment.php:27
+msgid "Cash method use for POS only."
+msgstr "Phương thức tiền mặt chỉ giành cho POS"
+
+#: includes/admin/Admin.php:3255 templates/admin/dashboard.php:87
+#: templates/admin/transactions.php:13
+msgid "Cash Transactions"
+msgstr "Giao dịch tiền mặt"
+
+#: bill/index.php:73 lib/class-op-report.php:335 lib/class-op-report.php:475
+#: includes/admin/Admin.php:3226 includes/admin/Admin.php:3397
+#: includes/admin/Admin.php:3452 includes/admin/Admin.php:3677
+#: includes/admin/Admin.php:3726 includes/admin/Admin.php:3969
+#: includes/admin/Admin.php:3977 includes/admin/Admin.php:4142
+#: templates/admin/report/report_sales_table.php:12
+msgid "Cashier"
+msgstr "Thu ngân"
+
+#: lib/class-op-register.php:302
+msgid "Cashier Mode"
+msgstr "Chế độ cho người thu ngân"
+
+#: templates/admin/registers.php:90 templates/admin/registers.php:142
+msgid "Cashiers"
+msgstr "Thu ngân"
+
+#: includes/admin/Admin.php:518 includes/admin/Admin.php:532
+msgid "Categories"
+msgstr "Danh mục"
+
+#: includes/admin/Admin.php:1026
+msgid "Category Grid Size"
+msgstr ""
+
+#: includes/Core.php:1003 includes/Core.php:1004
+msgid "Chip & PIN"
+msgstr ""
+
+#: templates/admin/stock.php:41
+msgid "Choose"
+msgstr "Chọn"
+
+#: lib/class-op-setting.php:810
+msgid "Choose Categories"
+msgstr "Chọn chuyên mục"
+
+#: lib/class-op-woo.php:2365
+msgid "Choose Country"
+msgstr "Chọn quốc gia"
+
+#: lib/class-op-woo.php:135
+msgid "Choose from the most used notes"
+msgstr ""
+
+#: templates/admin/report/report_form.php:91
+msgid "Choose method"
+msgstr "Chọn phương thức"
+
+#: templates/admin/tables.php:223 templates/admin/warehouses.php:237
+msgid "Choose register"
+msgstr "Chọn bàn thu ngân"
+
+#: templates/admin/tables.php:232 templates/admin/warehouses.php:246
+msgid "Choose register and click Generate button"
+msgstr ""
+
+#: includes/admin/Admin.php:429
+msgid "Choose Tax Rate"
+msgstr ""
+
+#: includes/admin/Admin.php:470
+msgid "Choose tax rate"
+msgstr ""
+
+#: templates/admin/stock.php:32
+msgid "Choose Warehouse"
+msgstr "Chọn kho hàng"
+
+#: lib/class-op-woo.php:2304 lib/class-op-woo.php:2306
+#: templates/admin/warehouses.php:99 templates/admin/warehouses.php:101
+#: templates/admin/warehouse/new.php:86
+msgid "City"
+msgstr "Thành phố"
+
+#: templates/admin/sessions.php:6
+msgid "Clear All"
+msgstr "Xóa tất cả"
+
+#: templates/help.php:11
+msgid "Clear Cart"
+msgstr "Xóa giỏ hàng"
+
+#: includes/admin/Admin.php:1087
+msgid "Clear Product List "
+msgstr "Xóa danh sách sản phẩm"
+
+#: includes/Core.php:1078
+msgid ""
+"Click Generate to get a reference order number. Then process the payment "
+"using your chip & PIN device."
+msgstr ""
+
+#: templates/admin/warehouse/adjust_stock.php:46
+msgid "Click here to get to import with csv file"
+msgstr "Click vào đây để nhập với csv file"
+
+#: includes/admin/Admin.php:977
+msgid "click here to preview receipt"
+msgstr ""
+
+#: lib/class-op-report.php:218 lib/class-op-report.php:312
+#: lib/class-op-report.php:532 lib/class-op-report.php:543
+#: lib/class-op-report.php:1132
+msgid "Clock IN"
+msgstr "Mở quầy"
+
+#: lib/class-op-report.php:219 lib/class-op-report.php:313
+#: lib/class-op-report.php:533 lib/class-op-report.php:544
+#: lib/class-op-report.php:1133
+msgid "Clock OUT"
+msgstr "Đóng quầy"
+
+#: lib/class-op-setting.php:837 templates/admin/tables.php:394
+#: templates/admin/warehouses.php:374
+msgid "Close"
+msgstr "Đóng"
+
+#: lib/class-op-report.php:221 lib/class-op-report.php:315
+#: templates/admin/report/print_x_report.php:112
+msgid "Close Cash"
+msgstr "Tiền mặt lúc đóng quầy"
+
+#: templates/help.php:17
+msgid "Close current Popup window"
+msgstr ""
+
+#: templates/admin/report/print_x_report.php:104
+msgid "Close Time"
+msgstr "Thời gian đóng quầy"
+
+#: includes/front/Front.php:4781
+msgid "Closed from POS"
+msgstr ""
+
+#: includes/admin/Admin.php:4148
+msgid "Commsion"
+msgstr "Lợi nhuận"
+
+#: templates/admin/receipt_templates.php:160
+msgid "Composer"
+msgstr "Soạn thảo"
+
+#: templates/admin/receipt_template_composer.php:9
+msgid "Composer Receipt"
+msgstr " Soạn thảo mẫu hóa đơn"
+
+#: customer/index.php:86
+msgid "Confirmed"
+msgstr "Xác nhận"
+
+#: templates/admin/warehouses.php:133 templates/admin/warehouse/new.php:120
+msgid "Contact Information"
+msgstr "Thông tin liên hệ"
+
+#: includes/admin/Admin.php:672
+msgid "Continue Checkout Order Status"
+msgstr ""
+
+#: lib/class-op-woo-cart.php:198 templates/admin/tables.php:108
+msgid "Cost"
+msgstr "Giá vốn"
+
+#: includes/admin/Admin.php:6764
+msgid "Cost price"
+msgstr "Giá vốn"
+
+#: includes/admin/Admin.php:6738 includes/admin/Admin.php:6766
+msgid "Cost price - Use to get commision report"
+msgstr "Giá vốn - được dùng để lấy báo cáo lợi nhuận"
+
+#: lib/class-op-woo.php:2363
+msgid "Country"
+msgstr "Quốc gia"
+
+#: templates/admin/warehouses.php:106 templates/admin/warehouse/new.php:93
+msgid "Country / State"
+msgstr ""
+
+#: includes/front/Front.php:4483
+#, php-format
+msgid "Coupon %s is invidual use"
+msgstr ""
+
+#: includes/front/Front.php:4557
+msgid "Coupon code has been expired"
+msgstr ""
+
+#: templates/admin/report/report_transactions_table.php:12
+msgid "Create At"
+msgstr "Ngày tạo"
+
+#: includes/front/Front.php:4016
+msgid "Create via OpenPos"
+msgstr "Mua thông qua openpos"
+
+#: lib/class-op-report.php:336 lib/class-op-report.php:476
+#: includes/admin/Admin.php:3227 includes/admin/Admin.php:3239
+#: includes/admin/Admin.php:3249 includes/admin/Admin.php:3398
+#: includes/admin/Admin.php:3453 includes/admin/Admin.php:3678
+#: includes/admin/Admin.php:3727 includes/admin/Admin.php:3970
+#: includes/admin/Admin.php:3978 includes/admin/Admin.php:4143
+#: templates/admin/dashboard.php:261 templates/admin/receipt_templates.php:144
+#: templates/admin/transactions.php:25
+msgid "Created At"
+msgstr "Ngày tạo"
+
+#: templates/admin/report/report_sales_table.php:13
+msgid "Created At "
+msgstr "Ngày tạo"
+
+#: includes/admin/Admin.php:3240 includes/admin/Admin.php:3250
+#: templates/admin/receipt_templates.php:143
+msgid "Created By"
+msgstr "Tạo bởi"
+
+#: lib/class-op-woo-order.php:103
+#, php-format
+msgid "Created Order  %1$s"
+msgstr ""
+
+#: templates/admin/receipt_template_composer.php:59
+msgid "CSS"
+msgstr ""
+
+#: includes/admin/Admin.php:3248
+msgid "Currency"
+msgstr ""
+
+#: templates/admin/warehouses.php:247
+msgid "Current Outlet"
+msgstr "Kho hàng hiện tại"
+
+#: includes/admin/Admin.php:6872 includes/admin/Admin.php:6910
+#, php-format
+msgid "Current PIN %s"
+msgstr ""
+
+#: templates/admin/tables.php:233
+msgid "Current Table"
+msgstr "Bàn hiện tại"
+
+#: templates/admin/report/report_form.php:109
+msgid "custom"
+msgstr "Tùy chỉnh"
+
+#: lib/class-op-woo.php:136
+msgid "Custom Notes"
+msgstr ""
+
+#: includes/admin/Admin.php:639
+msgid "Custom Order Number"
+msgstr ""
+
+#: includes/admin/Admin.php:640
+msgid "Custom Sequential Order Numbers for Order create via POS"
+msgstr ""
+
+#: lib/class-op-woo.php:1693
+msgid "Custom Shipping"
+msgstr "Tùy chỉnh giao hàng"
+
+#: includes/admin/Admin.php:1146
+msgid "Custom style for POS with CSS"
+msgstr ""
+
+#: templates/admin/transactions.php:43
+msgid "Custom transactions"
+msgstr ""
+
+#: lib/class-op-report.php:334 lib/class-op-report.php:474
+#: templates/admin/dashboard.php:258
+msgid "Customer"
+msgstr "Khách hàng"
+
+#: includes/admin/Admin.php:1191
+msgid "Customer Autocomplete"
+msgstr ""
+
+#: includes/front/Front.php:2168 includes/front/Front.php:2256
+#: includes/front/Front.php:2261
+msgid "Customer do not exist"
+msgstr "Khách hàng không tồn tại"
+
+#: lib/class-op-register.php:304
+msgid "Customer Mode - Submit Order"
+msgstr ""
+
+#: lib/class-op-report.php:332 lib/class-op-report.php:472
+msgid "Customer Paid"
+msgstr "Khách đã thanh toán"
+
+#: templates/admin/report/report_form.php:194
+msgid "Data"
+msgstr ""
+
+#: lib/class-op-report.php:530 lib/class-op-report.php:541
+#: includes/admin/Admin.php:2950 includes/admin/Admin.php:3254
+#: includes/admin/Admin.php:3462 includes/admin/Admin.php:3735
+#: includes/admin/Admin.php:3983 includes/admin/Admin.php:4146
+#: includes/admin/Admin.php:4627 templates/admin/orders.php:17
+#: templates/admin/report/report_form.php:114
+msgid "Date"
+msgstr "Ngày tháng"
+
+#: lib/class-op-report.php:1098 lib/class-op-report.php:1103
+msgid "Date is invalid"
+msgstr ""
+
+#: lib/class-op-report.php:333 lib/class-op-report.php:473
+msgid "Debit"
+msgstr "Nợ"
+
+#: templates/admin/dashboard.php:301
+msgid "Debit Balance"
+msgstr "Số lượng ghi nợ"
+
+#: templates/admin/report/report_form.php:49
+msgid "Debit Report"
+msgstr "Báo cáo ghi nợ"
+
+#: templates/admin/tables.php:102
+msgid "Default"
+msgstr "Mặc định"
+
+#: includes/admin/Admin.php:539
+msgid "Default Dashboard Display"
+msgstr ""
+
+#: includes/admin/Admin.php:540
+msgid ""
+"Default display for POS , in case category please set category item on "
+"category setting"
+msgstr ""
+
+#: includes/admin/Admin.php:994
+msgid ""
+"Default display for POS , their are table management in cafe/restaurant type"
+msgstr ""
+
+#: includes/admin/Admin.php:527
+msgid "Default display for table / takeaway"
+msgstr ""
+
+#: includes/admin/Admin.php:1036
+msgid ""
+"Default language on POS. To translate goto pos/assets/i18n/_you_lang.json "
+"and update this file"
+msgstr ""
+
+#: includes/admin/Admin.php:1007
+msgid "Default login mode"
+msgstr ""
+
+#: includes/admin/Admin.php:986
+msgid "Default Logo for POS Panel (ex: 100x50)"
+msgstr ""
+
+#: lib/class-op-warehouse.php:132 lib/class-op-warehouse.php:161
+msgid "Default online store"
+msgstr "Kho hàng mặc định"
+
+#: templates/admin/registers.php:84
+msgid "Default online store = Online woocommerce website stock"
+msgstr ""
+
+#: includes/admin/Admin.php:1035
+msgid "Default POS Language"
+msgstr "Ngôn ngữ hiển thị trên POS"
+
+#: includes/admin/Admin.php:590
+msgid "Default Shipping methods for POS beside Store pickup"
+msgstr ""
+
+#: templates/admin/warehouses.php:109 templates/admin/warehouse/new.php:96
+msgid "Default store"
+msgstr ""
+
+#: includes/admin/Admin.php:526
+msgid "Default Table View"
+msgstr ""
+
+#: lib/class-op-receipt.php:527 lib/class-op-receipt.php:539
+#: lib/class-op-receipt.php:565 lib/class-op-receipt.php:577
+#: lib/class-op-receipt.php:590
+msgid "Default Template"
+msgstr "Mẫu mặc định"
+
+#: lib/class-op-receipt.php:532 lib/class-op-receipt.php:545
+msgid ""
+"Default template = Use receipt template setting at : "
+"admin/pos/setting/receipt template setting"
+msgstr ""
+
+#: lib/class-op-register.php:329 lib/class-op-warehouse.php:574
+#: templates/admin/receipt_templates.php:164 templates/admin/tables.php:174
+#: templates/admin/warehouse/adjust_stock.php:154
+#: templates/admin/warehouse/adjust_stock.php:238
+msgid "Delete"
+msgstr "Xóa"
+
+#: templates/admin/warehouses.php:259
+msgid "Delete outlet. Are you sure ?"
+msgstr ""
+
+#: includes/front/Front.php:7081
+msgid "Deleted."
+msgstr "Đã xóa"
+
+#: lib/class-op-receipt.php:66 lib/class-op-receipt.php:574
+msgid "Delivery Receipt"
+msgstr ""
+
+#: lib/class-op-receipt.php:543 lib/class-op-receipt.php:594
+msgid "Disable"
+msgstr "Chưa kích hoạt"
+
+#: includes/Core.php:1411 includes/Core.php:1445
+msgid "Discount"
+msgstr "Giảm giá"
+
+#: includes/admin/Admin.php:451
+msgid "Discount Tax Class"
+msgstr ""
+
+#: includes/admin/Admin.php:452
+msgid "Discount Tax Class, both cart discount and coupon. It for POS only"
+msgstr ""
+
+#: includes/admin/Admin.php:473
+msgid "Discount Tax Rate"
+msgstr ""
+
+#: lib/class-op-woo.php:3815
+msgid "Display on Bar View"
+msgstr ""
+
+#: lib/class-op-woo.php:3810
+msgid "Display on Kitchen View"
+msgstr ""
+
+#: includes/admin/Admin.php:1098
+msgid "Display Out of stock"
+msgstr ""
+
+#: includes/admin/Admin.php:1099
+msgid "Display out of stock product in POS panel"
+msgstr ""
+
+#: includes/admin/Admin.php:653
+msgid "Don't allow checkout out of stock product in POS"
+msgstr ""
+
+#: includes/front/Front.php:4040 includes/front/Front.php:4374
+msgid "Done via OpenPos"
+msgstr "Thực hiện thông qua POS"
+
+#: lib/class-op-woo.php:2613
+msgid "Done via website"
+msgstr "Hoàn thành thông qua website"
+
+#: templates/admin/warehouse/adjust_stock.php:47
+msgid "Download sample csv file"
+msgstr "Tải file csv mẫu"
+
+#: templates/admin/receipt_templates.php:166
+msgid "Duplicate"
+msgstr ""
+
+#: templates/admin/report/report_form.php:100
+msgid "Duration"
+msgstr "Khoảng thời gian"
+
+#: lib/class-op-register.php:325 lib/class-op-warehouse.php:570
+#: lib/class-op-woo.php:4533 templates/admin/receipt_templates.php:162
+#: templates/admin/tables.php:172
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: includes/admin/Admin.php:1548 includes/admin/Admin.php:1562
+#: includes/admin/Admin.php:2098 includes/admin/Admin.php:2112
+msgid "edit"
+msgstr "Chỉnh sửa"
+
+#: lib/class-op-woo.php:129
+msgid "Edit Custom Notes"
+msgstr ""
+
+#: templates/admin/warehouses.php:61
+msgid "Edit Outlet"
+msgstr ""
+
+#: templates/admin/registers.php:65
+msgid "Edit Register"
+msgstr "Chỉnh sửa bàn thu ngân"
+
+#: templates/admin/tables.php:65
+msgid "Edit Table"
+msgstr "Chỉnh sửa bàn"
+
+#: templates/admin/receipt_templates.php:96
+msgid "Edit template"
+msgstr ""
+
+#: includes/admin/Admin.php:3409 includes/admin/Admin.php:3418
+#: includes/admin/Admin.php:3689 includes/admin/Admin.php:3695
+#: templates/admin/cashier.php:24 templates/admin/warehouses.php:135
+#: templates/admin/warehouses.php:137
+#: templates/admin/report/print_x_report.php:91
+#: templates/admin/warehouse/new.php:122
+msgid "Email"
+msgstr "Email"
+
+#: lib/class-op-exchange.php:76
+#, php-format
+msgid "Exchange &ndash; %s"
+msgstr ""
+
+#: includes/front/Front.php:2576
+msgid "Exchange Fee"
+msgstr ""
+
+#: lib/class-op-exchange.php:177
+#, php-format
+msgid "Exchange order   &ndash; %s"
+msgstr ""
+
+#: templates/admin/receipt_template_composer.php:110
+#: templates/admin/stock.php:102 templates/admin/warehouse/inventory.php:64
+msgid "Export"
+msgstr ""
+
+#: templates/admin/report/report_form.php:138
+msgid "Export CSV"
+msgstr ""
+
+#: templates/admin/warehouses.php:147 templates/admin/warehouses.php:149
+#: templates/admin/warehouse/new.php:134
+msgid "Facebook"
+msgstr ""
+
+#: includes/admin/Admin.php:506
+msgid "Fee Tax Class"
+msgstr ""
+
+#: includes/admin/Admin.php:507
+msgid "Fee Tax Class. It for POS only"
+msgstr ""
+
+#: lib/class-op-woo.php:2025 lib/class-op-woo.php:2039
+msgid "Filter by Source"
+msgstr "Lọc theo nguồn"
+
+#: templates/help.php:5
+msgid "Focus barcode / product search"
+msgstr ""
+
+#: templates/help.php:6
+msgid "Focus customer search"
+msgstr ""
+
+#: templates/admin/report/report_form.php:119
+msgid "From"
+msgstr "Từ"
+
+#: includes/front/Front.php:6728
+msgid "Full Payment via OpenPos"
+msgstr ""
+
+#: includes/Setting.php:15 includes/admin/Admin.php:206
+msgid "General"
+msgstr ""
+
+#: templates/admin/warehouses.php:76 templates/admin/warehouse/new.php:63
+msgid "General Information"
+msgstr "Thông tin chung"
+
+#: templates/admin/tables.php:391 templates/admin/warehouses.php:371
+msgid "Generate"
+msgstr ""
+
+#: includes/admin/Admin.php:6908
+msgid "Generate PIN"
+msgstr ""
+
+#: templates/admin/report/report_form.php:139
+msgid "Get Report"
+msgstr "Lấy thông báo"
+
+#: lib/class-op-receipt.php:536
+msgid "Gift Receipt"
+msgstr "Hóa đơn quà tặng"
+
+#: templates/help.php:12
+msgid "Goto checkout"
+msgstr ""
+
+#: templates/admin/dashboard.php:214
+msgid "Goto POS"
+msgstr "Mở màn hình POS"
+
+#: bill/index.php:79 includes/Core.php:1455 lib/class-op-report.php:331
+#: lib/class-op-report.php:471 includes/admin/Admin.php:3223
+#: includes/admin/Admin.php:3394 includes/admin/Admin.php:3449
+#: includes/admin/Admin.php:3675 includes/admin/Admin.php:3724
+#: includes/admin/Admin.php:3967 includes/admin/Admin.php:3975
+#: includes/admin/Admin.php:4139 templates/admin/dashboard.php:259
+#: templates/admin/report/report_sales_table.php:9
+msgid "Grand Total"
+msgstr "Tổng Tiền"
+
+#: includes/admin/Admin.php:1027
+msgid "Grid Size for Categories (column x row)   on POS Panel"
+msgstr ""
+
+#: includes/admin/Admin.php:1018
+msgid "Grid Size for Products (column x row)  on POS Panel"
+msgstr ""
+
+#: includes/admin/Admin.php:998
+msgid "Grocery"
+msgstr "Tạp hóa"
+
+#: lib/class-op-report.php:394 includes/admin/Admin.php:4891
+msgid "Guest"
+msgstr "Khách vãng lai"
+
+#: includes/front/Front.php:6829
+#, php-format
+msgid "Guest Takeway: %s"
+msgstr ""
+
+#: includes/front/Front.php:6417
+#, php-format
+msgid "Have no product with barcode \"%s\". Please check again!"
+msgstr "Không có sản phẩm nào có mã \"%s\". Vui lòng thử lại."
+
+#: includes/admin/Admin.php:906
+msgid "Height"
+msgstr "Cao"
+
+#: includes/admin/Admin.php:1139
+msgid "Height of image in pos in px"
+msgstr ""
+
+#: lib/app/class-op-help.php:15
+msgid "Help"
+msgstr "Giúp đỡ"
+
+#: templates/emails/receipt.php:181
+msgid ""
+"Here is a summary of your recent order. If you have any questions or "
+"concerns about your order."
+msgstr ""
+
+#. %s: Customer first name
+#: templates/emails/customer-completed-order.php:28
+#: templates/emails/plain/customer-completed-order.php:25
+#, php-format
+msgid "Hi %s,"
+msgstr ""
+
+#: templates/admin/tables.php:103
+msgid "Hire"
+msgstr "Thuê"
+
+#: includes/admin/Admin.php:791
+msgid "Horizontal Space"
+msgstr ""
+
+#: templates/admin/print_barcode.php:71
+msgid "Horizontal Spacing:"
+msgstr ""
+
+#: templates/help.php:3
+msgid "Hot Keys"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://wpos.app"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://wpos.app/"
+msgstr ""
+
+#: includes/front/Front.php:6902
+msgid "I need a help!"
+msgstr "Tôi cần giúp đỡ"
+
+#: includes/front/Front.php:6902
+msgid "I want to pay!"
+msgstr "Tôi muốn thanh toán"
+
+#: lib/class-op-woo.php:3716 includes/admin/Admin.php:3221
+#: includes/admin/Admin.php:6193 includes/admin/Admin.php:6203
+#: templates/admin/cashier.php:22 templates/admin/orders.php:15
+#: templates/admin/products.php:15 templates/admin/sessions.php:14
+#: templates/admin/stock.php:9 templates/admin/transactions.php:18
+#: templates/admin/report/report_transactions_table.php:7
+#: templates/admin/warehouse/inventory.php:22
+msgid "ID"
+msgstr ""
+
+#: templates/admin/receipt_template_composer.php:110
+msgid "Import"
+msgstr ""
+
+#: lib/class-op-woo.php:3717 includes/admin/Admin.php:3236
+#: includes/admin/Admin.php:3245 templates/admin/transactions.php:20
+#: templates/admin/report/report_transactions_table.php:9
+msgid "IN"
+msgstr "Vào"
+
+#: templates/admin/receipt_templates.php:123 templates/admin/registers.php:123
+#: templates/admin/tables.php:133 templates/admin/tables.php:189
+#: templates/admin/warehouses.php:129 templates/admin/warehouse/new.php:116
+msgid "Inactive"
+msgstr "Không kích hoạt"
+
+#: templates/admin/print_barcode.php:57
+msgid "Inch"
+msgstr ""
+
+#: includes/admin/Admin.php:922 includes/admin/Admin.php:930
+#: includes/admin/Admin.php:938 includes/admin/Admin.php:946
+#: includes/admin/Admin.php:954
+msgid "inch"
+msgstr ""
+
+#: includes/admin/Admin.php:488
+msgid "Include discount amount when get final tax amount"
+msgstr ""
+
+#: templates/admin/warehouse/adjust_stock.php:78
+msgid "Increase current qty"
+msgstr ""
+
+#: lib/class-op-discounts.php:78
+msgid "Invalid coupon"
+msgstr "Mã khuyến mại không chính xác"
+
+#: lib/class-op-warehouse.php:564 templates/admin/warehouse/inventory.php:15
+msgid "Inventory"
+msgstr ""
+
+#: templates/admin/sessions.php:17
+msgid "IP "
+msgstr ""
+
+#: templates/admin/cashier.php:25
+msgid "Is POS Staff ?"
+msgstr "Đây là nhân viên cửa hàng ?"
+
+#: customer/index.php:49 includes/Core.php:1408 templates/kitchen/view.php:52
+#: templates/admin/report/print_x_report.php:141
+msgid "Item"
+msgstr "Sản phẩm"
+
+#: lib/class-op-woo.php:4037
+msgid "Item Details"
+msgstr "Chi tiết"
+
+#: templates/admin/report/print_x_report.php:170
+msgid "Item Discount"
+msgstr ""
+
+#: includes/admin/Admin.php:485
+msgid "Item Discount Calculation"
+msgstr ""
+
+#: lib/class-op-woo.php:3809
+msgid "Kitchen Cook"
+msgstr "Bếp"
+
+#: lib/class-op-receipt.php:58 lib/class-op-receipt.php:562
+msgid "Kitchen Receipt"
+msgstr "Hóa đơn nhà bếp"
+
+#: kitchen/index.php:320 lib/class-op-warehouse.php:604
+msgid "Kitchen Screen"
+msgstr "Màn hình bếp"
+
+#: templates/kitchen/view.php:5
+msgid "KitChen View"
+msgstr "Màn hình bếp"
+
+#: includes/admin/Admin.php:184
+msgid "Knowledgebase"
+msgstr ""
+
+#: includes/admin/Admin.php:836
+msgid "Label Height"
+msgstr ""
+
+#: templates/admin/print_barcode.php:93
+msgid "Label Padding (top x right x bottom x left):"
+msgstr ""
+
+#: templates/admin/print_barcode.php:87
+msgid "Label Size (w x h):"
+msgstr ""
+
+#: includes/admin/Admin.php:872
+msgid "Label Template"
+msgstr ""
+
+#: includes/admin/Admin.php:829
+msgid "Label Width"
+msgstr ""
+
+#: templates/admin/report/report_form.php:107
+msgid "Last 30 Days"
+msgstr "30 ngày gần nhất"
+
+#: templates/admin/dashboard.php:219
+msgid "Last 30 days"
+msgstr "30 ngày gần nhất"
+
+#: templates/admin/dashboard.php:218 templates/admin/report/report_form.php:106
+msgid "Last 7 Days"
+msgstr "7 ngày gần nhất"
+
+#: templates/admin/dashboard.php:252
+msgid "Last Orders"
+msgstr "Đơn hàng mới nhất"
+
+#: includes/admin/Admin.php:1237
+msgid "Layout of result return by search product input "
+msgstr ""
+
+#: templates/admin/receipt_template_composer.php:47
+msgid "Left"
+msgstr "Trái"
+
+#: includes/admin/Admin.php:6800
+msgid "Length-Base Pricing"
+msgstr ""
+
+#: includes/admin/Admin.php:1153
+msgid ""
+"List of Categories display on POS panel. Enter keyword to search, this field "
+"is autocomplete"
+msgstr ""
+
+#: includes/admin/Admin.php:1160
+msgid ""
+"List of money values in your pos, This field use for cash rounding in Single "
+"/ Single multi time Payment mode . Separate by \"|\" character. Example: "
+"10|20|30. If you don't want rounding, just leave this setting to empty!"
+msgstr ""
+
+#: includes/admin/Admin.php:1167 includes/admin/Admin.php:1174
+msgid ""
+"List of quick discount values in your pos. Separate by \"|\" character. "
+"Example: 5|5%|10%"
+msgstr ""
+
+#: includes/admin/Admin.php:383
+msgid ""
+"List of quick tip values in your pos, 4 value only. Separate by \"|\" "
+"character. Example: 5|10|5%|10% "
+msgstr ""
+
+#: templates/admin/receipt_template_composer.php:54
+#: templates/admin/receipt_template_composer.php:62
+msgid "Load Sample"
+msgstr "Tải mẫu"
+
+#: templates/admin/print_barcode.php:124
+msgid "Load sample"
+msgstr "Tải mẫu"
+
+#: templates/admin/cashier.php:57 templates/admin/orders.php:65
+#: templates/admin/products.php:65 templates/admin/stock.php:107
+#: templates/admin/transactions.php:93
+#: templates/admin/warehouse/inventory.php:69
+msgid "Loading..."
+msgstr "Đang tải..."
+
+#: templates/admin/sessions.php:19
+msgid "Location "
+msgstr "Vị trí"
+
+#: includes/admin/Admin.php:1256
+msgid "Logic for Payment method type use in POS checkout"
+msgstr ""
+
+#: templates/admin/sessions.php:16
+msgid "Login Date"
+msgstr "Ngày đăng nhập"
+
+#: includes/admin/Admin.php:1006
+msgid "Login Mode"
+msgstr ""
+
+#: includes/admin/Admin.php:6905
+msgid "Login PIN"
+msgstr ""
+
+#: includes/admin/Admin.php:2752
+msgid "Login Sessions"
+msgstr "Phiên đăng nhập"
+
+#: includes/Core.php:956 includes/Core.php:979
+msgid "M j, Y"
+msgstr ""
+
+#: includes/admin/Admin.php:813
+msgid "Margin Bottom"
+msgstr ""
+
+#: includes/admin/Admin.php:820
+msgid "Margin Left"
+msgstr ""
+
+#: includes/admin/Admin.php:806
+msgid "Margin Right"
+msgstr ""
+
+#: includes/admin/Admin.php:799
+msgid "Margin Top"
+msgstr ""
+
+#: includes/front/Front.php:4654
+msgid "Maximum refund amount "
+msgstr ""
+
+#: includes/admin/Admin.php:3238 includes/admin/Admin.php:3247
+#: templates/admin/transactions.php:22
+#: templates/admin/report/print_x_report.php:121
+#: templates/admin/report/report_transactions_table.php:11
+msgid "Method"
+msgstr ""
+
+#: includes/admin/Admin.php:3968 includes/admin/Admin.php:3976
+msgid "Method Amount"
+msgstr ""
+
+#: templates/admin/print_barcode.php:58
+msgid "Millimeter"
+msgstr ""
+
+#: includes/admin/Admin.php:887 templates/admin/registers.php:102
+msgid "Mode"
+msgstr "Chế độ"
+
+#: lib/op-payment.php:54 includes/front/Front.php:3816
+#: includes/front/Front.php:4353
+msgid "Multi Methods"
+msgstr ""
+
+#: lib/op-payment.php:55
+msgid "Multi payment method use for POS only."
+msgstr ""
+
+#: includes/admin/Admin.php:6105 templates/admin/cashier.php:23
+#: templates/admin/receipt_templates.php:102 templates/admin/registers.php:71
+#: templates/admin/registers.php:141 templates/admin/tables.php:71
+#: templates/admin/tables.php:149 templates/admin/warehouses.php:80
+#: templates/admin/warehouses.php:166
+msgid "Name"
+msgstr "Tên"
+
+#: includes/admin/Admin.php:515
+msgid "New DashBoard"
+msgstr ""
+
+#: lib/class-op-receipt.php:823
+msgid "New Order Receipt Notification"
+msgstr ""
+
+#: templates/admin/warehouses.php:61
+msgid "New Outlet"
+msgstr "Thêm kho hàng"
+
+#: templates/admin/registers.php:65
+msgid "New Register"
+msgstr "Bàn thu ngân mới"
+
+#: templates/admin/tables.php:65
+msgid "New Table"
+msgstr "Bàn mới"
+
+#: templates/admin/receipt_templates.php:96
+msgid "New template"
+msgstr "Mẫu mới"
+
+#: includes/admin/Admin.php:572
+msgid "Next order number"
+msgstr ""
+
+#: lib/class-op-receipt.php:552 includes/admin/Admin.php:366
+#: includes/admin/Admin.php:377 includes/admin/Admin.php:398
+#: includes/admin/Admin.php:634 includes/admin/Admin.php:645
+#: includes/admin/Admin.php:658 includes/admin/Admin.php:678
+#: includes/admin/Admin.php:1049 includes/admin/Admin.php:1062
+#: includes/admin/Admin.php:1082 includes/admin/Admin.php:1093
+#: includes/admin/Admin.php:1104 includes/admin/Admin.php:1115
+#: includes/admin/Admin.php:1126 includes/admin/Admin.php:1186
+#: includes/admin/Admin.php:1197 includes/admin/Admin.php:1208
+#: includes/admin/Admin.php:1219 includes/admin/Admin.php:1273
+#: includes/admin/Admin.php:6802
+msgid "No"
+msgstr ""
+
+#: includes/front/Front.php:5275
+msgid "No cart found"
+msgstr "Không có giỏ hàng nào"
+
+#: includes/front/Front.php:1989
+#, php-format
+msgid "No customer found with %s : \"%s\""
+msgstr ""
+
+#: includes/front/Front.php:1884
+#, php-format
+msgid "No customer with search keyword: %s"
+msgstr ""
+
+#: includes/front/Front.php:1886
+msgid "No customers"
+msgstr ""
+
+#: includes/admin/Admin.php:703
+msgid "No exchange"
+msgstr ""
+
+#: includes/admin/Admin.php:1893
+msgid "No manage"
+msgstr ""
+
+#: includes/front/Front.php:4976
+msgid "No order found"
+msgstr ""
+
+#: lib/class-op-woo.php:3774
+msgid "No POS transaction found"
+msgstr ""
+
+#: includes/admin/Admin.php:6056 includes/admin/Admin.php:6424
+#: includes/front/Front.php:868
+msgid "No product found. Please check your barcode !"
+msgstr ""
+
+#: templates/admin/warehouse/adjust_stock.php:66
+msgid "No product selected"
+msgstr "Không sản phẩm nào được chọn"
+
+#: includes/admin/Admin.php:690
+msgid "No Refund"
+msgstr "Không có đơn hoàng trả"
+
+#: templates/admin/registers.php:200
+msgid "No register found"
+msgstr "Không có bàn thu ngân nào"
+
+#: templates/admin/cashier.php:58 templates/admin/orders.php:66
+#: templates/admin/products.php:66 templates/admin/stock.php:108
+#: templates/admin/transactions.php:94
+#: templates/admin/warehouse/inventory.php:70
+msgid "No results found!"
+msgstr "Không tìm thấy kết quả nào"
+
+#: includes/admin/Admin.php:1414
+msgid "No role access"
+msgstr ""
+
+#: templates/admin/tables.php:195
+msgid "No table found"
+msgstr "Không có bàn nào"
+
+#: includes/admin/Admin.php:342 includes/admin/Admin.php:343
+#: includes/admin/Admin.php:442 includes/admin/Admin.php:499
+msgid "No Tax"
+msgstr ""
+
+#: templates/admin/receipt_templates.php:188
+msgid "No template found"
+msgstr "Không tìm thấy mẫu nào"
+
+#: templates/emails/email-order-details.php:80
+#: templates/emails/plain/email-order-details.php:46
+msgid "Note:"
+msgstr ""
+
+#: templates/admin/print_barcode.php:118
+msgid "Number Of Label:"
+msgstr "Số lượng nhãn"
+
+#: includes/admin/Admin.php:1248
+msgid "Number of products search result"
+msgstr ""
+
+#: includes/admin/Admin.php:1230
+msgid "Offline - Local browser data search"
+msgstr ""
+
+#: includes/admin/Admin.php:5458
+msgid "Oh! Restricted access"
+msgstr ""
+
+#: lib/class-op-report.php:1079
+msgid "ohhh!record not found"
+msgstr ""
+
+#: lib/class-op-woo.php:4550
+msgid "OK"
+msgstr ""
+
+#: includes/admin/Admin.php:1231
+msgid "Online - Seach by your website"
+msgstr ""
+
+#: lib/class-op-woo.php:2027 lib/class-op-woo.php:2041
+msgid "Online Order"
+msgstr "Đơn mua trực tuyến"
+
+#: lib/class-op-woo.php:1875 lib/class-op-woo.php:1912
+msgid "OP Barcode"
+msgstr "Mã vạch"
+
+#: includes/admin/Admin.php:6735 includes/admin/Admin.php:6761
+msgid "OP Cost price"
+msgstr "Giá nhập"
+
+#: lib/class-op-report.php:220 lib/class-op-report.php:314
+#: templates/admin/report/print_x_report.php:108
+msgid "Open Cash"
+msgstr ""
+
+#: includes/admin/Admin.php:1214
+msgid "Open Cash Adjustment Popup when login to POS"
+msgstr "Cho phép nhập tiền mặt vào quầy đầu phiên làm việc"
+
+#: includes/admin/Admin.php:1213
+msgid "Open Cash When Login"
+msgstr ""
+
+#: includes/admin/Admin.php:2709
+msgid "Open POS"
+msgstr ""
+
+#: templates/admin/report/print_x_report.php:100
+msgid "Open Time"
+msgstr ""
+
+#: includes/admin/Admin.php:6775
+msgid "OpenPOS"
+msgstr ""
+
+#: includes/admin/Admin.php:548
+msgid "OpenPOS Barcode"
+msgstr ""
+
+#: bill/index.php:104
+msgid "Opppos !!!!"
+msgstr ""
+
+#: lib/class-op-report.php:330 includes/admin/Admin.php:3222
+#: includes/admin/Admin.php:3393 includes/admin/Admin.php:3448
+#: includes/admin/Admin.php:3674 includes/admin/Admin.php:3723
+#: includes/admin/Admin.php:3966 includes/admin/Admin.php:3974
+#: templates/admin/orders.php:16
+msgid "Order"
+msgstr "Đơn mua hàng"
+
+#: templates/emails/receipt.php:191
+msgid "Order #"
+msgstr ""
+
+#: lib/class-op-exchange.php:76 lib/class-op-exchange.php:177
+msgctxt "Order date parsed by strftime"
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr ""
+
+#: includes/front/Front.php:5142
+msgid "Order do not allow pickup from store"
+msgstr "Đơn hàng không cho phép nhận từ cửa hàng"
+
+#: lib/class-op-woo-order.php:754
+#, php-format
+msgid "Order has been remove out of kitchen by %s"
+msgstr ""
+
+#: lib/class-op-woo-order.php:774
+#, php-format
+msgid "Order has been sent to kitchen by %s"
+msgstr ""
+
+#: includes/front/Front.php:4717 includes/front/Front.php:4791
+#: includes/front/Front.php:4798 includes/front/Front.php:4839
+#: includes/front/Front.php:5092 includes/front/Front.php:5139
+msgid "Order is not found"
+msgstr "Không tìm thấy đơn hàng"
+
+#: includes/front/Front.php:6682
+msgid "Order not found"
+msgstr "Không tìm thấy đơn hàng"
+
+#: includes/front/Front.php:4207 includes/front/Front.php:4264
+#: includes/front/Front.php:6539 includes/front/Front.php:6641
+msgid "Order not found."
+msgstr "Không tìm thấy đơn hàng"
+
+#: includes/admin/Admin.php:577
+msgid "Order number prefix"
+msgstr ""
+
+#: includes/front/Front.php:4846 includes/front/Front.php:5099
+msgid "Order number too short"
+msgstr ""
+
+#: templates/kitchen/view.php:54
+msgid "Order Time"
+msgstr "Ngày mua"
+
+#: lib/class-op-register.php:341 lib/class-op-warehouse.php:586
+#: lib/class-op-warehouse.php:595 includes/admin/Admin.php:2712
+msgid "Orders"
+msgstr "Đơn mua hàng"
+
+#: includes/admin/Admin.php:6631 includes/admin/Admin.php:6675
+msgid "Other Outlet Stock quantity"
+msgstr ""
+
+#: lib/class-op-woo.php:3718 includes/admin/Admin.php:3237
+#: includes/admin/Admin.php:3246 templates/admin/transactions.php:21
+#: templates/admin/report/report_transactions_table.php:10
+msgid "OUT"
+msgstr "Ra"
+
+#: includes/admin/Admin.php:6030 templates/admin/registers.php:77
+#: templates/admin/registers.php:143 templates/admin/tables.php:77
+#: templates/admin/tables.php:150 templates/admin/report/report_form.php:56
+msgid "Outlet"
+msgstr "Kho hàng"
+
+#: includes/admin/Admin.php:5779 includes/admin/Admin.php:5908
+msgid "Outlet do not exist"
+msgstr ""
+
+#: templates/admin/warehouses.php:78 templates/admin/warehouse/new.php:65
+msgid "Outlet Name"
+msgstr "Tên kho hàng"
+
+#: lib/class-op-woo.php:364
+msgid "Outlet:"
+msgstr "Kho hàng :"
+
+#: includes/admin/Admin.php:2729 templates/admin/warehouses.php:56
+#: templates/admin/warehouse/new.php:49
+msgid "Outlets"
+msgstr "Các kho hàng"
+
+#: templates/admin/receipt_template_composer.php:32
+msgid "Padding (Inch)"
+msgstr ""
+
+#: includes/admin/Admin.php:857 includes/admin/Admin.php:945
+msgid "Padding Bottom"
+msgstr ""
+
+#: includes/admin/Admin.php:864 includes/admin/Admin.php:953
+msgid "Padding Left"
+msgstr ""
+
+#: includes/admin/Admin.php:850 includes/admin/Admin.php:937
+msgid "Padding Right"
+msgstr ""
+
+#: includes/admin/Admin.php:843 includes/admin/Admin.php:929
+msgid "Padding Top"
+msgstr ""
+
+#: includes/front/Front.php:6731
+#, php-format
+msgid "Paid amount %s  via %s"
+msgstr ""
+
+#: includes/front/Front.php:3810 includes/front/Front.php:4348
+msgid "Pay On POS"
+msgstr "Thanh toán trên POS"
+
+#: includes/Setting.php:19 includes/admin/Admin.php:210
+#: templates/emails/receipt.php:221
+msgid "Payment"
+msgstr "Thanh toán"
+
+#: templates/admin/report/report_form.php:88
+msgid "Payment Method"
+msgstr "Phương thức thanh toán"
+
+#: includes/admin/Admin.php:736
+msgid "Payment methods for POS beside cash(default)"
+msgstr "Phương thức thanh toán cho POS bên cạnh tiền mặt"
+
+#: includes/front/Front.php:4836
+msgid "Payment Status : "
+msgstr ""
+
+#: includes/admin/Admin.php:1255
+msgid "Payment Type"
+msgstr ""
+
+#: templates/admin/tables.php:120
+msgid "Per Day"
+msgstr "Trên ngày"
+
+#: templates/admin/tables.php:118
+msgid "Per Hours"
+msgstr "Trên giờ"
+
+#: templates/admin/tables.php:119
+msgid "Per Minute"
+msgstr "Trên phút"
+
+#: templates/admin/tables.php:116
+msgid "Per Session"
+msgstr "Trên lượt"
+
+#: templates/admin/warehouses.php:141 templates/admin/warehouses.php:143
+#: templates/admin/warehouse/new.php:128
+msgid "Phone"
+msgstr "Số ĐT"
+
+#: includes/front/Front.php:1085 includes/front/Front.php:1264
+msgid "PIN can not empty."
+msgstr ""
+
+#: includes/admin/Admin.php:1012
+msgid "PIN login"
+msgstr "Đăng nhập mã PIN"
+
+#: lib/class-op-discounts.php:165 lib/class-op-discounts.php:184
+#: lib/class-op-discounts.php:196
+msgid "Please add customer before valid coupon"
+msgstr "Vui lòng thêm khách hàng trước khi kiểm tra mã giảm giá"
+
+#: includes/admin/Admin.php:5896
+msgid "Please choose outlet"
+msgstr ""
+
+#: includes/admin/Admin.php:5773
+msgid "Please choose Outlet "
+msgstr ""
+
+#: includes/admin/Admin.php:5835 includes/admin/Admin.php:5901
+msgid "Please choose register"
+msgstr ""
+
+#: includes/admin/Admin.php:5647
+msgid "Please choose register to delete"
+msgstr ""
+
+#: templates/admin/cashier.php:97 templates/admin/orders.php:87
+#: templates/admin/products.php:154 templates/admin/transactions.php:115
+#: templates/admin/warehouse/inventory.php:109
+msgid "Please choose row to continue."
+msgstr ""
+
+#: includes/admin/Admin.php:5830
+msgid "Please choose table"
+msgstr "Vui lòng chọn bàn"
+
+#: includes/admin/Admin.php:5727
+msgid "Please choose table "
+msgstr "Vui lòng chọn bàn"
+
+#: includes/admin/Admin.php:5700
+msgid "Please choose table to delete"
+msgstr "Vui lòng chọn bàn để xóa"
+
+#: includes/admin/Admin.php:5997
+msgid "Please choose warehouse to delete"
+msgstr ""
+
+#: templates/emails/receipt.php:338
+msgid "Please click link below to view / print your receipt."
+msgstr ""
+
+#: customer/index.php:53
+msgid "Please contact to waiter if those items do not exist in your table."
+msgstr ""
+"Vui lòng liên hệ với người phục vụ nếu những mặt hàng này không phải là của "
+"bạn"
+
+#: includes/front/Front.php:2023
+#, php-format
+msgid "Please enter any keyword for \"%s\" to search customer"
+msgstr ""
+
+#: includes/admin/Admin.php:6024 includes/admin/Admin.php:6404
+#: includes/front/Front.php:796
+msgid "Please enter barcode to search"
+msgstr ""
+
+#: includes/admin/Admin.php:5968
+msgid "Please enter outlet name"
+msgstr ""
+
+#: includes/front/Front.php:1291
+msgid "Please enter password"
+msgstr "Vui lòng nhập mật khẩu"
+
+#: lib/class-op-woo.php:4359
+msgid "Please enter phone number"
+msgstr "Vui lòng nhập số điện thoại"
+
+#: includes/front/Front.php:6253
+msgid "Please enter product barcode"
+msgstr "Vui lòng nhập mã sản phẩm"
+
+#: includes/admin/Admin.php:5621 includes/admin/Admin.php:5674
+msgid "Please enter register name"
+msgstr ""
+
+#: lib/class-op-receipt.php:221
+msgid "Please enter template name"
+msgstr ""
+
+#: customer/index.php:47
+msgid "Please wait, your request in processing....."
+msgstr "Vui lòng chờ trong giây lát, yêu cầu của bạn đang được xử lý ....."
+
+#: lib/class-op-woo.php:125
+msgid "Popular Custom Notes"
+msgstr ""
+
+#: includes/admin/Admin.php:2709
+msgid "POS"
+msgstr ""
+
+#: includes/admin/Admin.php:2712
+msgid "POS - Orders"
+msgstr "Đơn hàng"
+
+#: includes/admin/Admin.php:2729
+msgid "POS - Outlets"
+msgstr "Kho hàng"
+
+#: includes/admin/Admin.php:2718
+msgid "POS - Products"
+msgstr "Sản phẩm"
+
+#: includes/admin/Admin.php:2726
+msgid "POS - Registers"
+msgstr "Quầy thu ngân"
+
+#: includes/admin/Admin.php:2741
+msgid "POS - Reports"
+msgstr "Báo cáo"
+
+#: includes/admin/Admin.php:2752
+msgid "POS - Sessions"
+msgstr "Phiên làm việc"
+
+#: includes/admin/Admin.php:2749
+msgid "POS - Setting"
+msgstr "Cài đặt"
+
+#: includes/admin/Admin.php:2721
+msgid "POS - Staffs"
+msgstr "Nhân viên"
+
+#: includes/admin/Admin.php:2738
+msgid "POS - Stock Manager"
+msgstr ""
+
+#: includes/admin/Admin.php:2734
+msgid "POS - Tables"
+msgstr "Bàn"
+
+#: includes/admin/Admin.php:2715
+msgid "POS - Transactions"
+msgstr "Giao dịch"
+
+#: includes/admin/Admin.php:6902
+msgid "POS Account Management"
+msgstr ""
+
+#: includes/admin/Admin.php:735
+msgid "POS Addition Payment Methods"
+msgstr ""
+
+#: lib/class-op-woo.php:1912
+msgid "POS Barcode"
+msgstr ""
+
+#: includes/admin/Admin.php:6796
+msgid "POS Base Pricing"
+msgstr ""
+
+#: includes/front/Front.php:3448
+msgid "POS Cart Discount"
+msgstr ""
+
+#: templates/admin/cashier.php:11
+msgid "POS Cashiers"
+msgstr "Thu ngân"
+
+#: includes/admin/Admin.php:1152
+msgid "POS Category"
+msgstr ""
+
+#: includes/admin/Admin.php:1145
+msgid "POS Custom CSS"
+msgstr ""
+
+#: includes/front/Front.php:3675
+msgid "POS Customer Pickup"
+msgstr ""
+
+#: includes/admin/Admin.php:1138
+msgid "POS Image Height"
+msgstr ""
+
+#: includes/admin/Admin.php:1131
+msgid "POS Image Width"
+msgstr ""
+
+#: lib/class-op-woo.php:3643
+msgid "POS Information"
+msgstr ""
+
+#: includes/Setting.php:35 includes/admin/Admin.php:226
+msgid "POS Layout"
+msgstr ""
+
+#: includes/admin/Admin.php:985
+msgid "POS Logo"
+msgstr ""
+
+#: includes/admin/Admin.php:1159
+msgid "POS Money List"
+msgstr ""
+
+#: lib/class-op-woo.php:354
+msgid "POS Order Number:"
+msgstr ""
+
+#: includes/admin/Admin.php:664
+msgid "POS Order Status"
+msgstr ""
+
+#: templates/admin/orders.php:10
+msgid "POS Orders"
+msgstr "Đơn hàng từ POS"
+
+#: lib/class-op-woo.php:375
+msgid "POS Payment method:"
+msgstr "Phương thức thanh toán trên POS"
+
+#: templates/admin/products.php:9
+msgid "POS Products"
+msgstr "Sản phẩm"
+
+#: includes/admin/Admin.php:652
+msgid "POS Stock Manager"
+msgstr ""
+
+#: templates/admin/stock.php:23
+msgid "POS Stock Overview"
+msgstr ""
+
+#: includes/admin/Admin.php:709
+msgid "Pos Tax Class"
+msgstr ""
+
+#: lib/class-op-woo.php:3644
+msgid "POS Transactions"
+msgstr ""
+
+#: includes/admin/Admin.php:993
+msgid "POS Type"
+msgstr ""
+
+#: lib/class-op-woo.php:4523
+msgid "POS visibility:"
+msgstr ""
+
+#: templates/admin/tables.php:93 templates/admin/tables.php:151
+msgid "Position"
+msgstr "Vị trí"
+
+#: lib/class-op-woo.php:2293 lib/class-op-woo.php:2295
+msgid "PostCode / Zip"
+msgstr "Mã bưu chính"
+
+#: templates/admin/warehouses.php:118 templates/admin/warehouse/new.php:105
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: templates/admin/warehouses.php:120
+msgid "Postcode code"
+msgstr ""
+
+#: templates/admin/print_barcode.php:145
+#: templates/admin/receipt_template_composer.php:68
+msgid "Preview"
+msgstr "Xem nhanh"
+
+#: includes/admin/Admin.php:6196 includes/admin/Admin.php:6206
+msgid "PRICE"
+msgstr "Giá"
+
+#: bill/index.php:76 includes/Core.php:1409 templates/admin/products.php:19
+#: templates/admin/stock.php:13 templates/emails/email-order-details.php:44
+#: templates/admin/warehouse/inventory.php:26
+msgid "Price"
+msgstr "Giá"
+
+#: includes/admin/Admin.php:6801
+msgid "Price-Base Pricing"
+msgstr ""
+
+#: lib/class-op-report.php:304 lib/class-op-report.php:664
+#: templates/admin/print_barcode.php:134
+msgid "Print"
+msgstr "In"
+
+#: includes/admin/Admin.php:1565
+msgid "Print Barcode"
+msgstr ""
+
+#: templates/admin/report/print_z_report.php:91
+msgid "Print date"
+msgstr ""
+
+#: templates/admin/print_receipt.php:16
+#: templates/admin/report/print_z_report_template.php:15
+msgid "Print Receipt"
+msgstr ""
+
+#: templates/admin/receipt_templates.php:168
+msgid "Print Sample"
+msgstr "In mẫu"
+
+#: includes/admin/Admin.php:6195 includes/admin/Admin.php:6205
+msgid "PRODUCT"
+msgstr "Sản phẩm"
+
+#: bill/index.php:75 includes/admin/Admin.php:4288
+#: includes/admin/Admin.php:4295 templates/emails/email-order-details.php:42
+#: templates/admin/warehouse/adjust_stock.php:59
+msgid "Product"
+msgstr "Sản phẩm"
+
+#: includes/admin/Admin.php:1202
+msgid "Product Auto complete"
+msgstr ""
+
+#: includes/admin/Admin.php:1076
+msgid "Product Auto Sync"
+msgstr ""
+
+#: lib/class-op-receipt.php:74 lib/class-op-receipt.php:586
+msgid "Product Decal"
+msgstr ""
+
+#: includes/admin/Admin.php:1242
+msgid "Product Grid Display"
+msgstr ""
+
+#: includes/admin/Admin.php:1017
+msgid "Product Grid Size"
+msgstr ""
+
+#: includes/admin/Admin.php:549
+msgid "Product Id"
+msgstr "ID Sản phẩm"
+
+#: lib/class-op-warehouse.php:458
+msgid "Product low in stock"
+msgstr ""
+
+#: templates/admin/products.php:18 templates/admin/stock.php:12
+#: templates/admin/warehouse/inventory.php:25
+msgid "Product Name"
+msgstr "Tên sản phẩm"
+
+#: includes/admin/Admin.php:1650
+msgid "Product not found"
+msgstr ""
+
+#: lib/class-op-warehouse.php:500
+msgid "Product out of stock"
+msgstr ""
+
+#: includes/admin/Admin.php:550
+msgid "Product Sku"
+msgstr ""
+
+#: bill/index.php:74 includes/admin/Admin.php:517 includes/admin/Admin.php:531
+msgid "Products"
+msgstr "Sản phẩm"
+
+#: includes/admin/Admin.php:2718
+msgid "Products Barcode"
+msgstr "Mã sản phẩm"
+
+#: includes/admin/Admin.php:4292 includes/admin/Admin.php:4299
+#: templates/admin/dashboard.php:80 templates/admin/report/report_form.php:202
+#: templates/admin/report/report_sales_chart.php:78
+msgid "Profit"
+msgstr "Lợi nhuận"
+
+#: includes/admin/Admin.php:3224 includes/admin/Admin.php:4140
+#: templates/admin/report/report_sales_table.php:10
+msgid "Profit Total"
+msgstr "Tổng lợi nhuận"
+
+#: includes/admin/Admin.php:628
+msgid "Progressive Web Apps Cached"
+msgstr ""
+
+#: includes/admin/Admin.php:894
+msgid "QRCode"
+msgstr ""
+
+#: templates/admin/tables.php:170
+msgid "Qrcode"
+msgstr ""
+
+#: includes/admin/Admin.php:4290 includes/admin/Admin.php:4297
+#: includes/admin/Admin.php:6197 includes/admin/Admin.php:6212
+msgid "QTY"
+msgstr "Số lượng"
+
+#: bill/index.php:77 customer/index.php:50 includes/Core.php:1410
+#: includes/admin/Admin.php:6030 templates/admin/stock.php:14
+#: templates/kitchen/view.php:53 templates/admin/report/print_x_report.php:142
+#: templates/admin/warehouse/adjust_stock.php:61
+#: templates/admin/warehouse/inventory.php:27
+msgid "Qty"
+msgstr "Số lượng"
+
+#: templates/emails/email-order-details.php:43
+msgid "Quantity"
+msgstr "Số lượng"
+
+#: includes/admin/Admin.php:1173
+msgid "Quick Cart Discount Amount"
+msgstr ""
+
+#: includes/admin/Admin.php:1166
+msgid "Quick Item Discount Amount"
+msgstr ""
+
+#: lib/class-op-woo.php:133
+msgid "Quick item note for OpenPOS. Separate topics with commas"
+msgstr ""
+
+#. Description of the plugin
+msgid "Quick POS system for woocommerce."
+msgstr "Tạo máy bán hàng nhanh cho woocommerce"
+
+#: includes/admin/Admin.php:382
+msgid "Quick Tipping Amount"
+msgstr ""
+
+#: templates/kitchen/view.php:56
+msgid "Ready ?"
+msgstr "Sẵn sàng ?"
+
+#: lib/class-op-woo.php:3721
+msgid "Reason / Note"
+msgstr "Lý do / Lưu ý"
+
+#: includes/Setting.php:31 lib/class-op-receipt.php:40
+#: lib/class-op-receipt.php:524 includes/admin/Admin.php:222
+msgid "Receipt"
+msgstr "Hóa đơn"
+
+#: lib/class-op-receipt.php:791 lib/class-op-receipt.php:829
+msgid "Receipt has been sent"
+msgstr "Hóa đơn đã được gửi"
+
+#: templates/admin/receipt_templates.php:141
+msgid "Receipt Name"
+msgstr "Tên người nhận"
+
+#: lib/class-op-receipt.php:582 lib/class-op-receipt.php:596
+msgid "Receipt print in delivery takeaway for shipper."
+msgstr ""
+
+#: lib/class-op-receipt.php:570
+msgid "Receipt print in table / takeaway."
+msgstr ""
+
+#: includes/admin/Admin.php:976
+msgid "Receipt Style"
+msgstr ""
+
+#: includes/admin/Admin.php:969
+msgid "Receipt Template Footer"
+msgstr ""
+
+#: includes/admin/Admin.php:962
+msgid "Receipt Template Header"
+msgstr ""
+
+#: includes/admin/Admin.php:2746
+msgid "Receipt Templates"
+msgstr "Mẫu hóa đơn"
+
+#: templates/admin/receipt_templates.php:89
+msgid "Receipt templates"
+msgstr "Mẫu hóa đơn"
+
+#: includes/admin/Admin.php:921
+msgid "Receipt Width"
+msgstr ""
+
+#: lib/class-op-report.php:317
+msgid "Record At"
+msgstr ""
+
+#: includes/admin/Admin.php:3235 includes/admin/Admin.php:3244
+#: templates/admin/transactions.php:19
+#: templates/admin/report/report_transactions_table.php:8
+msgid "Ref"
+msgstr "Tham chiếu"
+
+#: templates/admin/cashier.php:59 templates/admin/orders.php:67
+#: templates/admin/products.php:67 templates/admin/stock.php:109
+#: templates/admin/transactions.php:95
+#: templates/admin/warehouse/inventory.php:71
+msgid "Refresh"
+msgstr "Làm mới"
+
+#: includes/admin/Admin.php:301
+msgid "Refund Duration"
+msgstr ""
+
+#: includes/admin/Admin.php:304
+msgid "refund duration in day"
+msgstr ""
+
+#: includes/admin/Admin.php:392
+msgid "Refund exchange cash"
+msgstr ""
+
+#: includes/admin/Admin.php:684
+msgid "Refund offline via pos panel"
+msgstr ""
+
+#: lib/class-op-register.php:35 lib/class-op-register.php:36
+#: lib/class-op-report.php:531 lib/class-op-report.php:542
+#: templates/admin/tables.php:220 templates/admin/transactions.php:23
+#: templates/admin/warehouses.php:234
+#: templates/admin/report/print_z_report.php:90
+#: templates/admin/report/report_form.php:68
+msgid "Register"
+msgstr "Bàn thu ngân"
+
+#: templates/admin/sessions.php:18
+msgid "Register "
+msgstr "Bàn thu ngân"
+
+#: includes/admin/Admin.php:5850
+msgid "Register and Table do not same location"
+msgstr ""
+
+#: includes/admin/Admin.php:5916
+msgid "Register and Warehouse do not same location"
+msgstr ""
+
+#: includes/admin/Admin.php:5846 includes/admin/Admin.php:5912
+#: includes/front/Front.php:6791
+msgid "Register do not exist"
+msgstr ""
+
+#: templates/admin/registers.php:73
+msgid "Register Name"
+msgstr ""
+
+#: lib/class-op-report.php:1094
+msgid "Register not found"
+msgstr ""
+
+#: lib/class-op-woo.php:369
+msgid "Register:"
+msgstr "Bàn thu ngân"
+
+#: includes/admin/Admin.php:2726 templates/admin/registers.php:60
+msgid "Registers"
+msgstr "Các bàn thu ngân"
+
+#: templates/help.php:8
+msgid "Remove current customer"
+msgstr ""
+
+#: templates/admin/warehouse/adjust_stock.php:77
+msgid "Replace current qty"
+msgstr ""
+
+#: lib/class-op-receipt.php:557
+msgid "Report template print end working session sale "
+msgstr ""
+
+#: includes/admin/Admin.php:2741
+msgid "Reports"
+msgstr "Báo cáo"
+
+#: includes/admin/Admin.php:1181
+msgid "Require checkout with customer added only in POS"
+msgstr ""
+
+#: includes/admin/Admin.php:1180
+msgid "Require customer"
+msgstr "Yêu cầu khách hàng"
+
+#: includes/Core.php:1311 templates/emails/receipt.php:232
+msgid "Return"
+msgstr "Trả hàng"
+
+#: templates/admin/receipt_template_composer.php:39
+msgid "Right"
+msgstr "Phải"
+
+#: includes/admin/Admin.php:4291 includes/admin/Admin.php:4298
+msgid "Sale"
+msgstr ""
+
+#: templates/admin/dashboard.php:260
+msgid "Sale By"
+msgstr "Bán bởi"
+
+#: templates/admin/dashboard.php:132
+msgid "Sale by Outlet"
+msgstr ""
+
+#: templates/admin/dashboard.php:132
+msgid "Sale by Register"
+msgstr ""
+
+#: templates/admin/report/print_x_report.php:166
+msgid "Sale Total"
+msgstr ""
+
+#: includes/admin/Admin.php:2951 includes/admin/Admin.php:3463
+#: includes/admin/Admin.php:3736 includes/admin/Admin.php:3984
+#: includes/admin/Admin.php:4147 includes/admin/Admin.php:4628
+#: templates/admin/dashboard.php:76 templates/admin/dashboard.php:151
+msgid "Sales"
+msgstr ""
+
+#: templates/admin/dashboard.php:203
+msgid "Sales by Payment"
+msgstr ""
+
+#: templates/admin/report/report_form.php:44
+msgid "Sales By Payment Method"
+msgstr "Báo cáo theo phương thức thanh toán"
+
+#: templates/admin/report/report_form.php:45
+msgid "Sales By Product"
+msgstr ""
+
+#: templates/admin/dashboard.php:169
+msgid "Sales by Seller"
+msgstr ""
+
+#: templates/admin/report/report_form.php:40
+msgid "Sales By Seller Report"
+msgstr "Báo cáo theo người bán"
+
+#: templates/admin/report/report_form.php:41
+msgid "Sales By Shop Agent Report ( Cashier )"
+msgstr ""
+
+#: templates/admin/report/report_form.php:38
+msgid "Sales Report"
+msgstr "Báo cáo bán hàng"
+
+#: templates/emails/receipt.php:213
+msgid "Sales Tax"
+msgstr ""
+
+#: templates/admin/receipt_templates.php:129 templates/admin/registers.php:130
+#: templates/admin/tables.php:139 templates/admin/warehouses.php:155
+#: templates/admin/warehouse/new.php:142
+msgid "Save"
+msgstr "Lưu lại"
+
+#: templates/admin/print_barcode.php:133
+msgid "Save And Preview"
+msgstr ""
+
+#: templates/help.php:13
+msgid "Save Cart"
+msgstr "Lưu giỏ hàng"
+
+#: lib/class-op-setting.php:838
+msgid "Save changes"
+msgstr "Lưu thay đổi"
+
+#: templates/admin/orders.php:99 templates/admin/warehouse/inventory.php:118
+msgid "Saved"
+msgstr "Đã lưu"
+
+#: includes/admin/Admin.php:350
+msgid "Scale Barcode Format"
+msgstr "Mẫu mã hàng của cân điện tử"
+
+#: templates/admin/cashier.php:60 templates/admin/orders.php:68
+#: templates/admin/products.php:68 templates/admin/stock.php:110
+#: templates/admin/transactions.php:96
+#: templates/admin/warehouse/adjust_stock.php:41
+#: templates/admin/warehouse/inventory.php:72
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: templates/admin/warehouse/adjust_stock.php:34
+msgid "Search / Import Product"
+msgstr "Tìm kiếm / Nhập sản phẩm"
+
+#: lib/class-op-woo.php:124
+msgid "Search Custom Notes"
+msgstr ""
+
+#: includes/admin/Admin.php:1236
+msgid "Search Display Type"
+msgstr ""
+
+#: includes/admin/Admin.php:1225
+msgid "Search Mode"
+msgstr "Chế độ tìm kiếm"
+
+#: templates/admin/tables.php:87
+msgid "Seats"
+msgstr "Chỗ ngồi"
+
+#: lib/class-op-receipt.php:29 includes/admin/Admin.php:1409
+msgid "Security check"
+msgstr ""
+
+#: woocommerce-openpos.php:143
+msgid ""
+"Seem you are forgot install woocommerce plugin. Please install woocommerce "
+"plugin before install OpenPOS"
+msgstr ""
+
+#: woocommerce-openpos.php:140
+msgid ""
+"Seem you are using OpenPOS Lite Version - Free. Please delete it before "
+"intsall this Paid version."
+msgstr ""
+
+#: lib/class-op-setting.php:816
+msgid "Select categories&hellip;"
+msgstr "Chọn chuyên mục"
+
+#: templates/admin/report/report_form.php:77
+msgid "Seller"
+msgstr "Người bán"
+
+#: includes/admin/Admin.php:3395 includes/admin/Admin.php:3450
+#: includes/admin/Admin.php:3676 includes/admin/Admin.php:3725
+msgid "Seller Amount"
+msgstr ""
+
+#: lib/class-op-register.php:303
+msgid "Seller Mode - No checkout button"
+msgstr ""
+
+#: lib/class-op-woo.php:2140
+msgid "Seller: "
+msgstr "Người bán"
+
+#: includes/admin/Admin.php:569
+msgid "Sequential: Start order number"
+msgstr ""
+
+#: lib/class-op-report.php:217 lib/class-op-report.php:311
+#: templates/admin/report/print_x_report.php:89
+msgid "Session"
+msgstr ""
+
+#: templates/admin/report/print_x_report.php:87
+msgid "Session Info"
+msgstr "Thông tin đăng nhập"
+
+#: includes/admin/Admin.php:598
+msgid ""
+"Set Shipping class for active shipping method. Please choose shipping and "
+"click save change to see set shipping tax"
+msgstr ""
+
+#: includes/admin/Admin.php:2679 includes/admin/Admin.php:2749
+msgid "Setting"
+msgstr "Cài đặt"
+
+#: includes/admin/Admin.php:777
+msgid "Sheet Height"
+msgstr ""
+
+#: templates/admin/print_barcode.php:77
+msgid "Sheet Margin (top x right x bottom x left):"
+msgstr ""
+
+#: includes/admin/Admin.php:770
+msgid "Sheet Width"
+msgstr ""
+
+#: templates/admin/print_barcode.php:63
+msgid "Sheet Width x Height:"
+msgstr ""
+
+#: includes/Core.php:1439 includes/Setting.php:23 includes/admin/Admin.php:214
+#: templates/emails/receipt.php:208
+msgid "Shipping"
+msgstr "Vận chuyển"
+
+#: templates/emails/receipt.php:272
+msgid "Shipping Information"
+msgstr "Thông tin vận  chuyển"
+
+#: includes/admin/Admin.php:589
+msgid "Shipping Methods"
+msgstr "Phương thức vận chuyển"
+
+#: templates/admin/report/print_x_report.php:158
+msgid "Shipping Total"
+msgstr ""
+
+#: lib/class-op-woo.php:1820
+msgid "Shipping: "
+msgstr "Vận chuyển:"
+
+#: lib/class-op-woo.php:359
+msgid "Shop Agent:"
+msgstr "Thu ngân"
+
+#: templates/admin/cashier.php:56 templates/admin/orders.php:64
+#: templates/admin/products.php:64 templates/admin/stock.php:106
+#: templates/admin/transactions.php:92
+#: templates/admin/warehouse/inventory.php:68
+msgid "Showing {{ctx.start}} to {{ctx.end}} of {{ctx.total}} entries"
+msgstr ""
+
+#: includes/admin/Admin.php:1261
+msgid "Single Payment"
+msgstr ""
+
+#: includes/admin/Admin.php:1262
+msgid "Single Payment with Multi Times"
+msgstr ""
+
+#: includes/admin/Admin.php:4289 includes/admin/Admin.php:4296
+msgid "SKU"
+msgstr ""
+
+#: lib/class-op-woo.php:2147
+msgid "Sold By Shop Agent"
+msgstr "Bán bởi thu ngân"
+
+#: includes/admin/Admin.php:3411 includes/admin/Admin.php:3420
+#: includes/admin/Admin.php:3691 includes/admin/Admin.php:3697
+msgid "Sold QTY"
+msgstr "Số lượng đã bán"
+
+#: includes/admin/Admin.php:3410 includes/admin/Admin.php:3419
+#: includes/admin/Admin.php:3690 includes/admin/Admin.php:3696
+msgid "Sold Total"
+msgstr ""
+
+#: lib/class-op-woo.php:209 templates/admin/orders.php:18
+msgid "Source"
+msgstr "Nguồn"
+
+#: includes/admin/Admin.php:1260
+msgid "Split Multi Payment - Deprecated"
+msgstr ""
+
+#: templates/admin/cashier.php:15
+msgid "Staff Only"
+msgstr "Chỉ dành cho nhân viên"
+
+#: lib/class-op-woo.php:2315 lib/class-op-woo.php:2317
+#: lib/class-op-woo.php:2343 lib/class-op-woo.php:2345
+msgid "State"
+msgstr "Trạng thái"
+
+#: templates/admin/dashboard.php:262 templates/admin/orders.php:21
+#: templates/admin/receipt_templates.php:119
+#: templates/admin/receipt_templates.php:145 templates/admin/registers.php:119
+#: templates/admin/registers.php:145 templates/admin/tables.php:129
+#: templates/admin/tables.php:152 templates/admin/warehouses.php:125
+#: templates/admin/warehouses.php:168 templates/admin/warehouse/new.php:112
+msgid "Status"
+msgstr "Tình trạng"
+
+#: includes/admin/Admin.php:665
+msgid "status for those order created by POS"
+msgstr ""
+
+#: includes/admin/Admin.php:673
+msgid ""
+"Status of online order allow continue checkout on POS. Enter status name to "
+"search"
+msgstr ""
+
+#: includes/admin/Admin.php:2738
+msgid "Stock Overview"
+msgstr "Tổng quan kho hàng"
+
+#: includes/admin/Admin.php:2721
+msgid "Store Staff"
+msgstr "Nhân viên nhà hàng"
+
+#: includes/Core.php:1433
+msgid "Sub Total"
+msgstr "Tổng"
+
+#: includes/admin/Admin.php:185
+msgid "Support"
+msgstr "Hỗ trợ"
+
+#: lib/class-op-table.php:49 lib/class-op-table.php:50
+msgid "Table"
+msgstr "Bàn"
+
+#: templates/kitchen/view.php:55
+msgid "Table / Order"
+msgstr ""
+
+#: includes/admin/Admin.php:5733 includes/admin/Admin.php:5842
+msgid "Table do not exist"
+msgstr "Bàn không tồn tại"
+
+#: includes/front/Front.php:6775
+msgid "Table do not exist or Your QRcode has been expired"
+msgstr ""
+
+#: customer/index.php:52
+msgid "Table is empty!"
+msgstr "Bàn trống"
+
+#: includes/front/Front.php:6780
+msgid "Table not publish yet!"
+msgstr ""
+
+#: templates/admin/tables.php:206
+msgid "Table Qrcode"
+msgstr "Mã QR bàn"
+
+#: includes/admin/Admin.php:523 includes/admin/Admin.php:2734
+msgid "Tables"
+msgstr "Bàn"
+
+#: lib/class-op-warehouse.php:608 templates/admin/warehouses.php:220
+msgid "Takeaway Qrcode"
+msgstr "Mã QR Mang đi"
+
+#: includes/Core.php:1450
+msgid "Tax"
+msgstr "Thuế"
+
+#: includes/admin/Admin.php:710
+msgid ""
+"Tax Class assign for POS system. Require refresh product list to take effect."
+msgstr ""
+
+#: includes/admin/Admin.php:613
+msgid ""
+"Tax class for current shipping method. Tax rate auto generate base on "
+"store/outlet address"
+msgstr ""
+
+#: includes/admin/Admin.php:612
+msgid "Tax for"
+msgstr ""
+
+#: lib/class-op-woo.php:1103 lib/class-op-woo.php:1168
+#: lib/class-op-woo.php:1204 includes/front/Front.php:3756
+msgid "Tax on POS"
+msgstr "Thuế trên POS"
+
+#: includes/admin/Admin.php:426
+msgid "Tax Rate"
+msgstr ""
+
+#: templates/admin/report/print_x_report.php:162
+msgid "Tax Total"
+msgstr ""
+
+#: templates/admin/receipt_template_composer.php:51
+msgid "Template"
+msgstr "Mẫu"
+
+#: templates/admin/print_barcode.php:109
+msgid "Template:"
+msgstr ""
+
+#: templates/emails/receipt.php:155
+msgid "Thank you for your order!"
+msgstr ""
+
+#: templates/admin/warehouses.php:102 templates/admin/warehouse/new.php:89
+msgid "The city in which your business is located."
+msgstr ""
+
+#: templates/admin/warehouses.php:114 templates/admin/warehouse/new.php:101
+msgid ""
+"The country and state or province, if any, in which your business is located."
+msgstr ""
+
+#: templates/admin/warehouses.php:121 templates/admin/warehouse/new.php:108
+msgid "The postal code, if any, in which your business is located."
+msgstr ""
+
+#: templates/admin/warehouses.php:88 templates/admin/warehouse/new.php:75
+msgid "The street address for your business location."
+msgstr ""
+
+#: includes/admin/Admin.php:1226
+msgid "The way of search when type keyword on search box on POS"
+msgstr ""
+
+#: lib/class-op-table.php:485
+msgid ""
+"There are an other update of this table. Please refresh this table and try "
+"again."
+msgstr ""
+
+#: includes/front/Front.php:1983
+msgid "There are multi user with same term"
+msgstr ""
+
+#: includes/front/Front.php:6160
+#, php-format
+msgid "There are new message from tables: %s"
+msgstr ""
+
+#: lib/class-op-discounts.php:154
+msgid "This coupon not for current customer"
+msgstr "Mã giảm giá không giành cho khách hàng này"
+
+#: templates/admin/dashboard.php:16
+#| msgid ""
+#| "This function to reset cash balance on your cash drawer to 0. Are you "
+#| "sure ?"
+msgid ""
+"This function to reset cash balance on your all cashdrawers to 0. Are you "
+"sure ?"
+msgstr ""
+"Chức năng này để đặt lại số tiền trên bàn thu ngân về 0. Bạn có chắc chắn "
+"muốn làm vậy ?"
+
+#: templates/admin/dashboard.php:30
+msgid ""
+"This function to reset debit balance on your all cashdrawers to 0. Are you "
+"sure ?"
+msgstr ""
+
+#: lib/class-op-register.php:38 lib/class-op-report.php:27
+#: lib/class-op-table.php:52 lib/class-op-transaction.php:25
+#: lib/class-op-warehouse.php:33
+msgid ""
+"This is where you can add new transaction that customers can use in your "
+"store."
+msgstr ""
+
+#: templates/admin/dashboard.php:221
+msgid "This Month"
+msgstr "Tháng này"
+
+#: templates/admin/report/report_form.php:108
+msgid "This month"
+msgstr "Tháng này"
+
+#: lib/class-op-woo.php:4541
+msgid "This setting determines which products will be listed on."
+msgstr ""
+
+#: templates/admin/dashboard.php:220 templates/admin/report/report_form.php:105
+msgid "This Week"
+msgstr "Tuần này"
+
+#: includes/admin/Admin.php:916
+msgid "Those setting for receipt <strong>Default template</strong>."
+msgstr ""
+
+#: templates/admin/products.php:17 templates/admin/stock.php:11
+#: templates/admin/warehouse/inventory.php:24
+msgid "Thumbnail"
+msgstr "Hình đại diện"
+
+#: includes/admin/Admin.php:516
+msgid "Tiles DashBoard"
+msgstr ""
+
+#: includes/admin/Admin.php:1070
+msgid "Time duration POS state checking (in mini seconds)"
+msgstr ""
+
+#: includes/admin/Admin.php:1069
+msgid "Time Frequency"
+msgstr ""
+
+#: includes/Core.php:840
+msgid "Time Range is invalid. Maximum is 365 days"
+msgstr "Khoảng thời gian quá lớn. Hệ thống chấp nhận tối đa 365 ngày."
+
+#: includes/admin/Admin.php:3396 includes/admin/Admin.php:3451
+msgid "Tip Amount"
+msgstr ""
+
+#: includes/admin/Admin.php:3225 includes/admin/Admin.php:4141
+#: templates/admin/report/report_sales_table.php:11
+msgid "Tip Total"
+msgstr ""
+
+#: lib/class-op-woo.php:387
+msgid "TIP:"
+msgstr ""
+
+#: templates/admin/report/report_form.php:126
+msgid "To"
+msgstr "Tới"
+
+#: includes/admin/Admin.php:629
+msgid ""
+"To use this feature, your POS url should under HTTPS. OpenPOS Progressive "
+"Web Apps on Desktop can be ‘installed’ on the user’s device much like native "
+"apps. It’s fast. Feel integrated because they launched in the same way as "
+"other apps, and run in an app window, without an address bar or tabs. It is "
+"reliable because service workers can cache all of the assets they need to "
+"run. And it create an engaging experience for users."
+msgstr ""
+
+#: templates/admin/dashboard.php:222 templates/admin/report/report_form.php:103
+msgid "Today"
+msgstr "Hôm nay"
+
+#: templates/admin/receipt_template_composer.php:35
+msgid "Top"
+msgstr ""
+
+#: bill/index.php:78 customer/index.php:51 includes/Core.php:1412
+#: includes/admin/Admin.php:6050 templates/admin/orders.php:20
+#: templates/emails/receipt.php:217
+#: templates/admin/report/print_x_report.php:122
+#: templates/admin/report/print_x_report.php:143
+#: templates/admin/warehouse/adjust_stock.php:69
+msgid "Total"
+msgstr "Tổng"
+
+#: lib/class-op-report.php:225 lib/class-op-report.php:538
+msgid "Total Cart Discount"
+msgstr ""
+
+#: lib/class-op-report.php:223 lib/class-op-report.php:536
+msgid "Total Custom Transaction"
+msgstr ""
+
+#: lib/class-op-report.php:460
+msgid "Total Debit"
+msgstr "Tất cả nợ"
+
+#: includes/admin/Admin.php:3369
+msgid "Total IN"
+msgstr "Tổng tiền vào"
+
+#: lib/class-op-report.php:224 lib/class-op-report.php:537
+msgid "Total Item Discount"
+msgstr "Tổng chiết khẩu trên sản phẩm"
+
+#: lib/class-op-report.php:452 includes/admin/Admin.php:3412
+#: includes/admin/Admin.php:3421
+msgid "Total Order"
+msgstr ""
+
+#: lib/class-op-report.php:534 lib/class-op-report.php:545
+#: lib/class-op-report.php:1134 includes/admin/Admin.php:3656
+#: includes/admin/Admin.php:4116 includes/admin/Admin.php:4243
+#: templates/admin/report/report_sales_chart.php:6
+msgid "Total Orders"
+msgstr "Tất cả đơn hàng"
+
+#: includes/admin/Admin.php:3380
+msgid "Total OUT"
+msgstr "Tổng tiền ra"
+
+#: includes/admin/Admin.php:4252 includes/admin/Admin.php:4480
+#: templates/admin/report/report_sales_chart.php:22
+msgid "Total Profit"
+msgstr "Tổng lợi nhuận"
+
+#: includes/admin/Admin.php:6215
+msgid "TOTAL QTY"
+msgstr ""
+
+#: includes/admin/Admin.php:4485
+msgid "Total QTY"
+msgstr ""
+
+#: includes/admin/Admin.php:3563 includes/admin/Admin.php:3642
+#: includes/admin/Admin.php:3877 includes/admin/Admin.php:3941
+msgid "Total Qty"
+msgstr "Tổng số lượng"
+
+#: lib/class-op-report.php:222 lib/class-op-report.php:316
+#: lib/class-op-report.php:535 lib/class-op-report.php:546
+#: lib/class-op-report.php:1135 includes/admin/Admin.php:3567
+#: includes/admin/Admin.php:3646 includes/admin/Admin.php:3881
+#: includes/admin/Admin.php:3945 includes/admin/Admin.php:4120
+#: includes/admin/Admin.php:4247 includes/admin/Admin.php:4475
+#: templates/admin/report/report_sales_chart.php:14
+msgid "Total Sales"
+msgstr "Tổng doanh số"
+
+#: includes/admin/Admin.php:1247
+msgid "Total Search Result"
+msgstr ""
+
+#: includes/admin/Admin.php:4257
+#: templates/admin/report/report_sales_chart.php:30
+msgid "Total TIP"
+msgstr ""
+
+#: includes/admin/Admin.php:3413 includes/admin/Admin.php:3422
+#: includes/admin/Admin.php:3572 includes/admin/Admin.php:3651
+msgid "Total Tip"
+msgstr ""
+
+#: lib/class-op-transaction.php:23
+msgid "Transaction"
+msgstr ""
+
+#: lib/class-op-register.php:337 lib/class-op-transaction.php:22
+#: lib/class-op-warehouse.php:582 lib/class-op-warehouse.php:591
+#: includes/admin/Admin.php:2715 includes/admin/Admin.php:2952
+msgid "Transactions"
+msgstr "Giao dịch"
+
+#: templates/admin/report/report_form.php:43
+msgid "Transactions Report"
+msgstr ""
+
+#: templates/admin/receipt_templates.php:108
+#: templates/admin/receipt_templates.php:142 templates/admin/tables.php:99
+#: templates/admin/report/report_form.php:35
+msgid "Type"
+msgstr "Kiểu"
+
+#: includes/admin/Admin.php:754
+msgid "Unit"
+msgstr "Đơn vị"
+
+#: templates/admin/print_barcode.php:54
+msgid "Unit:"
+msgstr "Đơn vị"
+
+#: includes/front/Front.php:6756 includes/front/Front.php:7023
+#: includes/front/Front.php:7063
+msgid "Unknow message"
+msgstr "Không xác định"
+
+#: lib/class-op-transaction.php:262 lib/class-op-woo.php:359
+#: lib/class-op-woo.php:369 includes/admin/Admin.php:2511
+#: includes/admin/Admin.php:2769 includes/admin/Admin.php:3079
+#: includes/admin/Admin.php:3098 templates/admin/receipt_templates.php:149
+msgid "Unknown"
+msgstr "Không biết"
+
+#: includes/admin/Admin.php:2794 templates/admin/sessions.php:20
+msgid "Unlink"
+msgstr "Loại bỏ"
+
+#: includes/admin/Admin.php:1844
+#: templates/admin/receipt_template_composer.php:67
+#: templates/admin/warehouse/adjust_stock.php:83
+msgid "Update"
+msgstr "Cập nhật"
+
+#: lib/class-op-woo.php:130
+msgid "Update Custom Note"
+msgstr ""
+
+#: includes/admin/Admin.php:873 templates/admin/print_barcode.php:113
+msgid ""
+"use [barcode with=\"\" height=\"\"] to adjust barcode image, [op_product "
+"attribute=\"attribute_name\"] with attribute name: <b>name, price ,"
+"regular_price, sale_price, width, height,length,weight</b> and accept html,"
+"inline style css string"
+msgstr ""
+
+#: includes/admin/Admin.php:963
+msgid ""
+"use [payment_method], [customer_name], [customer_phone],[sale_person], "
+"[created_at], [order_number],[order_number_format],[order_note],"
+"[order_qrcode width=\"_number_\" height=\"_number_\"],[order_barcode  "
+"width=\"_number_\" height=\"_number_\"], [customer_email],[op_warehouse "
+"field=\"_fiel_name\"] - (_fiel_name : name, address, city, postal_code,"
+"country,phone,email), [op_register field=\"name\"] shortcode to adjust "
+"receipt information, accept html string"
+msgstr ""
+
+#: includes/admin/Admin.php:970
+msgid ""
+"use [payment_method],[customer_name], [customer_phone], [sale_person], "
+"[created_at], [order_number],[order_number_format],[order_qrcode "
+"width=\"_number_\" height=\"_number_\"],[order_barcode  width=\"_number_\" "
+"height=\"_number_\"],[order_note], [customer_email], [op_warehouse "
+"field=\"_fiel_name\"] - (_fiel_name : name, address, city, postal_code,"
+"country,phone,email), [op_register field=\"name\"] shortcode to adjust "
+"receipt information, accept html string"
+msgstr ""
+
+#: includes/admin/Admin.php:447
+msgid "Use cart items Tax"
+msgstr ""
+
+#: includes/admin/Admin.php:344
+msgid "Use Product Tax Class"
+msgstr "Sử dụng thuế của sản phẩm"
+
+#: includes/admin/Admin.php:3408 includes/admin/Admin.php:3417
+#: includes/admin/Admin.php:3439 includes/admin/Admin.php:3688
+#: includes/admin/Admin.php:3694 includes/admin/Admin.php:3714
+#: templates/admin/sessions.php:15 templates/admin/report/print_x_report.php:90
+msgid "User"
+msgstr "Người dùng"
+
+#: includes/front/Front.php:1092
+msgid "User Name and Password can not empty."
+msgstr "Tên đăng nhập và mật khẩu không được để trống"
+
+#: includes/admin/Admin.php:1011
+msgid "Username + Password"
+msgstr ""
+
+#: customer/index.php:60
+msgid "Verification"
+msgstr "Xác nhận"
+
+#: customer/index.php:78 customer/index.php:82
+msgid "Verify data"
+msgstr "Kiểm tra thông tin"
+
+#: templates/admin/tables.php:214 templates/admin/warehouses.php:228
+msgid "Verify URL"
+msgstr ""
+
+#: includes/admin/Admin.php:784
+msgid "Vertical Space"
+msgstr ""
+
+#: templates/admin/print_barcode.php:67
+msgid "Vertical Spacing:"
+msgstr ""
+
+#: lib/class-op-woo.php:3761
+msgid "via"
+msgstr ""
+
+#: lib/class-op-report.php:442 lib/class-op-report.php:477
+#: includes/admin/Admin.php:2774 includes/admin/Admin.php:3228
+#: includes/admin/Admin.php:3399 includes/admin/Admin.php:3542
+#: includes/admin/Admin.php:3679 includes/admin/Admin.php:3858
+#: includes/admin/Admin.php:3971 includes/admin/Admin.php:4094
+#: includes/admin/Admin.php:4224 includes/admin/Admin.php:4692
+msgid "View"
+msgstr "Xem"
+
+#: templates/admin/report/report_sales_table.php:14
+msgid "View "
+msgstr "Xem"
+
+#: templates/help.php:9
+msgid "View current customer"
+msgstr ""
+
+#. %s: Order link.
+#: templates/emails/plain/email-order-details.php:51
+#, php-format
+msgid "View order: %s"
+msgstr ""
+
+#: includes/admin/Admin.php:2702
+msgid "Visit POS"
+msgstr "Mở POS "
+
+#: lib/class-op-register.php:305
+msgid "Waiter Mode - No checkout button"
+msgstr "Chế độ bồi bàn - Không có chức năng thanh toán"
+
+#: lib/class-op-warehouse.php:30 lib/class-op-warehouse.php:31
+msgid "Warehouse"
+msgstr "Kho hàng"
+
+#. %s: Site title
+#: templates/emails/customer-completed-order.php:29
+#: templates/emails/plain/customer-completed-order.php:27
+msgid "We have finished processing your order."
+msgstr ""
+
+#: lib/class-op-transaction.php:312
+msgid "Website Order"
+msgstr "Đơn hàng từ website"
+
+#: includes/admin/Admin.php:6799
+msgid "Weight-Base Pricing"
+msgstr "Giá dựa trên cân nặng"
+
+#: includes/admin/Admin.php:899
+#: templates/admin/receipt_template_composer.php:25
+msgid "Width"
+msgstr "Rộng"
+
+#: includes/admin/Admin.php:1132
+msgid "Width of image in pos in px"
+msgstr ""
+
+#. Name of the plugin
+msgid "Woocommerce OpenPos"
+msgstr "Phần mềm bán hàng OpenPOS"
+
+#: includes/admin/Admin.php:351
+msgid ""
+"Work with barcode scanner device only. I : item code , P : price , W : "
+"weight  , Q : quantity, E : expired . Example: \"DDIIIIIDPPPPC\" -   "
+"\"2081981002076\" With \"20\": string to detect barcode generate by scale, "
+"\"81981\" : product barcode , \"0207\" : price = 2.07$  "
+msgstr ""
+
+#: templates/admin/report/report_form.php:46
+msgid "X Report"
+msgstr ""
+
+#: lib/class-op-receipt.php:48
+msgid "X-Report"
+msgstr ""
+
+#: templates/admin/report/print_x_report.php:6
+msgid "x-report"
+msgstr ""
+
+#: lib/class-op-receipt.php:549
+msgid "xReport"
+msgstr ""
+
+#: includes/admin/Admin.php:365 includes/admin/Admin.php:376
+#: includes/admin/Admin.php:397 includes/admin/Admin.php:633
+#: includes/admin/Admin.php:644 includes/admin/Admin.php:657
+#: includes/admin/Admin.php:677 includes/admin/Admin.php:1048
+#: includes/admin/Admin.php:1061 includes/admin/Admin.php:1081
+#: includes/admin/Admin.php:1092 includes/admin/Admin.php:1103
+#: includes/admin/Admin.php:1114 includes/admin/Admin.php:1125
+#: includes/admin/Admin.php:1185 includes/admin/Admin.php:1196
+#: includes/admin/Admin.php:1207 includes/admin/Admin.php:1218
+#: includes/admin/Admin.php:1272
+msgid "Yes"
+msgstr "Đồng ý"
+
+#: templates/admin/report/report_form.php:104
+msgid "Yesterday"
+msgstr "Hôm qua"
+
+#: includes/front/Front.php:4785
+msgid ""
+"You can not close a order has been paid! Please complete order by click "
+"Check Payment button."
+msgstr ""
+"Bạn không thể hủy đơn hàng đã thanh toán! Vui lòng hoàn thành đơn hàng bằng "
+"cách click vào nút kiểm tra thanh toán"
+
+#: includes/front/Front.php:5584
+msgid "You do not allow remove this"
+msgstr ""
+
+#: lib/class-op-woo.php:4278
+msgid "You have %d new orders from website"
+msgstr "Bạn có %d đơn hàng mới từ website"
+
+#: templates/emails/receipt.php:113
+msgid "You have new order from POS."
+msgstr "Bạn có đơn hàng mới từ POS."
+
+#: includes/front/Front.php:1118
+msgid ""
+"You have no grant access to any Register POS. Please contact with admin to "
+"assign your account to POS Register."
+msgstr ""
+"Bạn không được phân công vào bất kỳ POS nào. Vui lòng liên hệ với người quản "
+"trị để phân công vào POS"
+
+#: includes/front/Front.php:1113
+msgid ""
+"You have no permission to access POS. Please contact with admin to resolve "
+"it."
+msgstr ""
+"Bạn không có quyền truy cập POS. Vui lòng liên hệ với admin để giải quyết."
+
+#: includes/front/Front.php:6507
+msgid "Your email address is incorrect. Please check again!"
+msgstr "Địa chỉ email của bạn không chính xác. Vui lòng kiểm tra lại!"
+
+#: includes/front/Front.php:6001 includes/front/Front.php:6029
+msgid "Your have no grant to any register"
+msgstr "Bạn không được phân công bào bất kỳ POS nào"
+
+#: templates/admin/sessions.php:36
+msgid "Your Location"
+msgstr "Vị trí của bạn"
+
+#: includes/front/Front.php:5812 includes/front/Front.php:6019
+msgid "Your login session has been clean. Please try login again"
+msgstr "Phiên đăng nhập của bạn đã bị hủy. Vui lòng đăng nhập lại."
+
+#: includes/front/Front.php:5435
+msgid "Your order has been deleted. Please scan order QRcode and try again."
+msgstr "Đơn hàng của bạn đã bị xóa. Vui lòng quét mã QR và thử lại"
+
+#: includes/front/Front.php:1296
+msgid "Your password is incorrect. Please try again."
+msgstr "Mật khẩu không chính xác. Vui lòng thử lại"
+
+#: lib/class-op-woo.php:4365
+msgid "Your password not match. Please check again"
+msgstr "Mật khẩu không chính xác. Vui lòng thử lại"
+
+#: includes/front/Front.php:1283
+msgid "Your PIN is incorrect. Please try again."
+msgstr ""
+
+#: includes/front/Front.php:7008
+msgid "Your request has been sent to our waiter. Please wait."
+msgstr ""
+"Yêu cầu của bạn đã được gửi đến người phục vụ. Vui lòng chờ trong giây lát."
+
+#: includes/admin/Admin.php:6601
+#| msgid ""
+#| "Your setting has been update succes. Don't forget Logout and Login POS "
+#| "again to take effect on POS panel !"
+msgid ""
+"Your setting has been update successfull. Don't forget Logout and Login POS "
+"again to take effect on POS panel !"
+msgstr ""
+"Cài đặt của bạn đã được cập nhật thanh công. Vui lòng thoát và đăng nhập lại "
+"POS để cập nhật."
+
+#: includes/admin/Admin.php:6074
+msgid "Your warehouse do not exist."
+msgstr "Kho hàng không tồn tại"
+
+#: templates/admin/report/print_z_report.php:82
+msgid "Z Reading Report"
+msgstr ""
+
+#: templates/admin/report/print_x_report.php:81
+#: templates/admin/report/report_form.php:47
+msgid "Z Report"
+msgstr ""
+
+#: lib/class-op-report.php:24 lib/class-op-report.php:25
+msgid "Z-Report"
+msgstr ""
+
+#: templates/admin/report/print_z_report.php:6
+msgid "z-report"
+msgstr ""

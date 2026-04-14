@@ -1,0 +1,145 @@
+<html><head><style type="text/css" media="print,screen">#op-page-cut{page-break-after: always; }#invoice-POS { padding:  0in 0in 0in 0in;margin: 0 auto;background: #fff;width: 8.3in ;}table,p,div,tr,td,th{
+   font-size: 15px;
+}
+table{
+  width: 100%;
+}
+table.list-items{
+  border-bottom:solid 1px #fff;
+  
+}
+table,tr,td,th{
+   border: solid 1px #000;
+   border-collapse: collapse;
+}
+td,th{
+  padding: 5px 2px;
+}
+.text-center{
+  text-align:center;
+}
+.no-border{
+  border: solid 1px transparent;
+  border-right: solid 1px #000;
+}
+.receipt-header{
+	padding: 5px 0 20px 5px;
+}
+.receipt-body{
+padding: 5px 5px 20px 5px;
+}
+.receipt-bottom{
+	padding: 5px 0 10px 5px;
+    text-transform: uppercase;
+}
+.company-info p,.receipt-info p{
+   margin: 0;
+}
+.receipt-signature{
+       border-bottom: solid 1px #000;
+       width: 50%;
+       height:100px;
+}
+.thank-you-label{
+    font-size:30px;;
+}
+.header-left,.header-right{
+	width: 50%;
+    float:left;
+    
+}
+.header-right th{
+	text-align: left;
+    width: 
+}
+.receipt-info-title{
+    margin: 0;
+    padding: 10px;
+    border-bottom: solid 1px #000;
+}
+.receipt-info,.company-info{
+	padding: 10px 3px;
+}
+.receipt-no-value, .receipt-date-value{
+
+ min-width: 205px;
+}</style></head>
+<body style="margin:0;">
+<div id="invoice-POS">
+
+<% var date = new Date(created_at_time); var tmonthNames = ["01", "02", "03", "04", "05", "06",
+  "07", "08", "09", "10", "11", "12"
+]; %>
+<% var total_include_tax = 0; %>
+<% var total_tax = 0; %>
+<div class="receipt-header">
+	<div class="header-left">
+        <h2>DELIVERY RECEIPT</h2>
+        <div class="company-info">
+            <p>Open POS Ltd</p>
+			<p>123 Main Street</p>
+			<p>Hamilton, OH 44416</p>
+			<p>(321) 456-7890</p>
+			<p>anhvnit@gmail.com</p>
+        </div>
+    </div>
+    <div class="header-right">
+        <table>
+            <tr>
+               <th>DATE</th>
+               <td class="receipt-date-value">
+               <p class="text-center">
+            <%-date.getFullYear() %>/<%- tmonthNames[date.getMonth()] %>/<%-date.getDate() %></p>
+               </td>
+            </tr>
+            <tr>
+               <th>RECEIPT NO.</th>
+               <td class="text-center"><p class="receipt-no-value"><%= order_number %></p></td>
+            </tr>
+        </table>
+        <p class="text-center receipt-info-title">RECIPIENT INFO</p>
+        <div class="receipt-info">
+            <% if(shipping != null){ %>
+           <p><%= shipping.shipping_information.firstname +" "+ shipping.shipping_information.lastname %></p>
+          <p><%= shipping.shipping_information.address %></p>
+		  <p><%= shipping.shipping_information.city %>, <%= shipping.shipping_information.state %>  <%= shipping.shipping_information.postcode %> </p>
+          <p><%= shipping.shipping_information.phone %></p>
+          <% } %>
+        </div>
+    </div>
+
+</div>
+<div class="receipt-body">
+<table class="list-items">
+<tr>
+   <th>DESCRIPTION </th>
+   <th>QTY</th>
+   <th>PRICE</th>
+   <th>TOTAL</th>
+</tr>
+<% items.forEach(function(item){ %>
+  <% total_include_tax += item.total_incl_tax; %>
+ <tr>
+   <td><%= item.name %></td>
+   <td class="text-center"><%= item.qty %></td>
+   <td class="text-center"><%= item.final_price_incl_tax.toFixed(2) %></td>
+   <td class="text-center"><%= item.total_incl_tax.toFixed(2) %></td>
+</tr>   
+<% }); %>
+<tr>
+   <td class="no-border" colspan="2"></td>
+   <td class="text-center">Total</td>
+   <td class="text-center"><%= total_include_tax.toFixed(2) %></td>
+</tr> 
+</table>
+</div>
+<div class="receipt-bottom">
+<p class="thank-you-label">Thank you</p>
+<p class="receipt-signature">
+<span>RECIPIENT SIGNATURE</span>
+</p>
+</div>
+
+</div>
+<p id="op-page-cut">&nbsp;</p>
+</body></html>

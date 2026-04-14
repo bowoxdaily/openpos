@@ -1,0 +1,219 @@
+{
+    "login_time": 1711947243192,
+    "logout_time": 1712118895994,
+    "register_id": 69,
+    "cashier_user_id": 1,
+    "cashier_user_name": "admin",
+    "open_balance": "7811.5616785228",
+    "open_balance_currency_formatted": "7.811,56",
+    "close_balance": 7897.5616785228,
+    "close_balance_currency_formatted": "7.897,56",
+    "change_balance": 86,
+    "change_balance_currency_formatted": "86,00",
+    "custom_transactions": [
+        {
+            "id": 1712118829082,
+            "before_balance": 0,
+            "in_amount": 100,
+            "out_amount": 0,
+            "currency": null,
+            "ref": "custom in",
+            "source_type": "custom",
+            "source": 0,
+            "source_data": null,
+            "created_at": "4/3/2024, 11:33:49 AM",
+            "created_at_utc": "Wed, 03 Apr 2024 04:33:49 GMT",
+            "created_at_time": 1712118829082,
+            "created_by_id": 1,
+            "sync_status": 1,
+            "session": "op-admin-1711947239-vgcrfhjil5gsj37eutst80gust",
+            "payment_code": "cash",
+            "payment_name": "Cash",
+            "payment_ref": ""
+        },
+        {
+            "id": 1712118838964,
+            "before_balance": 0,
+            "in_amount": 0,
+            "out_amount": 100,
+            "currency": null,
+            "ref": "Custom OUT",
+            "source_type": "custom",
+            "source": 0,
+            "source_data": null,
+            "created_at": "4/3/2024, 11:33:58 AM",
+            "created_at_utc": "Wed, 03 Apr 2024 04:33:58 GMT",
+            "created_at_time": 1712118838964,
+            "created_by_id": 1,
+            "sync_status": 1,
+            "session": "op-admin-1711947239-vgcrfhjil5gsj37eutst80gust",
+            "payment_code": "cash",
+            "payment_name": "Cash",
+            "payment_ref": ""
+        }
+    ],
+    "custom_transaction_total": 0,
+    "custom_transaction_total_currency_formatted": "0,00",
+    "refund_transaction_total": 0,
+    "refund_transaction_total_currency_formatted": "0,00",
+    "item_discount_total": 0,
+    "item_discount_total_currency_formatted": "0,00",
+    "cart_discount_total": 6,
+    "cart_discount_total_currency_formatted": "6,00",
+    "sale_payment": {
+        "cash": {
+            "payment_code": "cash",
+            "payment_name": "Cash",
+            "total": 86,
+            "base_total": 86,
+            "refund_total": 0,
+            "total_currency_formatted": "86,00",
+            "base_total_currency_formatted": "86,00",
+            "refund_total_currency_formatted": "0,00"
+        }
+    },
+    "sale_payments": [
+        {
+            "payment_code": "cash",
+            "payment_name": "Cash",
+            "total": 86,
+            "base_total": 86,
+            "refund_total": 0,
+            "total_currency_formatted": "86,00",
+            "base_total_currency_formatted": "86,00",
+            "refund_total_currency_formatted": "0,00"
+        }
+    ],
+    "taxes": [
+        {
+            "code": "standard_1",
+            "label": "5% - Tax",
+            "total": 4.26,
+            "total_currency_formatted": "4,26"
+        },
+        {
+            "code": "standard_2",
+            "label": "3% - tax",
+            "total": 2.57,
+            "total_currency_formatted": "2,57"
+        }
+    ],
+    "sale_total": 86,
+    "sale_total_currency_formatted": "86,00",
+    "tax_total": 6.82,
+    "tax_total_currency_formatted": "6,82",
+    "refund_total": 0,
+    "refund_total_currency_formatted": "0,00",
+    "order_total": 3,
+    "products": {
+        "00000000015": {
+            "barcode": "00000000015",
+            "sku": "woo-cap",
+            "name": "Cap",
+            "product_id": 15,
+            "qty": 2,
+            "total_incl_tax_sale": 32,
+            "total": 29.62,
+            "total_incl_tax_sale_currency_formatted": "32,00",
+            "total_currency_formatted": "29,62"
+        },
+        "00000000021": {
+            "barcode": "00000000021",
+            "sku": "woo-album",
+            "name": "Album",
+            "product_id": 21,
+            "qty": 1,
+            "total_incl_tax_sale": 15,
+            "total": 13.89,
+            "total_incl_tax_sale_currency_formatted": "15,00",
+            "total_currency_formatted": "13,89"
+        },
+        "00000000018": {
+            "barcode": "00000000018",
+            "sku": "woo-hoodie-with-zipper",
+            "name": "Hoodie with Zipper",
+            "product_id": 18,
+            "qty": 1,
+            "total_incl_tax_sale": 45,
+            "total": 41.67,
+            "total_incl_tax_sale_currency_formatted": "45,00",
+            "total_currency_formatted": "41,67"
+        }
+    },
+    "orders": [
+        {
+            "order_id": 229973,
+            "order_number": 1000829,
+            "order_number_formatted": "1000829",
+            "details": {
+                "order_id": 229973,
+                "order_number": 1000829,
+                "order_number_formatted": "1000829"
+            }
+        },
+        {
+            "order_id": 229979,
+            "order_number": 1000831,
+            "order_number_formatted": "1000831",
+            "details": {
+                "order_id": 229979,
+                "order_number": 1000831,
+                "order_number_formatted": "1000831"
+            }
+        },
+        {
+            "order_id": 229983,
+            "order_number": 1000832,
+            "order_number_formatted": "1000832",
+            "details": {
+                "order_id": 229983,
+                "order_number": 1000832,
+                "order_number_formatted": "1000832"
+            }
+        }
+    ],
+    "tip_total": 0,
+    "cash_counter": {
+        "details": {
+            "1": {
+                "label": "&#36;1,00",
+                "value": 1,
+                "qty": 2,
+                "total": 0
+            },
+            "5": {
+                "label": "&#36;5,00",
+                "value": 5,
+                "qty": 3,
+                "total": 0
+            },
+            "10": {
+                "label": "&#36;10,00",
+                "value": 10,
+                "qty": 0,
+                "total": 0
+            },
+            "50": {
+                "label": "&#36;50,00",
+                "value": 50,
+                "qty": 5,
+                "total": 0
+            },
+            "100": {
+                "label": "&#36;100,00",
+                "value": 100,
+                "qty": 6,
+                "total": 0
+            },
+            "0.5": {
+                "label": "&#36;0,50",
+                "value": 0.5,
+                "qty": 4,
+                "total": 0
+            }
+        },
+        "total_qty": 20,
+        "total": 869
+    },
+    "additions": {}
+}

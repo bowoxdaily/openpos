@@ -1,0 +1,4433 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce OpenPos\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-24 07:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-6.0.1"
+
+#: lib/integration/grconnect.php:406
+msgid " discount"
+msgstr ""
+
+#: templates/admin/warehouse/inventory.php:15
+msgid " of "
+msgstr ""
+
+#: lib/class-op-woo.php:2378 lib/class-op-woo.php:2392
+msgid " POS Orders"
+msgstr ""
+
+#: lib/class-op-report.php:342 lib/class-op-report.php:504
+#: includes/admin/Admin.php:3541 includes/admin/Admin.php:3550
+#: includes/admin/Admin.php:4734 templates/admin/dashboard.php:258
+#: templates/admin/report/report_sales_table.php:8
+#: templates/admin/warehouse/adjust_stock.php:62
+msgid "#"
+msgstr ""
+
+#: templates/admin/tables.php:118
+msgid "% - Percentage Of table total"
+msgstr ""
+
+#: lib/class-op-woo-order.php:106 lib/class-op-woo-order.php:122
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. 1: product name 2: items in stock
+#: lib/class-op-warehouse.php:576
+#, php-format
+msgid "%1$s is low in stock. There are %2$d left."
+msgstr ""
+
+#: templates/admin/tables.php:182
+#, php-format
+msgid "%s / Order Total"
+msgstr ""
+
+#. %s: human-readable time difference
+#: includes/Core.php:1439 includes/Core.php:1462
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#. %s: product name
+#: lib/class-op-warehouse.php:617
+#, php-format
+msgid "%s is out of stock."
+msgstr ""
+
+#: includes/api/Cart.php:683 includes/front/Front.php:2954
+#, php-format
+msgid "<b>%s</b> discount value: <b>%s</b>"
+msgstr ""
+
+#: includes/admin/Admin.php:942
+msgid "<h2>Barcode Setting</h2>"
+msgstr ""
+
+#: includes/admin/Admin.php:826
+msgid "<h2>Sheet Setting</h2>"
+msgstr ""
+
+#: lib/class-op-update.php:377
+#, php-format
+msgid ""
+"<p>There is a new version of Woocommerce OpenPos available. <a href=\"%s\" "
+"class=\"thickbox open-plugin-details-modal\" aria-label=\"View Woocommerce "
+"OpenPos version %s details\">View version details</a>.</p>"
+msgstr ""
+
+#: lib/class-op-woo.php:5379 src/Models/User.php:45
+msgid "<strong>Error:</strong> Have multi user has same PIN."
+msgstr ""
+
+#: lib/class-op-woo.php:5368 lib/class-op-woo.php:5383 src/Models/User.php:42
+#: src/Models/User.php:49
+msgid "<strong>Error:</strong> Invalid PIN."
+msgstr ""
+
+#: lib/class-op-woo.php:5374
+msgid "<strong>Error:</strong> This user already login by other session."
+msgstr ""
+
+#: lib/class-op-woo.php:5387
+msgid "<strong>Error:</strong>Do not allow Login."
+msgstr ""
+
+#. %1$s: Order ID. %2$s: Order date
+#: templates/emails/plain/email-order-details.php:23
+#, php-format
+msgid "[Order #%1$s] (%2$s)"
+msgstr ""
+
+#. %s: Order ID.
+#: templates/emails/email-order-details.php:34
+#, php-format
+msgid "[Order #%s]"
+msgstr ""
+
+#: includes/admin/Admin.php:643
+msgid ""
+"[year] : current year, [month] : current month 01 -> 12, [day] : current day "
+"01 -> 31 , [register_id] : register id, [outlet_id] : outlet id, [cashier_id]"
+" : cashier id  "
+msgstr ""
+
+#: includes/Core.php:1585
+msgid "Abkhazian"
+msgstr ""
+
+#: lib/class-op-report.php:352 lib/class-op-report.php:578
+#: includes/admin/Admin.php:2792 templates/admin/stock.php:15
+#: templates/admin/products.php:20
+msgid "Action"
+msgstr ""
+
+#: templates/admin/warehouses.php:128 templates/admin/registers.php:122
+#: templates/admin/tables.php:133 templates/admin/tables.php:190
+#: templates/admin/receipt_templates.php:122
+#: templates/admin/warehouse/new.php:115
+msgid "Active"
+msgstr ""
+
+#: templates/admin/sessions.php:6
+msgid "Active Login Sessions"
+msgstr ""
+
+#: includes/admin/Admin.php:1106
+msgid "Add custom item , the item do not exist in your system from POS"
+msgstr ""
+
+#: includes/admin/Admin.php:534
+msgid ""
+"Add discount tax rate, this rate for cart discount and coupon discount on "
+"POS only"
+msgstr ""
+
+#: lib/class-op-woo.php:135
+msgid "Add New Custom Note"
+msgstr ""
+
+#: templates/help.php:7
+msgid "Add new customer"
+msgstr ""
+
+#: templates/admin/warehouses.php:65
+msgid "Add New Outlet"
+msgstr ""
+
+#: lib/class-op-woo.php:138
+msgid "Add or remove custom note"
+msgstr ""
+
+#: includes/admin/Admin.php:1119
+msgid "Add order note from POS"
+msgstr ""
+
+#: includes/Setting.php:42 includes/admin/Admin.php:294
+msgid "Add-on"
+msgstr ""
+
+#: includes/api/Order.php:957 includes/front/Front.php:2375
+msgid "Addition total for exchange items"
+msgstr ""
+
+#: lib/class-op-woo.php:396
+msgid "Additional information:"
+msgstr ""
+
+#: includes/admin/Admin.php:246
+msgid "Addons"
+msgstr ""
+
+#: lib/class-op-woo.php:2632 lib/class-op-woo.php:2634
+#: templates/admin/warehouses.php:167
+msgid "Address"
+msgstr ""
+
+#: lib/class-op-woo.php:2645 lib/class-op-woo.php:2647
+msgid "Address 2"
+msgstr ""
+
+#: templates/admin/warehouses.php:85 templates/admin/warehouses.php:87
+#: templates/admin/warehouse/new.php:72
+msgid "Address line 1"
+msgstr ""
+
+#: templates/admin/warehouses.php:92 templates/admin/warehouses.php:94
+#: templates/admin/warehouse/new.php:79
+msgid "Address line 2"
+msgstr ""
+
+#: templates/admin/warehouse/inventory.php:64
+#: templates/admin/warehouse/adjust_stock.php:20
+msgid "Adjust Stock"
+msgstr ""
+
+#: includes/Core.php:1586
+msgid "Afar"
+msgstr ""
+
+#: includes/Core.php:1587
+msgid "Afrikaans"
+msgstr ""
+
+#: includes/admin/Admin.php:551 includes/admin/Admin.php:785
+msgid "After Tax"
+msgstr ""
+
+#: includes/Core.php:1588
+msgid "Akan"
+msgstr ""
+
+#: includes/Core.php:1589
+msgid "Albanian"
+msgstr ""
+
+#: templates/admin/transactions.php:38 templates/admin/transactions.php:91
+#: templates/admin/stock.php:105 templates/admin/cashier.php:55
+#: templates/admin/products.php:63 templates/admin/orders.php:63
+#: templates/kitchen/view.php:24 templates/admin/warehouse/inventory.php:67
+msgid "All"
+msgstr ""
+
+#: includes/api/Table.php:501 includes/front/Front.php:5326
+msgid "All by waiter is busy. Pls try later"
+msgstr ""
+
+#: lib/class-op-woo.php:130
+msgid "All Custom Notes"
+msgstr ""
+
+#: templates/admin/report/report_form.php:91
+msgid "All methods"
+msgstr ""
+
+#: templates/admin/warehouses.php:162 templates/admin/report/report_form.php:59
+msgid "All Outlets"
+msgstr ""
+
+#: templates/admin/registers.php:137 templates/admin/report/report_form.php:71
+msgid "All Registers"
+msgstr ""
+
+#: templates/admin/dashboard.php:98
+msgid "All Sales"
+msgstr ""
+
+#: templates/admin/report/report_form.php:80
+msgid "All Staff"
+msgstr ""
+
+#: templates/admin/tables.php:61 templates/admin/tables.php:146
+msgid "All Tables"
+msgstr ""
+
+#: templates/admin/cashier.php:14
+msgid "All Users"
+msgstr ""
+
+#: templates/admin/stock.php:35
+msgid "All Warehouse"
+msgstr ""
+
+#: includes/admin/Admin.php:1105
+msgid "Allow Add Custom Item"
+msgstr ""
+
+#: includes/admin/Admin.php:1118
+msgid "Allow Add Order Note"
+msgstr ""
+
+#: includes/admin/Admin.php:1183
+msgid ""
+"Allow change product price on POS panel. Require refresh product list to "
+"take effect."
+msgstr ""
+
+#: includes/admin/Admin.php:7578
+msgid "Allow Decimal Qty"
+msgstr ""
+
+#: includes/admin/Admin.php:1329
+msgid "Allow Digital Scale"
+msgstr ""
+
+#: includes/admin/Admin.php:758
+msgid "Allow Exchange"
+msgstr ""
+
+#: includes/admin/Admin.php:759
+msgid "Allow exchange for order made by current session"
+msgstr ""
+
+#: includes/admin/Admin.php:763
+msgid "Allow for current session"
+msgstr ""
+
+#: includes/admin/Admin.php:420
+msgid "Allow LayBuy"
+msgstr ""
+
+#: includes/admin/Admin.php:1171
+msgid "Allow Negative Qty"
+msgstr ""
+
+#: includes/admin/Admin.php:1172
+msgid "Allow negative qty , grand total  use as refund"
+msgstr ""
+
+#: includes/admin/Admin.php:423
+msgid "Allow Order with Pay Later"
+msgstr ""
+
+#: includes/admin/Admin.php:434
+msgid "Allow Order with Tipping"
+msgstr ""
+
+#: includes/admin/Admin.php:7587
+msgid "Allow print decal"
+msgstr ""
+
+#: includes/admin/Admin.php:745
+msgid "Allow Refund"
+msgstr ""
+
+#: includes/admin/Admin.php:455
+msgid "Allow return cash with remain money amount after exchange"
+msgstr ""
+
+#: includes/admin/Admin.php:1330
+msgid "Allow scan barcode with label generate by digital scale"
+msgstr ""
+
+#: includes/admin/Admin.php:431
+msgid "Allow Tipping"
+msgstr ""
+
+#: includes/admin/Admin.php:1182
+msgid "Allow Update Price"
+msgstr ""
+
+#: includes/admin/Admin.php:751
+msgid "Allow with durations"
+msgstr ""
+
+#: includes/admin/Admin.php:764
+msgid "Alway Allow"
+msgstr ""
+
+#: includes/admin/Admin.php:750
+msgid "Always allow"
+msgstr ""
+
+#: includes/Core.php:1590
+msgid "Amharic"
+msgstr ""
+
+#: includes/api/Transaction.php:389 includes/front/Front.php:5042
+#, php-format
+msgid "Amount not match with remain amount: %s"
+msgstr ""
+
+#: includes/api/Transaction.php:393 includes/front/Front.php:5046
+msgid "Amount value is incorrect"
+msgstr ""
+
+#: templates/admin/warehouses.php:95 templates/admin/warehouse/new.php:82
+msgid "An additional, optional address line for your business location."
+msgstr ""
+
+#. Author of the plugin
+msgid "anhvnit@gmail.com"
+msgstr ""
+
+#: includes/Core.php:1591
+msgid "Arabic"
+msgstr ""
+
+#: includes/Core.php:1592
+msgid "Aragonese"
+msgstr ""
+
+#: templates/admin/transactions.php:118
+msgid "Are you sure ?"
+msgstr ""
+
+#: templates/admin/orders.php:90
+msgid "Are you sure ? "
+msgstr ""
+
+#: templates/kitchen/view.php:21
+msgid "Area"
+msgstr ""
+
+#: includes/Core.php:1593
+msgid "Armenian"
+msgstr ""
+
+#: includes/Core.php:1594
+msgid "Assamese"
+msgstr ""
+
+#: lib/class-op-woo.php:4211
+msgid "AT"
+msgstr ""
+
+#: includes/admin/Admin.php:1150
+msgid ""
+"Auto clear product list on your local data after logout. Recommend set to "
+"\"No\" if you have > 500 products."
+msgstr ""
+
+#: includes/admin/Admin.php:1303
+msgid "Auto Suggestion"
+msgstr ""
+
+#: includes/admin/Admin.php:1254
+msgid ""
+"Auto suggestion customer search when type word in customer search. Once "
+"disable, cashier should click \"Enter\" to start search"
+msgstr ""
+
+#: includes/admin/Admin.php:1265
+msgid ""
+"Auto suggestion when type word in product search. Once disable, cashier "
+"should click \"Enter\" to start search"
+msgstr ""
+
+#: includes/admin/Admin.php:1139
+msgid "Auto sync product qty by running process in background"
+msgstr ""
+
+#: includes/Core.php:1595
+msgid "Avaric"
+msgstr ""
+
+#: includes/Core.php:1596
+msgid "Avestan"
+msgstr ""
+
+#: includes/Core.php:1597
+msgid "Aymara"
+msgstr ""
+
+#: includes/Core.php:1598
+msgid "Azerbaijani"
+msgstr ""
+
+#: templates/admin/warehouse/new.php:54
+msgid "Back"
+msgstr ""
+
+#: templates/admin/registers.php:144
+msgid "Balance"
+msgstr ""
+
+#: includes/Core.php:1599
+msgid "Bambara"
+msgstr ""
+
+#: lib/class-op-woo.php:4306
+msgid "Bar Drink"
+msgstr ""
+
+#: includes/admin/Admin.php:6907 includes/admin/Admin.php:6917
+msgid "BARCODE"
+msgstr ""
+
+#: lib/class-op-woo.php:2217 templates/admin/stock.php:10
+#: templates/admin/products.php:16 templates/admin/warehouse/inventory.php:23
+#: templates/admin/warehouse/adjust_stock.php:36
+#: templates/admin/warehouse/adjust_stock.php:60
+msgid "Barcode"
+msgstr ""
+
+#: includes/admin/Admin.php:809
+msgid ""
+"Barcode field . Make sure the data is unique on meta key you are selected"
+msgstr ""
+
+#: templates/admin/print_barcode.php:106
+msgid "Barcode Image Size ( w x h ):"
+msgstr ""
+
+#: includes/Setting.php:28 includes/admin/Admin.php:278
+#: includes/api/Auth.php:82
+msgid "Barcode Label"
+msgstr ""
+
+#: templates/admin/print_barcode.php:47
+msgid "Barcode Label Composer"
+msgstr ""
+
+#: includes/admin/Admin.php:808
+msgid "Barcode Meta Key"
+msgstr ""
+
+#: lib/class-op-woo.php:2219 lib/class-op-woo.php:2257
+msgid "Barcode refers to use in POS panel."
+msgstr ""
+
+#: includes/Core.php:1600
+msgid "Bashkir"
+msgstr ""
+
+#: includes/Core.php:1601
+msgid "Basque"
+msgstr ""
+
+#: includes/admin/Admin.php:552 includes/admin/Admin.php:786
+msgid "Before Tax"
+msgstr ""
+
+#: includes/Core.php:1602
+msgid "Belarusian"
+msgstr ""
+
+#: includes/Core.php:1603
+msgid "Bengali"
+msgstr ""
+
+#: includes/Core.php:1604
+msgid "Bihari"
+msgstr ""
+
+#: includes/admin/Admin.php:213
+msgid "Bill base"
+msgstr ""
+
+#: bill/index.php:64 lib/class-op-register.php:381 templates/front/bill.php:20
+msgid "Bill Screen"
+msgstr ""
+
+#: templates/emails/receipt.php:295
+msgid "Billing Address"
+msgstr ""
+
+#: lib/class-op-woo.php:2176
+msgid "Billing: "
+msgstr ""
+
+#: includes/Core.php:1605
+msgid "Bislama"
+msgstr ""
+
+#: includes/Core.php:1606
+msgid "Bosnian"
+msgstr ""
+
+#: templates/admin/receipt_template_composer.php:43
+msgid "Bottom"
+msgstr ""
+
+#: includes/Core.php:1607
+msgid "Breton"
+msgstr ""
+
+#: includes/Core.php:1608
+msgid "Bulgarian"
+msgstr ""
+
+#: lib/class-op-warehouse.php:132
+msgid "Bulk OpenPOS product instore"
+msgstr ""
+
+#: includes/Core.php:1609
+msgid "Burmese"
+msgstr ""
+
+#: lib/class-op-woo.php:4212
+msgid "BY"
+msgstr ""
+
+#: templates/admin/transactions.php:24 templates/admin/orders.php:19
+#: templates/admin/report/report_transactions_table.php:13
+msgid "By"
+msgstr ""
+
+#: templates/admin/woocommerce/order_exchanges.php:5
+msgid "by"
+msgstr ""
+
+#: includes/admin/Admin.php:1061
+msgid "Cafe / Restaurant"
+msgstr ""
+
+#: includes/api/Order.php:639 includes/front/Front.php:2490
+msgid "Can not create order."
+msgstr ""
+
+#: lib/class-op-receipt.php:817
+msgid "Can not send receipt"
+msgstr ""
+
+#: lib/class-op-woo.php:5058
+msgid "Cancel"
+msgstr ""
+
+#: templates/admin/report/print_x_report.php:179
+msgid "Cart Discount"
+msgstr ""
+
+#: includes/admin/Admin.php:780
+msgid "Cart Discount Calculation"
+msgstr ""
+
+#: includes/admin/Admin.php:781
+msgid "Cart discount calculation base on"
+msgstr ""
+
+#: includes/api/Cart.php:266 includes/front/Front.php:3573
+msgid "Cart Not Found"
+msgstr ""
+
+#: includes/api/Cart.php:165 includes/api/Cart.php:179
+#: includes/api/Cart.php:194 includes/front/Front.php:3684
+#: includes/front/Front.php:3698 includes/front/Front.php:3713
+#: includes/front/Front.php:3946
+msgid "Cart Not found"
+msgstr ""
+
+#: lib/op-payment.php:26 includes/admin/Admin.php:2401
+#: includes/admin/Admin.php:3601 includes/admin/Admin.php:4570
+#: templates/admin/report/report_form.php:6
+msgid "Cash"
+msgstr ""
+
+#: templates/admin/dashboard.php:286
+msgid "Cash Balance"
+msgstr ""
+
+#: lib/op-payment.php:27 lib/op-payment.php:35
+msgid "Cash method use for POS only."
+msgstr ""
+
+#: templates/admin/transactions.php:13
+msgid "Cash Transactions"
+msgstr ""
+
+#: bill/index.php:73 lib/class-op-report.php:369 lib/class-op-report.php:509
+#: includes/admin/Admin.php:3530 includes/admin/Admin.php:3725
+#: includes/admin/Admin.php:3780 includes/admin/Admin.php:4027
+#: includes/admin/Admin.php:4078 includes/admin/Admin.php:4369
+#: includes/admin/Admin.php:4377 includes/admin/Admin.php:4729
+#: includes/admin/Admin.php:4738 templates/front/bill.php:29
+#: templates/admin/report/report_sales_table.php:12
+msgid "Cashier"
+msgstr ""
+
+#: lib/class-op-register.php:338
+msgid "Cashier Mode"
+msgstr ""
+
+#: includes/admin/Admin.php:3981
+msgid "Cashier sales"
+msgstr ""
+
+#: templates/admin/registers.php:90 templates/admin/registers.php:142
+msgid "Cashiers"
+msgstr ""
+
+#: includes/Core.php:1610
+msgid "Catalan"
+msgstr ""
+
+#: includes/admin/Admin.php:579 includes/admin/Admin.php:593
+msgid "Categories"
+msgstr ""
+
+#: includes/admin/Admin.php:1088
+msgid "Category Grid Size"
+msgstr ""
+
+#: includes/Core.php:1611
+msgid "Chamorro"
+msgstr ""
+
+#: includes/Core.php:1612
+msgid "Chechen"
+msgstr ""
+
+#: includes/Core.php:1613
+msgid "Chichewa"
+msgstr ""
+
+#: includes/Core.php:1614
+msgid "Chinese"
+msgstr ""
+
+#: includes/Core.php:1615
+msgid "Chinese (Simplified)"
+msgstr ""
+
+#: includes/Core.php:1616
+msgid "Chinese (Traditional)"
+msgstr ""
+
+#: includes/Core.php:1490 includes/Core.php:1491
+msgid "Chip & PIN"
+msgstr ""
+
+#: templates/admin/stock.php:41
+msgid "Choose"
+msgstr ""
+
+#: lib/class-op-setting.php:850
+msgid "Choose Categories"
+msgstr ""
+
+#: lib/class-op-woo.php:2730
+msgid "Choose Country"
+msgstr ""
+
+#: lib/class-op-woo.php:139
+msgid "Choose from the most used notes"
+msgstr ""
+
+#: templates/admin/warehouses.php:237 templates/admin/tables.php:230
+msgid "Choose register"
+msgstr ""
+
+#: templates/admin/warehouses.php:246 templates/admin/tables.php:239
+msgid "Choose register and click Generate button"
+msgstr ""
+
+#: includes/admin/Admin.php:489
+msgid "Choose Tax Rate"
+msgstr ""
+
+#: includes/admin/Admin.php:530
+msgid "Choose tax rate"
+msgstr ""
+
+#: templates/admin/stock.php:32
+msgid "Choose Warehouse"
+msgstr ""
+
+#: includes/Core.php:1709
+msgid "Church Slavic"
+msgstr ""
+
+#: includes/Core.php:1617
+msgid "Chuvash"
+msgstr ""
+
+#: lib/class-op-woo.php:2669 lib/class-op-woo.php:2671
+#: templates/admin/warehouses.php:99 templates/admin/warehouses.php:101
+#: templates/admin/warehouse/new.php:86
+msgid "City"
+msgstr ""
+
+#: templates/admin/sessions.php:10
+msgid "Clear All"
+msgstr ""
+
+#: lib/class-op-woo.php:169
+msgid "Clear Cache"
+msgstr ""
+
+#: templates/help.php:11
+msgid "Clear Cart"
+msgstr ""
+
+#: lib/class-op-woo.php:168
+msgid "Clear OpenPOS product Cache"
+msgstr ""
+
+#: includes/Core.php:1992
+msgid "Clear OpenPOS Product cache success"
+msgstr ""
+
+#: includes/admin/Admin.php:1149
+msgid "Clear Product List "
+msgstr ""
+
+#: includes/Core.php:1565
+msgid ""
+"Click Generate to get a reference order number. Then process the payment "
+"using your chip & PIN device."
+msgstr ""
+
+#: templates/admin/warehouse/adjust_stock.php:46
+msgid "Click here to get to import with csv file"
+msgstr ""
+
+#: includes/admin/Admin.php:1039
+msgid "click here to preview receipt"
+msgstr ""
+
+#: lib/class-op-report.php:237 lib/class-op-report.php:344
+#: lib/class-op-report.php:563 lib/class-op-report.php:574
+#: lib/class-op-report.php:1186
+msgid "Clock IN"
+msgstr ""
+
+#: lib/class-op-report.php:238 lib/class-op-report.php:345
+#: lib/class-op-report.php:564 lib/class-op-report.php:575
+#: lib/class-op-report.php:1187
+msgid "Clock OUT"
+msgstr ""
+
+#: lib/class-op-setting.php:877 templates/admin/warehouses.php:374
+#: templates/admin/tables.php:401
+msgid "Close"
+msgstr ""
+
+#: lib/class-op-report.php:240 lib/class-op-report.php:347
+#: templates/admin/report/print_x_report.php:112
+msgid "Close Cash"
+msgstr ""
+
+#: templates/help.php:17
+msgid "Close current Popup window"
+msgstr ""
+
+#: templates/admin/report/print_x_report.php:104
+msgid "Close Time"
+msgstr ""
+
+#: includes/api/Order.php:1595 includes/api/Order.php:1733
+#: includes/front/Front.php:3129
+msgid "Closed from POS"
+msgstr ""
+
+#: templates/kitchen/view.php:115
+msgid "Columns"
+msgstr ""
+
+#: templates/admin/receipt_templates.php:160
+msgid "Composer"
+msgstr ""
+
+#: templates/admin/receipt_template_composer.php:9
+msgid "Composer Receipt"
+msgstr ""
+
+#: customer/index.php:86
+msgid "Confirmed"
+msgstr ""
+
+#: templates/admin/warehouses.php:133 templates/admin/warehouse/new.php:120
+msgid "Contact Information"
+msgstr ""
+
+#: includes/admin/Admin.php:734
+msgid "Continue Checkout Order Status"
+msgstr ""
+
+#: includes/Core.php:1618
+msgid "Cornish"
+msgstr ""
+
+#: includes/Core.php:1619
+msgid "Corsican"
+msgstr ""
+
+#: lib/class-op-woo-cart.php:220 lib/class-op-woo-cart.php:327
+#: templates/admin/tables.php:109
+msgid "Cost"
+msgstr ""
+
+#: includes/admin/Admin.php:7530
+msgid "Cost price"
+msgstr ""
+
+#: includes/admin/Admin.php:7504 includes/admin/Admin.php:7532
+msgid "Cost price - Use to get commision report"
+msgstr ""
+
+#: lib/class-op-woo.php:2728
+msgid "Country"
+msgstr ""
+
+#: templates/admin/warehouses.php:106 templates/admin/warehouse/new.php:93
+msgid "Country / State"
+msgstr ""
+
+#: includes/api/Cart.php:557 includes/front/Front.php:2828
+#, php-format
+msgid "Coupon %s is invidual use"
+msgstr ""
+
+#: includes/api/Cart.php:631 includes/front/Front.php:2902
+msgid "Coupon code has been expired"
+msgstr ""
+
+#: templates/admin/report/report_transactions_table.php:12
+msgid "Create At"
+msgstr ""
+
+#: lib/class-op-woo-order.php:2370
+msgid "Create via OpenPos"
+msgstr ""
+
+#: lib/class-op-report.php:370 lib/class-op-report.php:510
+#: includes/admin/Admin.php:3531 includes/admin/Admin.php:3546
+#: includes/admin/Admin.php:3556 includes/admin/Admin.php:3726
+#: includes/admin/Admin.php:3781 includes/admin/Admin.php:4028
+#: includes/admin/Admin.php:4079 includes/admin/Admin.php:4370
+#: includes/admin/Admin.php:4378 includes/admin/Admin.php:4730
+#: includes/admin/Admin.php:4739 templates/admin/transactions.php:25
+#: templates/admin/dashboard.php:262 templates/admin/receipt_templates.php:144
+msgid "Created At"
+msgstr ""
+
+#: templates/admin/report/report_sales_table.php:13
+msgid "Created At "
+msgstr ""
+
+#: includes/admin/Admin.php:3547 includes/admin/Admin.php:3557
+#: templates/admin/receipt_templates.php:143
+msgid "Created By"
+msgstr ""
+
+#: lib/class-op-woo-order.php:113
+#, php-format
+msgid "Created Order  %1$s"
+msgstr ""
+
+#: includes/Core.php:1620
+msgid "Cree"
+msgstr ""
+
+#: includes/Core.php:1621
+msgid "Croatian"
+msgstr ""
+
+#: templates/admin/receipt_template_composer.php:59
+msgid "CSS"
+msgstr ""
+
+#: includes/admin/Admin.php:3555
+msgid "Currency"
+msgstr ""
+
+#: templates/admin/warehouses.php:247
+msgid "Current Outlet"
+msgstr ""
+
+#: includes/admin/Admin.php:7644 includes/admin/Admin.php:7682
+#, php-format
+msgid "Current PIN %s"
+msgstr ""
+
+#: templates/admin/tables.php:240
+msgid "Current Table"
+msgstr ""
+
+#: templates/admin/report/report_form.php:109
+msgid "custom"
+msgstr ""
+
+#: lib/class-op-woo.php:140
+msgid "Custom Notes"
+msgstr ""
+
+#: includes/admin/Admin.php:701
+msgid "Custom Order Number"
+msgstr ""
+
+#: includes/admin/Admin.php:702
+msgid "Custom Sequential Order Numbers for Order create via POS"
+msgstr ""
+
+#: lib/class-op-woo.php:2035
+msgid "Custom Shipping"
+msgstr ""
+
+#: includes/admin/Admin.php:1208
+msgid "Custom style for POS with CSS"
+msgstr ""
+
+#: templates/admin/transactions.php:43
+msgid "Custom transactions"
+msgstr ""
+
+#: lib/class-op-report.php:368 lib/class-op-report.php:508
+#: includes/admin/Admin.php:4725 templates/admin/dashboard.php:259
+#: templates/admin/orders.php:16
+msgid "Customer"
+msgstr ""
+
+#: includes/admin/Admin.php:1253
+msgid "Customer Autocomplete"
+msgstr ""
+
+#: includes/api/Order.php:1457 includes/api/Order.php:1462
+#: includes/front/Front.php:1953 includes/front/Front.php:2041
+#: includes/front/Front.php:2046
+msgid "Customer do not exist"
+msgstr ""
+
+#: lib/class-op-register.php:340
+msgid "Customer Mode - Submit Order"
+msgstr ""
+
+#: includes/api/Customer.php:270 includes/api/Customer.php:420
+msgid "Customer not found"
+msgstr ""
+
+#: lib/class-op-report.php:366 lib/class-op-report.php:506
+msgid "Customer Paid"
+msgstr ""
+
+#: includes/Core.php:1622
+msgid "Czech"
+msgstr ""
+
+#: includes/Core.php:1623
+msgid "Danish"
+msgstr ""
+
+#: templates/kitchen/view.php:103
+msgid "Dark mode"
+msgstr ""
+
+#: lib/class-op-report.php:561 lib/class-op-report.php:572
+#: includes/admin/Admin.php:3108 includes/admin/Admin.php:3251
+#: includes/admin/Admin.php:3790 includes/admin/Admin.php:4087
+#: includes/admin/Admin.php:4383 includes/admin/Admin.php:5371
+#: templates/admin/orders.php:17 templates/admin/report/report_form.php:114
+msgid "Date"
+msgstr ""
+
+#: lib/class-op-report.php:1152 lib/class-op-report.php:1157
+msgid "Date is invalid"
+msgstr ""
+
+#: lib/class-op-report.php:367 lib/class-op-report.php:507
+msgid "Debit"
+msgstr ""
+
+#: templates/admin/dashboard.php:304
+msgid "Debit Balance"
+msgstr ""
+
+#: templates/admin/report/report_form.php:49
+msgid "Debit Report"
+msgstr ""
+
+#: templates/admin/tables.php:103
+msgid "Default"
+msgstr ""
+
+#: includes/admin/Admin.php:600
+msgid "Default Dashboard Display"
+msgstr ""
+
+#: includes/admin/Admin.php:601
+msgid ""
+"Default display for POS , in case category please set category item on "
+"category setting"
+msgstr ""
+
+#: includes/admin/Admin.php:1056
+msgid ""
+"Default display for POS , their are table management in cafe/restaurant type"
+msgstr ""
+
+#: includes/admin/Admin.php:588
+msgid "Default display for table / takeaway"
+msgstr ""
+
+#: includes/admin/Admin.php:1098
+msgid ""
+"Default language on POS. To translate goto pos/assets/i18n/_you_lang.json "
+"and update this file"
+msgstr ""
+
+#: includes/admin/Admin.php:1069
+msgid "Default login mode"
+msgstr ""
+
+#: includes/admin/Admin.php:1048
+msgid "Default Logo for POS Panel (ex: 100x50)"
+msgstr ""
+
+#: lib/class-op-warehouse.php:148 lib/class-op-warehouse.php:186
+msgid "Default online store"
+msgstr ""
+
+#: templates/admin/registers.php:84
+msgid "Default online store = Online woocommerce website stock"
+msgstr ""
+
+#: includes/admin/Admin.php:1097
+msgid "Default POS Language"
+msgstr ""
+
+#: includes/admin/Admin.php:652
+msgid "Default Shipping methods for POS beside Store pickup"
+msgstr ""
+
+#: templates/admin/warehouses.php:109 templates/admin/warehouse/new.php:96
+msgid "Default store"
+msgstr ""
+
+#: includes/admin/Admin.php:587
+msgid "Default Table View"
+msgstr ""
+
+#: lib/class-op-receipt.php:528 lib/class-op-receipt.php:540
+#: lib/class-op-receipt.php:566 lib/class-op-receipt.php:578
+#: lib/class-op-receipt.php:591
+msgid "Default Template"
+msgstr ""
+
+#: lib/class-op-receipt.php:533 lib/class-op-receipt.php:546
+msgid ""
+"Default template = Use receipt template setting at : "
+"admin/pos/setting/receipt template setting"
+msgstr ""
+
+#: lib/class-op-warehouse.php:689 lib/class-op-register.php:365
+#: templates/admin/tables.php:175 templates/admin/receipt_templates.php:164
+#: templates/admin/warehouse/adjust_stock.php:154
+#: templates/admin/warehouse/adjust_stock.php:238
+msgid "Delete"
+msgstr ""
+
+#: templates/admin/warehouses.php:259
+msgid "Delete outlet. Are you sure ?"
+msgstr ""
+
+#: includes/api/Table.php:544 includes/front/Front.php:5397
+msgid "Deleted."
+msgstr ""
+
+#: lib/class-op-receipt.php:67 lib/class-op-receipt.php:575
+msgid "Delivery Receipt"
+msgstr ""
+
+#: lib/class-op-receipt.php:544 lib/class-op-receipt.php:595
+msgid "Disable"
+msgstr ""
+
+#: includes/Core.php:1898 includes/Core.php:1932
+msgid "Discount"
+msgstr ""
+
+#: includes/admin/Admin.php:511
+msgid "Discount Tax Class"
+msgstr ""
+
+#: includes/admin/Admin.php:512
+msgid "Discount Tax Class, both cart discount and coupon. It for POS only"
+msgstr ""
+
+#: includes/admin/Admin.php:533
+msgid "Discount Tax Rate"
+msgstr ""
+
+#: lib/class-op-woo.php:4307
+msgid "Display on Bar View"
+msgstr ""
+
+#: lib/class-op-woo.php:4302
+msgid "Display on Kitchen View"
+msgstr ""
+
+#: includes/admin/Admin.php:1160
+msgid "Display Out of stock"
+msgstr ""
+
+#: includes/admin/Admin.php:1161
+msgid "Display out of stock product in POS panel"
+msgstr ""
+
+#: includes/Core.php:1624
+msgid "Divehi"
+msgstr ""
+
+#: includes/admin/Admin.php:715
+msgid "Don't allow checkout out of stock product in POS"
+msgstr ""
+
+#: lib/class-op-woo-order.php:2399 lib/class-op-woo-order.php:2404
+#: includes/front/Front.php:2719
+msgid "Done via OpenPos"
+msgstr ""
+
+#: lib/class-op-woo.php:2983
+msgid "Done via website"
+msgstr ""
+
+#: templates/admin/warehouse/adjust_stock.php:47
+msgid "Download sample csv file"
+msgstr ""
+
+#: templates/admin/receipt_templates.php:166
+msgid "Duplicate"
+msgstr ""
+
+#: templates/admin/report/report_form.php:100
+msgid "Duration"
+msgstr ""
+
+#: includes/Core.php:1625
+msgid "Dutch"
+msgstr ""
+
+#: includes/Core.php:1626
+msgid "Dzongkha"
+msgstr ""
+
+#: lib/class-op-woo.php:5040 lib/class-op-warehouse.php:685
+#: lib/class-op-register.php:361 templates/admin/tables.php:173
+#: templates/admin/receipt_templates.php:162
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/Admin.php:1647 includes/admin/Admin.php:1661
+#: includes/admin/Admin.php:2206 includes/admin/Admin.php:2220
+msgid "edit"
+msgstr ""
+
+#: lib/class-op-woo.php:133
+msgid "Edit Custom Notes"
+msgstr ""
+
+#: templates/admin/warehouses.php:61
+msgid "Edit Outlet"
+msgstr ""
+
+#: templates/admin/registers.php:65
+msgid "Edit Register"
+msgstr ""
+
+#: templates/admin/tables.php:66
+msgid "Edit Table"
+msgstr ""
+
+#: templates/admin/receipt_templates.php:96
+msgid "Edit template"
+msgstr ""
+
+#: includes/admin/Admin.php:3737 includes/admin/Admin.php:3746
+#: includes/admin/Admin.php:4039 includes/admin/Admin.php:4046
+#: templates/admin/warehouses.php:135 templates/admin/warehouses.php:137
+#: templates/admin/cashier.php:24 templates/admin/report/print_x_report.php:91
+#: templates/admin/warehouse/new.php:122
+msgid "Email"
+msgstr ""
+
+#: includes/Core.php:1627
+msgid "English"
+msgstr ""
+
+#: lib/class-op-update.php:164
+msgid "Enter your Envato Purchase Code to enable automatic updates."
+msgstr ""
+
+#: includes/Core.php:1628
+msgid "Esperanto"
+msgstr ""
+
+#: includes/Core.php:1629
+msgid "Estonian"
+msgstr ""
+
+#: includes/Core.php:1630
+msgid "Ewe"
+msgstr ""
+
+#: includes/admin/Admin.php:232
+msgid "Example: <code>/bill</code>.Leave empty to use plain url"
+msgstr ""
+
+#: includes/admin/Admin.php:227
+msgid "Example: <code>/kitchen</code>.Leave empty to use plain url"
+msgstr ""
+
+#: includes/admin/Admin.php:237
+msgid "Example: <code>/openpos</code>.Leave empty to use plain url"
+msgstr ""
+
+#: lib/class-op-exchange.php:76
+#, php-format
+msgid "Exchange &ndash; %s"
+msgstr ""
+
+#: includes/api/Order.php:948 includes/front/Front.php:2366
+msgid "Exchange Fee"
+msgstr ""
+
+#: lib/class-op-exchange.php:177
+#, php-format
+msgid "Exchange order   &ndash; %s"
+msgstr ""
+
+#: templates/admin/stock.php:102
+#: templates/admin/receipt_template_composer.php:110
+#: templates/admin/warehouse/inventory.php:64
+msgid "Export"
+msgstr ""
+
+#: templates/admin/report/report_form.php:138
+msgid "Export CSV"
+msgstr ""
+
+#: templates/admin/warehouses.php:147 templates/admin/warehouses.php:149
+#: templates/admin/warehouse/new.php:134
+msgid "Facebook"
+msgstr ""
+
+#: includes/Core.php:1631
+msgid "Faroese"
+msgstr ""
+
+#: includes/admin/Admin.php:567
+msgid "Fee Tax Class"
+msgstr ""
+
+#: includes/admin/Admin.php:568
+msgid "Fee Tax Class. It for POS only"
+msgstr ""
+
+#: includes/Core.php:1632
+msgid "Fijian"
+msgstr ""
+
+#: lib/class-op-woo.php:2375 lib/class-op-woo.php:2389
+msgid "Filter by Source"
+msgstr ""
+
+#: includes/Core.php:1633
+msgid "Finnish"
+msgstr ""
+
+#: templates/help.php:5
+msgid "Focus barcode / product search"
+msgstr ""
+
+#: templates/help.php:6
+msgid "Focus customer search"
+msgstr ""
+
+#: includes/Core.php:1634
+msgid "French"
+msgstr ""
+
+#: templates/admin/report/report_form.php:119
+msgid "From"
+msgstr ""
+
+#: includes/Core.php:1635
+msgid "Fulah"
+msgstr ""
+
+#: includes/api/Transaction.php:376 includes/front/Front.php:5034
+msgid "Full Payment via OpenPos"
+msgstr ""
+
+#: includes/Core.php:1637
+msgid "Gaelic"
+msgstr ""
+
+#: includes/Core.php:1636
+msgid "Galician"
+msgstr ""
+
+#: includes/Core.php:1686
+msgid "Ganda"
+msgstr ""
+
+#: includes/Setting.php:16 includes/admin/Admin.php:266
+#: includes/api/Auth.php:70
+msgid "General"
+msgstr ""
+
+#: templates/admin/warehouses.php:76 templates/admin/warehouse/new.php:63
+msgid "General Information"
+msgstr ""
+
+#: templates/admin/warehouses.php:371 templates/admin/tables.php:398
+msgid "Generate"
+msgstr ""
+
+#: includes/admin/Admin.php:7680
+msgid "Generate PIN"
+msgstr ""
+
+#: includes/Core.php:1639
+msgid "Georgian"
+msgstr ""
+
+#: includes/Core.php:1640
+msgid "German"
+msgstr ""
+
+#: templates/admin/report/report_form.php:139
+msgid "Get Report"
+msgstr ""
+
+#: lib/class-op-receipt.php:537
+msgid "Gift Receipt"
+msgstr ""
+
+#: templates/help.php:12
+msgid "Goto checkout"
+msgstr ""
+
+#: templates/admin/dashboard.php:219
+msgid "Goto POS"
+msgstr ""
+
+#: bill/index.php:79 includes/Core.php:1942 lib/class-op-report.php:365
+#: lib/class-op-report.php:505 includes/admin/Admin.php:3527
+#: includes/admin/Admin.php:3722 includes/admin/Admin.php:3777
+#: includes/admin/Admin.php:4025 includes/admin/Admin.php:4076
+#: includes/admin/Admin.php:4367 includes/admin/Admin.php:4375
+#: includes/admin/Admin.php:4726 includes/admin/Admin.php:4735
+#: templates/admin/dashboard.php:260 templates/front/bill.php:35
+#: templates/admin/report/report_sales_table.php:9
+msgid "Grand Total"
+msgstr ""
+
+#: includes/Core.php:1641
+msgid "Greek"
+msgstr ""
+
+#: includes/admin/Admin.php:1089
+msgid "Grid Size for Categories (column x row)   on POS Panel"
+msgstr ""
+
+#: includes/admin/Admin.php:1080
+msgid "Grid Size for Products (column x row)  on POS Panel"
+msgstr ""
+
+#: includes/admin/Admin.php:1060
+msgid "Grocery"
+msgstr ""
+
+#: includes/admin/Admin.php:612
+msgid "GTIN, UPC, EAN or ISBN"
+msgstr ""
+
+#: includes/Core.php:1643
+msgid "Guarani"
+msgstr ""
+
+#: lib/class-op-report.php:428 includes/admin/Admin.php:2670
+#: includes/admin/Admin.php:4839 includes/admin/Admin.php:5576
+msgid "Guest"
+msgstr ""
+
+#: includes/front/Front.php:5140
+#, php-format
+msgid "Guest Takeway: %s"
+msgstr ""
+
+#: includes/Core.php:1644
+msgid "Gujarati"
+msgstr ""
+
+#: includes/Core.php:1645
+msgid "Haitian"
+msgstr ""
+
+#: includes/Core.php:1646
+msgid "Hausa"
+msgstr ""
+
+#: includes/api/Product.php:603 includes/front/Front.php:4721
+#, php-format
+msgid "Have no product with barcode \"%s\". Please check again!"
+msgstr ""
+
+#: includes/Core.php:1647
+msgid "Hebrew"
+msgstr ""
+
+#: includes/admin/Admin.php:968
+msgid "Height"
+msgstr ""
+
+#: includes/admin/Admin.php:1201
+msgid "Height of image in pos in px"
+msgstr ""
+
+#: lib/app/class-op-help.php:15
+msgid "Help"
+msgstr ""
+
+#: templates/emails/receipt.php:181
+msgid ""
+"Here is a summary of your recent order. If you have any questions or "
+"concerns about your order."
+msgstr ""
+
+#: includes/Core.php:1648
+msgid "Herero"
+msgstr ""
+
+#. %s: Customer first name
+#: templates/emails/customer-completed-order.php:28
+#: templates/emails/plain/customer-completed-order.php:25
+#, php-format
+msgid "Hi %s,"
+msgstr ""
+
+#: includes/Core.php:1649
+msgid "Hindi"
+msgstr ""
+
+#: templates/admin/tables.php:104
+msgid "Hire"
+msgstr ""
+
+#: includes/Core.php:1650
+msgid "Hiri Motu"
+msgstr ""
+
+#: includes/admin/Admin.php:853
+msgid "Horizontal Space"
+msgstr ""
+
+#: templates/admin/print_barcode.php:74
+msgid "Horizontal Spacing:"
+msgstr ""
+
+#: templates/help.php:3
+msgid "Hot Keys"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://wpos.app"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://wpos.app/"
+msgstr ""
+
+#: includes/Core.php:1651
+msgid "Hungarian"
+msgstr ""
+
+#: includes/front/Front.php:5213
+msgid "I need a help!"
+msgstr ""
+
+#: includes/front/Front.php:5213
+msgid "I want to pay!"
+msgstr ""
+
+#: includes/Core.php:1652
+msgid "Icelandic"
+msgstr ""
+
+#: lib/class-op-woo.php:4208 includes/admin/Admin.php:3525
+#: includes/admin/Admin.php:6906 includes/admin/Admin.php:6916
+#: templates/admin/transactions.php:18 templates/admin/sessions.php:18
+#: templates/admin/stock.php:9 templates/admin/cashier.php:22
+#: templates/admin/products.php:15 templates/admin/orders.php:15
+#: templates/admin/report/report_transactions_table.php:7
+#: templates/admin/warehouse/inventory.php:22
+msgid "ID"
+msgstr ""
+
+#: includes/Core.php:1653
+msgid "Ido"
+msgstr ""
+
+#: includes/Core.php:1654
+msgid "Igbo"
+msgstr ""
+
+#: templates/admin/receipt_template_composer.php:110
+msgid "Import"
+msgstr ""
+
+#: lib/class-op-woo.php:4209 includes/admin/Admin.php:3543
+#: includes/admin/Admin.php:3552 templates/admin/transactions.php:20
+#: templates/admin/report/report_transactions_table.php:9
+msgid "IN"
+msgstr ""
+
+#: includes/admin/Admin.php:7394 includes/admin/Admin.php:7466
+msgid "In Store"
+msgstr ""
+
+#: templates/admin/warehouses.php:129 templates/admin/registers.php:123
+#: templates/admin/tables.php:134 templates/admin/tables.php:190
+#: templates/admin/receipt_templates.php:123
+#: templates/admin/warehouse/new.php:116
+msgid "Inactive"
+msgstr ""
+
+#: templates/admin/print_barcode.php:60
+msgid "Inch"
+msgstr ""
+
+#: includes/admin/Admin.php:984 includes/admin/Admin.php:992
+#: includes/admin/Admin.php:1000 includes/admin/Admin.php:1008
+#: includes/admin/Admin.php:1016
+msgid "inch"
+msgstr ""
+
+#: includes/admin/Admin.php:549
+msgid "Include discount amount when get final tax amount"
+msgstr ""
+
+#: templates/admin/warehouse/adjust_stock.php:78
+msgid "Increase current qty"
+msgstr ""
+
+#: includes/Core.php:1655
+msgid "Indonesian"
+msgstr ""
+
+#: includes/Core.php:1656
+msgid "Indonesian (old code)"
+msgstr ""
+
+#: lib/class-op-warehouse.php:780
+msgid "Instore OpenPOS Product update success"
+msgstr ""
+
+#: includes/Core.php:1657
+msgid "Interlingua"
+msgstr ""
+
+#: includes/Core.php:1658
+msgid "Interlingue"
+msgstr ""
+
+#: includes/Core.php:1659
+msgid "Inuktitut"
+msgstr ""
+
+#: includes/Core.php:1660
+msgid "Inupiaq"
+msgstr ""
+
+#: lib/class-op-discounts.php:78
+msgid "Invalid coupon"
+msgstr ""
+
+#: lib/class-op-warehouse.php:679 templates/admin/warehouse/inventory.php:15
+msgid "Inventory"
+msgstr ""
+
+#: templates/admin/sessions.php:21
+msgid "IP "
+msgstr ""
+
+#: includes/Core.php:1661
+msgid "Irish"
+msgstr ""
+
+#: templates/admin/cashier.php:25
+msgid "Is POS Staff ?"
+msgstr ""
+
+#: pos/index.php:87 templates/front/pos.php:44
+msgid ""
+"It looks like you have been editing something.If you leave before saving, "
+"your changes will be lost."
+msgstr ""
+
+#: includes/Core.php:1662
+msgid "Italian"
+msgstr ""
+
+#: includes/Core.php:1895 customer/index.php:49 templates/kitchen/view.php:52
+#: templates/admin/report/print_x_report.php:141
+msgid "Item"
+msgstr ""
+
+#: lib/class-op-woo.php:4537
+msgid "Item Details"
+msgstr ""
+
+#: templates/admin/report/print_x_report.php:174
+msgid "Item Discount"
+msgstr ""
+
+#: includes/admin/Admin.php:546
+msgid "Item Discount Calculation"
+msgstr ""
+
+#: includes/Core.php:1663
+msgid "Japanese"
+msgstr ""
+
+#: includes/Core.php:1664
+msgid "Javanese"
+msgstr ""
+
+#: includes/Core.php:1642
+msgid "Kalaallisut"
+msgstr ""
+
+#: includes/Core.php:1665
+msgid "Kannada"
+msgstr ""
+
+#: includes/Core.php:1666
+msgid "Kanuri"
+msgstr ""
+
+#: includes/Core.php:1667
+msgid "Kashmiri"
+msgstr ""
+
+#: includes/Core.php:1668
+msgid "Kazakh"
+msgstr ""
+
+#: includes/Core.php:1669
+msgid "Khmer"
+msgstr ""
+
+#: includes/Core.php:1670
+msgid "Kikuyu"
+msgstr ""
+
+#: includes/Core.php:1671
+msgid "Kinyarwanda"
+msgstr ""
+
+#: includes/Core.php:1673
+msgid "Kirghiz"
+msgstr ""
+
+#: includes/Core.php:1672
+msgid "Kirundi"
+msgstr ""
+
+#: includes/admin/Admin.php:205
+msgid "Kitchen base"
+msgstr ""
+
+#: lib/class-op-woo.php:4301
+msgid "Kitchen Cook"
+msgstr ""
+
+#: lib/class-op-receipt.php:59 lib/class-op-receipt.php:563
+msgid "Kitchen Receipt"
+msgstr ""
+
+#: lib/class-op-warehouse.php:719 kitchen/index.php:320
+#: templates/front/kitchen.php:280
+msgid "Kitchen Screen"
+msgstr ""
+
+#: templates/kitchen/view.php:5
+msgid "KitChen View"
+msgstr ""
+
+#: includes/admin/Admin.php:244
+msgid "Knowledgebase"
+msgstr ""
+
+#: includes/Core.php:1674
+msgid "Komi"
+msgstr ""
+
+#: includes/Core.php:1675
+msgid "Kongo"
+msgstr ""
+
+#: includes/Core.php:1676
+msgid "Korean"
+msgstr ""
+
+#: includes/Core.php:1677
+msgid "Kurdish"
+msgstr ""
+
+#: includes/Core.php:1678
+msgid "Kwanyama"
+msgstr ""
+
+#: includes/admin/Admin.php:898
+msgid "Label Height"
+msgstr ""
+
+#: templates/admin/print_barcode.php:96
+msgid "Label Padding (top x right x bottom x left):"
+msgstr ""
+
+#: templates/admin/print_barcode.php:90
+msgid "Label Size (w x h):"
+msgstr ""
+
+#: includes/admin/Admin.php:934
+msgid "Label Template"
+msgstr ""
+
+#: includes/admin/Admin.php:891
+msgid "Label Width"
+msgstr ""
+
+#: includes/Core.php:1679
+msgid "Lao"
+msgstr ""
+
+#: templates/admin/report/report_form.php:107
+msgid "Last 30 Days"
+msgstr ""
+
+#: templates/admin/dashboard.php:216
+msgid "Last 30 days"
+msgstr ""
+
+#: templates/admin/dashboard.php:214 templates/admin/report/report_form.php:106
+msgid "Last 7 Days"
+msgstr ""
+
+#: templates/admin/dashboard.php:253
+msgid "Last Orders"
+msgstr ""
+
+#: includes/Core.php:1680
+msgid "Latin"
+msgstr ""
+
+#: includes/Core.php:1681
+msgid "Latvian"
+msgstr ""
+
+#: includes/admin/Admin.php:1299
+msgid "Layout of result return by search product input "
+msgstr ""
+
+#: templates/admin/receipt_template_composer.php:47
+msgid "Left"
+msgstr ""
+
+#: includes/admin/Admin.php:7566
+msgid "Length-Base Pricing"
+msgstr ""
+
+#: includes/Core.php:1682
+msgid "Limburgan"
+msgstr ""
+
+#: includes/Core.php:1683
+msgid "Lingala"
+msgstr ""
+
+#: includes/admin/Admin.php:1215
+msgid ""
+"List of Categories display on POS panel. Enter keyword to search, this field "
+"is autocomplete"
+msgstr ""
+
+#: includes/admin/Admin.php:1222
+msgid ""
+"List of money values in your pos, This field use for cash rounding in Single "
+"/ Single multi time Payment mode . Separate by \"|\" character. Example: "
+"10|20|30. If you don't want rounding, just leave this setting to empty!"
+msgstr ""
+
+#: includes/admin/Admin.php:1229 includes/admin/Admin.php:1236
+msgid ""
+"List of quick discount values in your pos. Separate by \"|\" character. "
+"Example: 5|5%|10%"
+msgstr ""
+
+#: includes/admin/Admin.php:443
+msgid ""
+"List of quick tip values in your pos, 4 value only. Separate by \"|\" "
+"character. Example: 5|10|5%|10% "
+msgstr ""
+
+#: includes/Core.php:1684
+msgid "Lithuanian"
+msgstr ""
+
+#: templates/admin/receipt_template_composer.php:54
+#: templates/admin/receipt_template_composer.php:62
+msgid "Load Sample"
+msgstr ""
+
+#: templates/admin/print_barcode.php:127
+msgid "Load sample"
+msgstr ""
+
+#: pos/index.php:144 templates/front/pos.php:101
+msgid "Loading. Please wait....."
+msgstr ""
+
+#: templates/admin/transactions.php:93 templates/admin/stock.php:107
+#: templates/admin/cashier.php:57 templates/admin/products.php:65
+#: templates/admin/orders.php:65 templates/admin/warehouse/inventory.php:69
+msgid "Loading..."
+msgstr ""
+
+#: includes/api/Order.php:362
+msgid "Local ID is required"
+msgstr ""
+
+#: lib/class-op-woo.php:355
+msgid "Local Time:"
+msgstr ""
+
+#: templates/admin/sessions.php:23
+msgid "Location "
+msgstr ""
+
+#: includes/admin/Admin.php:1318
+msgid "Logic for Payment method type use in POS checkout"
+msgstr ""
+
+#: templates/admin/sessions.php:20
+msgid "Login Date"
+msgstr ""
+
+#: includes/admin/Admin.php:1068
+msgid "Login Mode"
+msgstr ""
+
+#: includes/admin/Admin.php:7677
+msgid "Login PIN"
+msgstr ""
+
+#: includes/admin/Admin.php:2873
+msgid "Login Sessions"
+msgstr ""
+
+#: includes/Core.php:1685
+msgid "Luba-Katanga"
+msgstr ""
+
+#: includes/Core.php:1687
+msgid "Luxembourgish"
+msgstr ""
+
+#: includes/Core.php:1443 includes/Core.php:1466
+msgid "M j, Y"
+msgstr ""
+
+#: includes/Core.php:1688
+msgid "Macedonian"
+msgstr ""
+
+#: includes/Core.php:1689
+msgid "Malagasy"
+msgstr ""
+
+#: includes/Core.php:1690
+msgid "Malay"
+msgstr ""
+
+#: includes/Core.php:1691
+msgid "Malayalam"
+msgstr ""
+
+#: includes/Core.php:1692
+msgid "Maltese"
+msgstr ""
+
+#: lib/class-op-woo.php:171
+msgid "manual clear OpenPOS product cache."
+msgstr ""
+
+#: lib/class-op-warehouse.php:135
+msgid "manual update instore parent product base on child."
+msgstr ""
+
+#: includes/Core.php:1638
+msgid "Manx"
+msgstr ""
+
+#: includes/Core.php:1693
+msgid "Maori"
+msgstr ""
+
+#: includes/Core.php:1694
+msgid "Marathi"
+msgstr ""
+
+#: includes/admin/Admin.php:875
+msgid "Margin Bottom"
+msgstr ""
+
+#: includes/admin/Admin.php:882
+msgid "Margin Left"
+msgstr ""
+
+#: includes/admin/Admin.php:868
+msgid "Margin Right"
+msgstr ""
+
+#: includes/admin/Admin.php:861
+msgid "Margin Top"
+msgstr ""
+
+#: includes/Core.php:1695
+msgid "Marshallese"
+msgstr ""
+
+#: includes/front/Front.php:3002
+msgid "Maximum refund amount "
+msgstr ""
+
+#: includes/admin/Admin.php:3545 includes/admin/Admin.php:3554
+#: includes/admin/Admin.php:4589 templates/admin/transactions.php:22
+#: templates/admin/report/print_x_report.php:121
+#: templates/admin/report/print_z_report.php:118
+#: templates/admin/report/report_transactions_table.php:11
+msgid "Method"
+msgstr ""
+
+#: includes/admin/Admin.php:4368 includes/admin/Admin.php:4376
+msgid "Method Amount"
+msgstr ""
+
+#: templates/admin/print_barcode.php:61
+msgid "Millimeter"
+msgstr ""
+
+#: includes/admin/Admin.php:949 templates/admin/registers.php:102
+msgid "Mode"
+msgstr ""
+
+#: includes/Core.php:1696
+msgid "Moldavian"
+msgstr ""
+
+#: includes/Core.php:1697
+msgid "Mongolian"
+msgstr ""
+
+#: lib/op-payment.php:54 lib/class-op-woo-order.php:2154
+#: includes/front/Front.php:2698
+msgid "Multi Methods"
+msgstr ""
+
+#: lib/op-payment.php:55
+msgid "Multi payment method use for POS only."
+msgstr ""
+
+#: includes/admin/Admin.php:6815 templates/admin/warehouses.php:80
+#: templates/admin/warehouses.php:166 templates/admin/cashier.php:23
+#: templates/admin/registers.php:71 templates/admin/registers.php:141
+#: templates/admin/tables.php:72 templates/admin/tables.php:150
+#: templates/admin/receipt_templates.php:102
+msgid "Name"
+msgstr ""
+
+#: includes/Core.php:1698
+msgid "Nauru"
+msgstr ""
+
+#: includes/Core.php:1699
+msgid "Navajo"
+msgstr ""
+
+#: includes/Core.php:1700
+msgid "Ndonga"
+msgstr ""
+
+#: includes/Core.php:1702
+msgid "Nepali"
+msgstr ""
+
+#: includes/admin/Admin.php:576
+msgid "New DashBoard"
+msgstr ""
+
+#: templates/admin/warehouses.php:61
+msgid "New Outlet"
+msgstr ""
+
+#: templates/admin/registers.php:65
+msgid "New Register"
+msgstr ""
+
+#: templates/admin/tables.php:66
+msgid "New Table"
+msgstr ""
+
+#: templates/admin/receipt_templates.php:96
+msgid "New template"
+msgstr ""
+
+#: includes/admin/Admin.php:634
+msgid "Next order number"
+msgstr ""
+
+#: lib/class-op-receipt.php:553 includes/admin/Admin.php:426
+#: includes/admin/Admin.php:437 includes/admin/Admin.php:458
+#: includes/admin/Admin.php:696 includes/admin/Admin.php:707
+#: includes/admin/Admin.php:720 includes/admin/Admin.php:740
+#: includes/admin/Admin.php:1111 includes/admin/Admin.php:1124
+#: includes/admin/Admin.php:1144 includes/admin/Admin.php:1155
+#: includes/admin/Admin.php:1166 includes/admin/Admin.php:1177
+#: includes/admin/Admin.php:1188 includes/admin/Admin.php:1248
+#: includes/admin/Admin.php:1259 includes/admin/Admin.php:1270
+#: includes/admin/Admin.php:1281 includes/admin/Admin.php:1335
+#: includes/admin/Admin.php:7568
+msgid "No"
+msgstr ""
+
+#: includes/api/Cart.php:137 includes/front/Front.php:3645
+msgid "No cart found"
+msgstr ""
+
+#: includes/api/Table.php:603
+msgid "No change"
+msgstr ""
+
+#: includes/api/Customer.php:140 includes/front/Front.php:1791
+#, php-format
+msgid "No customer found with %s : \"%s\""
+msgstr ""
+
+#: includes/api/Customer.php:78 includes/front/Front.php:1723
+#, php-format
+msgid "No customer with search keyword: %s"
+msgstr ""
+
+#: includes/api/Customer.php:80 includes/front/Front.php:1725
+msgid "No customers"
+msgstr ""
+
+#: includes/admin/Admin.php:765
+msgid "No exchange"
+msgstr ""
+
+#: includes/admin/Admin.php:2001
+msgid "No manage"
+msgstr ""
+
+#: includes/api/Order.php:250 includes/front/Front.php:3324
+msgid "No order found"
+msgstr ""
+
+#: lib/class-op-woo.php:4266
+msgid "No POS transaction found"
+msgstr ""
+
+#: includes/admin/Admin.php:6765 includes/admin/Admin.php:7138
+#: includes/api/Product.php:463 includes/front/Front.php:1033
+msgid "No product found. Please check your barcode !"
+msgstr ""
+
+#: templates/admin/warehouse/adjust_stock.php:66
+msgid "No product selected"
+msgstr ""
+
+#: includes/admin/Admin.php:752
+msgid "No Refund"
+msgstr ""
+
+#: templates/admin/registers.php:200
+msgid "No register found"
+msgstr ""
+
+#: templates/admin/transactions.php:94 templates/admin/stock.php:108
+#: templates/admin/cashier.php:58 templates/admin/products.php:66
+#: templates/admin/orders.php:66 templates/admin/warehouse/inventory.php:70
+msgid "No results found!"
+msgstr ""
+
+#: includes/admin/Admin.php:1476
+msgid "No role access"
+msgstr ""
+
+#: templates/admin/tables.php:196
+msgid "No table found"
+msgstr ""
+
+#: includes/admin/Admin.php:402 includes/admin/Admin.php:403
+#: includes/admin/Admin.php:502 includes/admin/Admin.php:560
+msgid "No Tax"
+msgstr ""
+
+#: templates/admin/receipt_templates.php:188
+msgid "No template found"
+msgstr ""
+
+#: includes/Core.php:1701
+msgid "North Ndebele"
+msgstr ""
+
+#: includes/Core.php:1723
+msgid "Northern Sami"
+msgstr ""
+
+#: includes/Core.php:1703
+msgid "Norwegian"
+msgstr ""
+
+#: includes/Core.php:1704
+msgid "Norwegian Bokmål"
+msgstr ""
+
+#: includes/Core.php:1705
+msgid "Norwegian Nynorsk"
+msgstr ""
+
+#: templates/emails/email-order-details.php:80
+#: templates/emails/plain/email-order-details.php:46
+msgid "Note:"
+msgstr ""
+
+#: templates/admin/print_barcode.php:121
+msgid "Number Of Label:"
+msgstr ""
+
+#: includes/admin/Admin.php:1310
+msgid "Number of products search result"
+msgstr ""
+
+#: includes/Core.php:1707
+msgid "Occitan"
+msgstr ""
+
+#: includes/admin/Admin.php:1292
+msgid "Offline - Local browser data search"
+msgstr ""
+
+#: includes/admin/Admin.php:6160
+msgid "Oh! Restricted access"
+msgstr ""
+
+#: lib/class-op-report.php:1132
+msgid "ohhh!record not found"
+msgstr ""
+
+#: includes/Core.php:1708
+msgid "Ojibwa"
+msgstr ""
+
+#: lib/class-op-woo.php:5057
+msgid "OK"
+msgstr ""
+
+#: includes/admin/Admin.php:1293
+msgid "Online - Seach by your website"
+msgstr ""
+
+#: lib/class-op-woo.php:2377 lib/class-op-woo.php:2391
+msgid "Online Order"
+msgstr ""
+
+#: lib/class-op-woo.php:2217 lib/class-op-woo.php:2254
+msgid "OP Barcode"
+msgstr ""
+
+#: includes/admin/Admin.php:7501 includes/admin/Admin.php:7527
+msgid "OP Cost price"
+msgstr ""
+
+#: lib/class-op-report.php:239 lib/class-op-report.php:346
+#: templates/admin/report/print_x_report.php:108
+msgid "Open Cash"
+msgstr ""
+
+#: includes/admin/Admin.php:1276
+msgid "Open Cash Adjustment Popup when login to POS"
+msgstr ""
+
+#: includes/admin/Admin.php:1275
+msgid "Open Cash When Login"
+msgstr ""
+
+#: includes/admin/Admin.php:2829
+msgid "Open POS"
+msgstr ""
+
+#: templates/admin/report/print_x_report.php:100
+msgid "Open Time"
+msgstr ""
+
+#: includes/admin/Admin.php:7541
+msgid "OpenPOS"
+msgstr ""
+
+#: lib/emails/class-op-email-customer-order-receipt.php:34
+msgid "OpenPOS - Customer Order Receipt"
+msgstr ""
+
+#: includes/admin/Admin.php:609
+msgid "OpenPOS Barcode"
+msgstr ""
+
+#: includes/admin/Admin.php:187
+msgid "OpenPOS Permalink"
+msgstr ""
+
+#: bill/index.php:104 templates/front/bill.php:60
+msgid "Opppos !!!!"
+msgstr ""
+
+#: lib/class-op-report.php:364 includes/admin/Admin.php:3526
+#: includes/admin/Admin.php:3721 includes/admin/Admin.php:3776
+#: includes/admin/Admin.php:4024 includes/admin/Admin.php:4075
+#: includes/admin/Admin.php:4366 includes/admin/Admin.php:4374
+#: includes/admin/Admin.php:4724
+msgid "Order"
+msgstr ""
+
+#: templates/emails/receipt.php:191
+msgid "Order #"
+msgstr ""
+
+#: includes/admin/Admin.php:4688
+msgid "Order count"
+msgstr ""
+
+#: lib/class-op-exchange.php:76 lib/class-op-exchange.php:177
+msgctxt "Order date parsed by strftime"
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr ""
+
+#: includes/api/Order.php:1431 includes/front/Front.php:3512
+msgid "Order do not allow pickup from store"
+msgstr ""
+
+#: lib/class-op-woo-order.php:834
+#, php-format
+msgid "Order has been remove out of kitchen by %s"
+msgstr ""
+
+#: lib/class-op-woo-order.php:854
+#, php-format
+msgid "Order has been sent to kitchen by %s"
+msgstr ""
+
+#: includes/api/Order.php:449 includes/api/Order.php:716
+msgid "Order Id is required"
+msgstr ""
+
+#: includes/api/Order.php:1274 includes/api/Order.php:1428
+#: includes/api/Order.php:1605 includes/api/Order.php:1609
+#: includes/api/Order.php:1657 includes/api/Order.php:1743
+#: includes/api/Order.php:1750 includes/front/Front.php:3065
+#: includes/front/Front.php:3139 includes/front/Front.php:3146
+#: includes/front/Front.php:3187 includes/front/Front.php:3462
+#: includes/front/Front.php:3509
+msgid "Order is not found"
+msgstr ""
+
+#: includes/api/Transaction.php:319 includes/api/Order.php:322
+#: includes/api/Order.php:327 includes/api/Order.php:333
+#: includes/api/Order.php:368 includes/api/Order.php:373
+#: includes/api/Order.php:379 includes/api/Order.php:464
+#: includes/front/Front.php:4986
+msgid "Order not found"
+msgstr ""
+
+#: includes/api/Transaction.php:130 includes/api/Order.php:291
+#: includes/api/Order.php:1345 includes/front/Front.php:2552
+#: includes/front/Front.php:2609 includes/front/Front.php:4843
+#: includes/front/Front.php:4945
+msgid "Order not found."
+msgstr ""
+
+#: includes/api/Order.php:317
+msgid "Order number is required"
+msgstr ""
+
+#: includes/admin/Admin.php:639
+msgid "Order number prefix"
+msgstr ""
+
+#: includes/api/Order.php:1281 includes/api/Order.php:1664
+#: includes/front/Front.php:3194 includes/front/Front.php:3469
+msgid "Order number too short"
+msgstr ""
+
+#: templates/kitchen/view.php:54
+msgid "Order Time"
+msgstr ""
+
+#: lib/class-op-warehouse.php:701 lib/class-op-warehouse.php:710
+#: lib/class-op-register.php:377 includes/admin/Admin.php:2832
+#: includes/admin/Admin.php:4590
+msgid "Orders"
+msgstr ""
+
+#: includes/Core.php:1710
+msgid "Oriya"
+msgstr ""
+
+#: includes/Core.php:1711
+msgid "Oromo"
+msgstr ""
+
+#: includes/Core.php:1712
+msgid "Ossetian"
+msgstr ""
+
+#: includes/admin/Admin.php:7351 includes/admin/Admin.php:7423
+msgid "Other Outlet Stock quantity"
+msgstr ""
+
+#: lib/class-op-woo.php:4210 includes/admin/Admin.php:3544
+#: includes/admin/Admin.php:3553 templates/admin/transactions.php:21
+#: templates/admin/report/report_transactions_table.php:10
+msgid "OUT"
+msgstr ""
+
+#: includes/admin/Admin.php:6739 templates/admin/registers.php:77
+#: templates/admin/registers.php:143 templates/admin/tables.php:78
+#: templates/admin/tables.php:151 templates/admin/report/report_form.php:56
+msgid "Outlet"
+msgstr ""
+
+#: includes/admin/Admin.php:6488 includes/admin/Admin.php:6617
+msgid "Outlet do not exist"
+msgstr ""
+
+#: templates/admin/warehouses.php:78 templates/admin/warehouse/new.php:65
+msgid "Outlet Name"
+msgstr ""
+
+#: lib/class-op-woo.php:365
+msgid "Outlet:"
+msgstr ""
+
+#: includes/admin/Admin.php:2849 templates/admin/warehouses.php:56
+#: templates/admin/warehouse/new.php:49
+msgid "Outlets"
+msgstr ""
+
+#: templates/admin/receipt_template_composer.php:32
+msgid "Padding (Inch)"
+msgstr ""
+
+#: includes/admin/Admin.php:919 includes/admin/Admin.php:1007
+msgid "Padding Bottom"
+msgstr ""
+
+#: includes/admin/Admin.php:926 includes/admin/Admin.php:1015
+msgid "Padding Left"
+msgstr ""
+
+#: includes/admin/Admin.php:912 includes/admin/Admin.php:999
+msgid "Padding Right"
+msgstr ""
+
+#: includes/admin/Admin.php:905 includes/admin/Admin.php:991
+msgid "Padding Top"
+msgstr ""
+
+#: includes/admin/Admin.php:4414 includes/admin/Admin.php:4591
+msgid "Paid Amount"
+msgstr ""
+
+#: includes/admin/Admin.php:4684
+msgid "Paid amount"
+msgstr ""
+
+#: includes/api/Transaction.php:379 includes/front/Front.php:5037
+#, php-format
+msgid "Paid amount %s  via %s"
+msgstr ""
+
+#: includes/Core.php:1713
+msgid "Pali"
+msgstr ""
+
+#: includes/Core.php:1714
+msgid "Pashto"
+msgstr ""
+
+#: lib/class-op-woo-order.php:2148 includes/front/Front.php:2693
+msgid "Pay On POS"
+msgstr ""
+
+#: includes/Setting.php:20 includes/admin/Admin.php:270
+#: includes/api/Auth.php:74 templates/emails/receipt.php:221
+msgid "Payment"
+msgstr ""
+
+#: templates/admin/report/print_z_report.php:114
+msgid "Payment Info"
+msgstr ""
+
+#: templates/admin/report/report_form.php:88
+msgid "Payment Method"
+msgstr ""
+
+#: includes/admin/Admin.php:798
+msgid "Payment methods for POS beside cash(default)"
+msgstr ""
+
+#: includes/api/Order.php:1654 includes/front/Front.php:3184
+msgid "Payment Status : "
+msgstr ""
+
+#: includes/admin/Admin.php:1317
+msgid "Payment Type"
+msgstr ""
+
+#: templates/admin/tables.php:121
+msgid "Per Day"
+msgstr ""
+
+#: templates/admin/tables.php:119
+msgid "Per Hours"
+msgstr ""
+
+#: templates/admin/tables.php:120
+msgid "Per Minute"
+msgstr ""
+
+#: templates/admin/tables.php:117
+msgid "Per Session"
+msgstr ""
+
+#: includes/Core.php:1715
+msgid "Persian"
+msgstr ""
+
+#: templates/admin/warehouses.php:141 templates/admin/warehouses.php:143
+#: templates/admin/warehouse/new.php:128
+msgid "Phone"
+msgstr ""
+
+#: includes/api/Auth.php:626 includes/api/Auth.php:688
+#: includes/front/Front.php:1171 includes/front/Front.php:1351
+msgid "PIN can not empty."
+msgstr ""
+
+#: includes/admin/Admin.php:1074
+msgid "PIN login"
+msgstr ""
+
+#: lib/class-op-discounts.php:177 lib/class-op-discounts.php:196
+#: lib/class-op-discounts.php:208
+msgid "Please add customer before valid coupon"
+msgstr ""
+
+#: includes/admin/Admin.php:6605
+msgid "Please choose outlet"
+msgstr ""
+
+#: includes/admin/Admin.php:6482
+msgid "Please choose Outlet "
+msgstr ""
+
+#: includes/admin/Admin.php:6544 includes/admin/Admin.php:6610
+msgid "Please choose register"
+msgstr ""
+
+#: includes/admin/Admin.php:6351
+msgid "Please choose register to delete"
+msgstr ""
+
+#: templates/admin/transactions.php:115 templates/admin/cashier.php:97
+#: templates/admin/products.php:154 templates/admin/orders.php:87
+#: templates/admin/warehouse/inventory.php:109
+msgid "Please choose row to continue."
+msgstr ""
+
+#: includes/admin/Admin.php:6539
+msgid "Please choose table"
+msgstr ""
+
+#: includes/admin/Admin.php:6436
+msgid "Please choose table "
+msgstr ""
+
+#: includes/admin/Admin.php:6409
+msgid "Please choose table to delete"
+msgstr ""
+
+#: includes/admin/Admin.php:6706
+msgid "Please choose warehouse to delete"
+msgstr ""
+
+#: templates/emails/op-customer-receipt.php:183
+#: templates/emails/plain/op-customer-receipt.php:183
+msgid "Please click here  to view / print your receipt."
+msgstr ""
+
+#: templates/emails/receipt.php:338
+msgid "Please click link below to view / print your receipt."
+msgstr ""
+
+#: customer/index.php:53
+msgid "Please contact to waiter if those items do not exist in your table."
+msgstr ""
+
+#: includes/front/Front.php:1808
+#, php-format
+msgid "Please enter any keyword for \"%s\" to search customer"
+msgstr ""
+
+#: includes/api/Product.php:577
+msgid "Please enter barcode to scan"
+msgstr ""
+
+#: includes/admin/Admin.php:6733 includes/admin/Admin.php:7118
+#: includes/front/Front.php:961
+msgid "Please enter barcode to search"
+msgstr ""
+
+#: includes/api/Customer.php:121
+msgid "Please enter by field to search"
+msgstr ""
+
+#: includes/api/Customer.php:126
+msgid "Please enter by term to search"
+msgstr ""
+
+#: includes/api/Customer.php:235 includes/api/Customer.php:385
+msgid "Please enter customer data"
+msgstr ""
+
+#: includes/admin/Admin.php:6677
+msgid "Please enter outlet name"
+msgstr ""
+
+#: includes/api/Auth.php:653 includes/front/Front.php:1378
+msgid "Please enter password"
+msgstr ""
+
+#: lib/class-op-woo.php:4865
+msgid "Please enter phone number"
+msgstr ""
+
+#: includes/api/Product.php:336 includes/front/Front.php:4575
+msgid "Please enter product barcode"
+msgstr ""
+
+#: lib/class-op-update.php:228
+msgid "Please enter purchase code"
+msgstr ""
+
+#: includes/admin/Admin.php:6325 includes/admin/Admin.php:6378
+msgid "Please enter register name"
+msgstr ""
+
+#: includes/api/Table.php:267
+msgid "Please enter table data"
+msgstr ""
+
+#: lib/class-op-receipt.php:222
+msgid "Please enter template name"
+msgstr ""
+
+#: includes/api/Product.php:390 includes/api/Product.php:493
+msgid "Please enter term to search"
+msgstr ""
+
+#: customer/index.php:47
+msgid "Please wait, your request in processing....."
+msgstr ""
+
+#: lib/class-op-update.php:361
+msgid "Plugin Change Log"
+msgstr ""
+
+#: lib/class-op-update.php:357
+msgid "Plugin Description"
+msgstr ""
+
+#: includes/Core.php:1716
+msgid "Polish"
+msgstr ""
+
+#: lib/class-op-woo.php:129
+msgid "Popular Custom Notes"
+msgstr ""
+
+#: includes/Core.php:1717
+msgid "Portuguese"
+msgstr ""
+
+#: includes/admin/Admin.php:2829
+msgid "POS"
+msgstr ""
+
+#: includes/admin/Admin.php:2832
+msgid "POS - Orders"
+msgstr ""
+
+#: includes/admin/Admin.php:2849
+msgid "POS - Outlets"
+msgstr ""
+
+#: includes/admin/Admin.php:2838
+msgid "POS - Products"
+msgstr ""
+
+#: includes/admin/Admin.php:2846
+msgid "POS - Registers"
+msgstr ""
+
+#: includes/admin/Admin.php:2862
+msgid "POS - Reports"
+msgstr ""
+
+#: includes/admin/Admin.php:2873
+msgid "POS - Sessions"
+msgstr ""
+
+#: includes/admin/Admin.php:2870
+msgid "POS - Setting"
+msgstr ""
+
+#: includes/admin/Admin.php:2841
+msgid "POS - Staffs"
+msgstr ""
+
+#: includes/admin/Admin.php:2859
+msgid "POS - Stock Manager"
+msgstr ""
+
+#: includes/admin/Admin.php:2854
+msgid "POS - Tables"
+msgstr ""
+
+#: includes/admin/Admin.php:2835
+msgid "POS - Transactions"
+msgstr ""
+
+#: includes/admin/Admin.php:7674
+msgid "POS Account Management"
+msgstr ""
+
+#: includes/admin/Admin.php:797
+msgid "POS Addition Payment Methods"
+msgstr ""
+
+#: lib/class-op-woo.php:2254
+msgid "POS Barcode"
+msgstr ""
+
+#: includes/admin/Admin.php:196
+msgid "POS base"
+msgstr ""
+
+#: includes/admin/Admin.php:7562
+msgid "POS Base Pricing"
+msgstr ""
+
+#: lib/class-op-woo-order.php:1778
+msgid "POS Cart Discount"
+msgstr ""
+
+#: templates/admin/cashier.php:11
+msgid "POS Cashiers"
+msgstr ""
+
+#: includes/admin/Admin.php:1214
+msgid "POS Category"
+msgstr ""
+
+#: includes/admin/Admin.php:1207
+msgid "POS Custom CSS"
+msgstr ""
+
+#: lib/class-op-woo-order.php:2010
+msgid "POS Customer Pickup"
+msgstr ""
+
+#: templates/admin/dashboard.php:15
+msgid "POS Dashboard"
+msgstr ""
+
+#: includes/admin/Admin.php:1200
+msgid "POS Image Height"
+msgstr ""
+
+#: includes/admin/Admin.php:1193
+msgid "POS Image Width"
+msgstr ""
+
+#: lib/class-op-woo.php:4134
+msgid "POS Information"
+msgstr ""
+
+#: includes/Setting.php:36 includes/admin/Admin.php:286
+#: includes/api/Auth.php:90
+msgid "POS Layout"
+msgstr ""
+
+#: includes/admin/Admin.php:1047
+msgid "POS Logo"
+msgstr ""
+
+#: includes/admin/Admin.php:1221
+msgid "POS Money List"
+msgstr ""
+
+#: lib/class-op-woo.php:349
+msgid "POS Order Number:"
+msgstr ""
+
+#: includes/admin/Admin.php:726
+msgid "POS Order Status"
+msgstr ""
+
+#: templates/admin/orders.php:10
+msgid "POS Orders"
+msgstr ""
+
+#: lib/class-op-woo.php:376
+msgid "POS Payment method:"
+msgstr ""
+
+#: templates/admin/products.php:9
+msgid "POS Products"
+msgstr ""
+
+#: includes/admin/Admin.php:714
+msgid "POS Stock Manager"
+msgstr ""
+
+#: templates/admin/stock.php:23
+msgid "POS Stock Overview"
+msgstr ""
+
+#: includes/admin/Admin.php:771
+msgid "Pos Tax Class"
+msgstr ""
+
+#: lib/class-op-woo.php:4135
+msgid "POS Transactions"
+msgstr ""
+
+#: includes/admin/Admin.php:1055
+msgid "POS Type"
+msgstr ""
+
+#: lib/class-op-woo.php:5030
+msgid "POS visibility:"
+msgstr ""
+
+#: templates/admin/tables.php:94 templates/admin/tables.php:152
+msgid "Position"
+msgstr ""
+
+#: lib/class-op-woo.php:2658 lib/class-op-woo.php:2660
+msgid "PostCode / Zip"
+msgstr ""
+
+#: templates/admin/warehouses.php:118 templates/admin/warehouse/new.php:105
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: templates/admin/warehouses.php:120
+msgid "Postcode code"
+msgstr ""
+
+#: templates/admin/print_barcode.php:148
+#: templates/admin/receipt_template_composer.php:68
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/Admin.php:6909 includes/admin/Admin.php:6919
+msgid "PRICE"
+msgstr ""
+
+#: bill/index.php:76 includes/Core.php:1896
+#: templates/emails/email-order-details.php:44 templates/admin/stock.php:13
+#: templates/admin/products.php:19 templates/front/bill.php:32
+#: templates/admin/warehouse/inventory.php:26
+msgid "Price"
+msgstr ""
+
+#: includes/admin/Admin.php:7567
+msgid "Price-Base Pricing"
+msgstr ""
+
+#: lib/class-op-report.php:335 lib/class-op-report.php:699
+#: templates/admin/print_barcode.php:137
+msgid "Print"
+msgstr ""
+
+#: includes/admin/Admin.php:1664
+msgid "Print Barcode"
+msgstr ""
+
+#: templates/admin/report/print_z_report.php:91
+msgid "Print date"
+msgstr ""
+
+#: templates/admin/print_receipt.php:16
+#: templates/admin/report/print_z_report_template.php:15
+msgid "Print Receipt"
+msgstr ""
+
+#: templates/admin/receipt_templates.php:168
+msgid "Print Sample"
+msgstr ""
+
+#: includes/admin/Admin.php:6908 includes/admin/Admin.php:6918
+msgid "PRODUCT"
+msgstr ""
+
+#: bill/index.php:75 includes/admin/Admin.php:4953
+#: includes/admin/Admin.php:4960 templates/emails/email-order-details.php:42
+#: templates/front/bill.php:31 templates/admin/warehouse/adjust_stock.php:59
+msgid "Product"
+msgstr ""
+
+#: includes/admin/Admin.php:1264
+msgid "Product Auto complete"
+msgstr ""
+
+#: includes/admin/Admin.php:1138
+msgid "Product Auto Sync"
+msgstr ""
+
+#: lib/class-op-receipt.php:75 lib/class-op-receipt.php:587
+msgid "Product Decal"
+msgstr ""
+
+#: includes/admin/Admin.php:1304
+msgid "Product Grid Display"
+msgstr ""
+
+#: includes/admin/Admin.php:1079
+msgid "Product Grid Size"
+msgstr ""
+
+#: includes/admin/Admin.php:610
+msgid "Product Id"
+msgstr ""
+
+#: lib/class-op-warehouse.php:573
+msgid "Product low in stock"
+msgstr ""
+
+#: templates/admin/stock.php:12 templates/admin/products.php:18
+#: templates/admin/warehouse/inventory.php:25
+msgid "Product Name"
+msgstr ""
+
+#: includes/admin/Admin.php:1749
+msgid "Product not found"
+msgstr ""
+
+#: lib/class-op-warehouse.php:615
+msgid "Product out of stock"
+msgstr ""
+
+#: includes/admin/Admin.php:611
+msgid "Product Sku"
+msgstr ""
+
+#: bill/index.php:74 includes/admin/Admin.php:578 includes/admin/Admin.php:592
+#: templates/front/bill.php:30
+msgid "Products"
+msgstr ""
+
+#: includes/admin/Admin.php:2838
+msgid "Products Barcode"
+msgstr ""
+
+#: includes/admin/Admin.php:3111 includes/admin/Admin.php:3254
+#: includes/admin/Admin.php:4930 includes/admin/Admin.php:4957
+#: includes/admin/Admin.php:4964 includes/admin/Admin.php:5373
+#: templates/admin/dashboard.php:87
+msgid "Profit"
+msgstr ""
+
+#: includes/admin/Admin.php:3528 includes/admin/Admin.php:4727
+#: includes/admin/Admin.php:4736
+#: templates/admin/report/report_sales_table.php:10
+msgid "Profit Total"
+msgstr ""
+
+#: includes/admin/Admin.php:690
+msgid "Progressive Web Apps Cached"
+msgstr ""
+
+#: includes/Core.php:1718
+msgid "Punjabi"
+msgstr ""
+
+#: lib/class-op-update.php:150
+msgid "Purchase Code"
+msgstr ""
+
+#: includes/admin/Admin.php:956
+msgid "QRCode"
+msgstr ""
+
+#: templates/admin/tables.php:171
+msgid "Qrcode"
+msgstr ""
+
+#: includes/admin/Admin.php:4955 includes/admin/Admin.php:4962
+#: includes/admin/Admin.php:6910 includes/admin/Admin.php:6925
+msgid "QTY"
+msgstr ""
+
+#: bill/index.php:77 includes/Core.php:1897 customer/index.php:50
+#: includes/admin/Admin.php:6739 templates/admin/stock.php:14
+#: templates/kitchen/view.php:53 templates/front/bill.php:33
+#: templates/admin/report/print_x_report.php:142
+#: templates/admin/warehouse/inventory.php:27
+#: templates/admin/warehouse/adjust_stock.php:61
+msgid "Qty"
+msgstr ""
+
+#: includes/admin/Admin.php:5114
+msgid "QTY Sold"
+msgstr ""
+
+#: templates/emails/email-order-details.php:43
+msgid "Quantity"
+msgstr ""
+
+#: includes/Core.php:1719
+msgid "Quechua"
+msgstr ""
+
+#: includes/admin/Admin.php:1235
+msgid "Quick Cart Discount Amount"
+msgstr ""
+
+#: includes/admin/Admin.php:1228
+msgid "Quick Item Discount Amount"
+msgstr ""
+
+#: lib/class-op-woo.php:137
+msgid "Quick item note for OpenPOS. Separate topics with commas"
+msgstr ""
+
+#. Description of the plugin
+msgid "Quick POS system for woocommerce."
+msgstr ""
+
+#: includes/admin/Admin.php:442
+msgid "Quick Tipping Amount"
+msgstr ""
+
+#: templates/kitchen/view.php:56
+msgid "Ready ?"
+msgstr ""
+
+#: lib/class-op-woo.php:4213
+msgid "Reason / Note"
+msgstr ""
+
+#: includes/Setting.php:32 lib/class-op-receipt.php:41
+#: lib/class-op-receipt.php:525 includes/admin/Admin.php:282
+#: includes/api/Auth.php:86
+msgid "Receipt"
+msgstr ""
+
+#: lib/class-op-receipt.php:792 lib/class-op-receipt.php:810
+msgid "Receipt has been sent"
+msgstr ""
+
+#: templates/admin/receipt_templates.php:141
+msgid "Receipt Name"
+msgstr ""
+
+#: lib/class-op-receipt.php:583 lib/class-op-receipt.php:597
+msgid "Receipt print in delivery takeaway for shipper."
+msgstr ""
+
+#: lib/class-op-receipt.php:571
+msgid "Receipt print in table / takeaway."
+msgstr ""
+
+#: includes/admin/Admin.php:1038
+msgid "Receipt Style"
+msgstr ""
+
+#: includes/admin/Admin.php:1031
+msgid "Receipt Template Footer"
+msgstr ""
+
+#: includes/admin/Admin.php:1024
+msgid "Receipt Template Header"
+msgstr ""
+
+#: includes/admin/Admin.php:2867
+msgid "Receipt Templates"
+msgstr ""
+
+#: templates/admin/receipt_templates.php:89
+msgid "Receipt templates"
+msgstr ""
+
+#: includes/admin/Admin.php:983
+msgid "Receipt Width"
+msgstr ""
+
+#: includes/admin/Admin.php:3542 includes/admin/Admin.php:3551
+#: templates/admin/transactions.php:19
+#: templates/admin/report/report_transactions_table.php:8
+msgid "Ref"
+msgstr ""
+
+#: templates/admin/transactions.php:95 templates/admin/stock.php:109
+#: templates/admin/cashier.php:59 templates/admin/products.php:67
+#: templates/admin/orders.php:67 templates/admin/warehouse/inventory.php:71
+msgid "Refresh"
+msgstr ""
+
+#: includes/admin/Admin.php:361
+msgid "Refund Duration"
+msgstr ""
+
+#: includes/admin/Admin.php:364
+msgid "refund duration in day"
+msgstr ""
+
+#: includes/admin/Admin.php:452
+msgid "Refund exchange cash"
+msgstr ""
+
+#: includes/admin/Admin.php:746
+msgid "Refund offline via pos panel"
+msgstr ""
+
+#: templates/admin/report/print_x_report.php:170
+msgid "Refund Total"
+msgstr ""
+
+#: lib/class-op-report.php:562 lib/class-op-report.php:573
+#: lib/class-op-register.php:36 lib/class-op-register.php:37
+#: templates/admin/transactions.php:23 templates/admin/warehouses.php:234
+#: templates/admin/tables.php:221 templates/admin/report/report_form.php:68
+#: templates/admin/report/print_z_report.php:90
+msgid "Register"
+msgstr ""
+
+#: templates/admin/sessions.php:22
+msgid "Register "
+msgstr ""
+
+#: includes/admin/Admin.php:6559
+msgid "Register and Table do not same location"
+msgstr ""
+
+#: includes/admin/Admin.php:6625
+msgid "Register and Warehouse do not same location"
+msgstr ""
+
+#: includes/admin/Admin.php:6555 includes/admin/Admin.php:6621
+#: includes/front/Front.php:5097
+msgid "Register do not exist"
+msgstr ""
+
+#: templates/admin/registers.php:73
+msgid "Register Name"
+msgstr ""
+
+#: lib/class-op-report.php:1148 includes/api/Transaction.php:48
+#: includes/api/Transaction.php:267 includes/api/Cart.php:83
+#: includes/api/Cart.php:297 includes/api/Table.php:257
+msgid "Register not found"
+msgstr ""
+
+#: lib/class-op-woo.php:370
+msgid "Register:"
+msgstr ""
+
+#: includes/admin/Admin.php:2846 templates/admin/registers.php:60
+msgid "Registers"
+msgstr ""
+
+#: templates/help.php:8
+msgid "Remove current customer"
+msgstr ""
+
+#: templates/admin/warehouse/adjust_stock.php:77
+msgid "Replace current qty"
+msgstr ""
+
+#: lib/class-op-receipt.php:558
+msgid "Report template print end working session sale "
+msgstr ""
+
+#: includes/admin/Admin.php:2862
+msgid "Reports"
+msgstr ""
+
+#: includes/admin/Admin.php:1243
+msgid "Require checkout with customer added only in POS"
+msgstr ""
+
+#: includes/admin/Admin.php:1242
+msgid "Require customer"
+msgstr ""
+
+#: templates/emails/receipt.php:232
+msgid "Return"
+msgstr ""
+
+#: templates/admin/receipt_template_composer.php:39
+msgid "Right"
+msgstr ""
+
+#: includes/Core.php:1721
+msgid "Romanian"
+msgstr ""
+
+#: includes/Core.php:1720
+msgid "Romansh"
+msgstr ""
+
+#: templates/kitchen/view.php:132
+msgid "Rows"
+msgstr ""
+
+#: includes/Core.php:1722
+msgid "Russian"
+msgstr ""
+
+#: includes/admin/Admin.php:4956 includes/admin/Admin.php:4963
+msgid "Sale"
+msgstr ""
+
+#: templates/admin/dashboard.php:261
+msgid "Sale By"
+msgstr ""
+
+#: includes/admin/Admin.php:3409 templates/admin/dashboard.php:118
+msgid "Sale by Outlet"
+msgstr ""
+
+#: includes/admin/Admin.php:3409 templates/admin/dashboard.php:118
+msgid "Sale by Register"
+msgstr ""
+
+#: templates/admin/report/print_x_report.php:166
+msgid "Sale Total"
+msgstr ""
+
+#: includes/admin/Admin.php:3109 includes/admin/Admin.php:3252
+#: includes/admin/Admin.php:3387 includes/admin/Admin.php:3791
+#: includes/admin/Admin.php:3809 includes/admin/Admin.php:4088
+#: includes/admin/Admin.php:4107 includes/admin/Admin.php:4384
+#: includes/admin/Admin.php:4923 includes/admin/Admin.php:5118
+#: includes/admin/Admin.php:5372 templates/admin/dashboard.php:83
+msgid "Sales"
+msgstr ""
+
+#: templates/admin/dashboard.php:147
+msgid "Sales by Payment"
+msgstr ""
+
+#: templates/admin/report/report_form.php:44
+msgid "Sales By Payment Method"
+msgstr ""
+
+#: templates/admin/report/report_form.php:45
+msgid "Sales By Product"
+msgstr ""
+
+#: templates/admin/dashboard.php:133
+msgid "Sales by Seller"
+msgstr ""
+
+#: templates/admin/report/report_form.php:40
+msgid "Sales By Seller Report"
+msgstr ""
+
+#: templates/admin/report/report_form.php:41
+msgid "Sales By Shop Agent Report ( Cashier )"
+msgstr ""
+
+#: templates/admin/report/report_form.php:38
+msgid "Sales Report"
+msgstr ""
+
+#: templates/emails/receipt.php:213
+msgid "Sales Tax"
+msgstr ""
+
+#: includes/Core.php:1724
+msgid "Samoan"
+msgstr ""
+
+#: includes/Core.php:1725
+msgid "Sango"
+msgstr ""
+
+#: includes/Core.php:1726
+msgid "Sanskrit"
+msgstr ""
+
+#: templates/admin/warehouses.php:155 templates/admin/registers.php:130
+#: templates/admin/tables.php:140 templates/admin/receipt_templates.php:129
+#: templates/admin/warehouse/new.php:142
+msgid "Save"
+msgstr ""
+
+#: templates/admin/print_barcode.php:136
+msgid "Save And Preview"
+msgstr ""
+
+#: templates/help.php:13
+msgid "Save Cart"
+msgstr ""
+
+#: lib/class-op-setting.php:878
+msgid "Save changes"
+msgstr ""
+
+#: templates/admin/orders.php:99 templates/admin/warehouse/inventory.php:118
+msgid "Saved"
+msgstr ""
+
+#: includes/admin/Admin.php:410
+msgid "Scale Barcode Format"
+msgstr ""
+
+#: templates/admin/transactions.php:96 templates/admin/stock.php:110
+#: templates/admin/cashier.php:60 templates/admin/products.php:68
+#: templates/admin/orders.php:68 templates/admin/warehouse/inventory.php:72
+#: templates/admin/warehouse/adjust_stock.php:41
+msgid "Search"
+msgstr ""
+
+#: templates/admin/warehouse/adjust_stock.php:34
+msgid "Search / Import Product"
+msgstr ""
+
+#: lib/class-op-woo.php:128
+msgid "Search Custom Notes"
+msgstr ""
+
+#: includes/admin/Admin.php:1298
+msgid "Search Display Type"
+msgstr ""
+
+#: includes/admin/Admin.php:1287
+msgid "Search Mode"
+msgstr ""
+
+#: templates/admin/tables.php:88
+msgid "Seats"
+msgstr ""
+
+#: lib/class-op-report.php:23 lib/class-op-receipt.php:30
+#: lib/class-op-update.php:39 includes/admin/Admin.php:1471
+msgid "Security check"
+msgstr ""
+
+#: woocommerce-openpos.php:148
+msgid ""
+"Seem you are forgot install woocommerce plugin. Please install woocommerce "
+"plugin before install OpenPOS"
+msgstr ""
+
+#: woocommerce-openpos.php:145
+msgid ""
+"Seem you are using OpenPOS Lite Version - Free. Please delete it before "
+"intsall this Paid version."
+msgstr ""
+
+#: lib/class-op-setting.php:856
+msgid "Select categories&hellip;"
+msgstr ""
+
+#: templates/admin/report/report_form.php:77
+msgid "Seller"
+msgstr ""
+
+#: includes/admin/Admin.php:3723 includes/admin/Admin.php:3778
+#: includes/admin/Admin.php:4026 includes/admin/Admin.php:4077
+msgid "Seller Amount"
+msgstr ""
+
+#: lib/class-op-register.php:339
+msgid "Seller Mode - No checkout button"
+msgstr ""
+
+#: includes/admin/Admin.php:4325
+msgid "Seller sales"
+msgstr ""
+
+#: lib/class-op-woo.php:2490
+msgid "Seller: "
+msgstr ""
+
+#: lib/emails/class-op-email-customer-order-receipt.php:35
+msgid "Send email receipt when click send receipt on POS after complete order."
+msgstr ""
+
+#: includes/admin/Admin.php:631
+msgid "Sequential: Start order number"
+msgstr ""
+
+#: includes/Core.php:1727
+msgid "Serbian"
+msgstr ""
+
+#: includes/Core.php:1728
+msgid "Serbo-Croatian"
+msgstr ""
+
+#: lib/class-op-report.php:236 lib/class-op-report.php:343
+#: templates/admin/report/print_x_report.php:89
+msgid "Session"
+msgstr ""
+
+#: templates/admin/report/print_x_report.php:87
+msgid "Session Info"
+msgstr ""
+
+#: includes/admin/Admin.php:660
+msgid ""
+"Set Shipping class for active shipping method. Please choose shipping and "
+"click save change to see set shipping tax"
+msgstr ""
+
+#: includes/admin/Admin.php:2799 includes/admin/Admin.php:2870
+msgid "Setting"
+msgstr ""
+
+#: includes/admin/Admin.php:839
+msgid "Sheet Height"
+msgstr ""
+
+#: templates/admin/print_barcode.php:80
+msgid "Sheet Margin (top x right x bottom x left):"
+msgstr ""
+
+#: includes/admin/Admin.php:832
+msgid "Sheet Width"
+msgstr ""
+
+#: templates/admin/print_barcode.php:66
+msgid "Sheet Width x Height:"
+msgstr ""
+
+#: includes/Setting.php:24 includes/Core.php:1926 includes/admin/Admin.php:274
+#: includes/api/Auth.php:78 templates/emails/receipt.php:208
+msgid "Shipping"
+msgstr ""
+
+#: templates/emails/receipt.php:272
+msgid "Shipping Information"
+msgstr ""
+
+#: includes/admin/Admin.php:651
+msgid "Shipping Methods"
+msgstr ""
+
+#: templates/admin/report/print_x_report.php:158
+msgid "Shipping Total"
+msgstr ""
+
+#: lib/class-op-woo.php:2162
+msgid "Shipping: "
+msgstr ""
+
+#: includes/Core.php:1731
+msgid "Shona"
+msgstr ""
+
+#: lib/class-op-woo.php:360
+msgid "Shop Agent:"
+msgstr ""
+
+#: templates/admin/transactions.php:92 templates/admin/stock.php:106
+#: templates/admin/cashier.php:56 templates/admin/products.php:64
+#: templates/admin/orders.php:64 templates/admin/warehouse/inventory.php:68
+msgid "Showing {{ctx.start}} to {{ctx.end}} of {{ctx.total}} entries"
+msgstr ""
+
+#: includes/Core.php:1706
+msgid "Sichuan Yi"
+msgstr ""
+
+#: includes/Core.php:1732
+msgid "Sindhi"
+msgstr ""
+
+#: includes/admin/Admin.php:1323
+msgid "Single Payment"
+msgstr ""
+
+#: includes/admin/Admin.php:1324
+msgid "Single Payment with Multi Times"
+msgstr ""
+
+#: includes/Core.php:1733
+msgid "Sinhala"
+msgstr ""
+
+#: includes/admin/Admin.php:4954 includes/admin/Admin.php:4961
+msgid "SKU"
+msgstr ""
+
+#: includes/Core.php:1735
+msgid "Slovak"
+msgstr ""
+
+#: includes/Core.php:1736
+msgid "Slovenian"
+msgstr ""
+
+#: lib/class-op-woo.php:2497
+msgid "Sold By Shop Agent"
+msgstr ""
+
+#: includes/admin/Admin.php:3739 includes/admin/Admin.php:3748
+#: includes/admin/Admin.php:4041 includes/admin/Admin.php:4048
+msgid "Sold QTY"
+msgstr ""
+
+#: includes/admin/Admin.php:3738 includes/admin/Admin.php:3747
+#: includes/admin/Admin.php:4040 includes/admin/Admin.php:4047
+msgid "Sold Total"
+msgstr ""
+
+#: includes/Core.php:1737
+msgid "Somali"
+msgstr ""
+
+#: lib/class-op-woo.php:203 templates/admin/orders.php:18
+msgid "Source"
+msgstr ""
+
+#: includes/Core.php:1738
+msgid "South Ndebele"
+msgstr ""
+
+#: includes/Core.php:1729
+msgid "Southern Sotho"
+msgstr ""
+
+#: includes/Core.php:1739
+msgid "Spanish"
+msgstr ""
+
+#: includes/admin/Admin.php:1322
+msgid "Split Multi Payment - Deprecated"
+msgstr ""
+
+#: templates/admin/cashier.php:15
+msgid "Staff Only"
+msgstr ""
+
+#: lib/class-op-woo.php:2680 lib/class-op-woo.php:2682
+#: lib/class-op-woo.php:2708 lib/class-op-woo.php:2710
+msgid "State"
+msgstr ""
+
+#: templates/admin/warehouses.php:125 templates/admin/warehouses.php:168
+#: templates/admin/dashboard.php:263 templates/admin/registers.php:119
+#: templates/admin/registers.php:145 templates/admin/tables.php:130
+#: templates/admin/tables.php:153 templates/admin/receipt_templates.php:119
+#: templates/admin/receipt_templates.php:145 templates/admin/orders.php:21
+#: templates/admin/warehouse/new.php:112
+msgid "Status"
+msgstr ""
+
+#: includes/admin/Admin.php:727
+msgid "status for those order created by POS"
+msgstr ""
+
+#: includes/admin/Admin.php:735
+msgid ""
+"Status of online order allow continue checkout on POS. Enter status name to "
+"search"
+msgstr ""
+
+#: includes/admin/Admin.php:2859
+msgid "Stock Overview"
+msgstr ""
+
+#: includes/admin/Admin.php:2841
+msgid "Store Staff"
+msgstr ""
+
+#: includes/Core.php:1920
+msgid "Sub Total"
+msgstr ""
+
+#: includes/Core.php:1740
+msgid "Sundanese"
+msgstr ""
+
+#: includes/admin/Admin.php:245
+msgid "Support"
+msgstr ""
+
+#: includes/Core.php:1741
+msgid "Swahili"
+msgstr ""
+
+#: includes/Core.php:1734
+msgid "Swati"
+msgstr ""
+
+#: includes/Core.php:1742
+msgid "Swedish"
+msgstr ""
+
+#: lib/class-op-table.php:51 lib/class-op-table.php:52
+msgid "Table"
+msgstr ""
+
+#: templates/kitchen/view.php:55
+msgid "Table / Order"
+msgstr ""
+
+#: includes/admin/Admin.php:6442 includes/admin/Admin.php:6551
+msgid "Table do not exist"
+msgstr ""
+
+#: includes/front/Front.php:5081
+msgid "Table do not exist or Your QRcode has been expired"
+msgstr ""
+
+#: customer/index.php:52
+msgid "Table is empty!"
+msgstr ""
+
+#: includes/api/Table.php:299
+msgid "Table not found"
+msgstr ""
+
+#: includes/front/Front.php:5086
+msgid "Table not publish yet!"
+msgstr ""
+
+#: templates/admin/tables.php:207
+msgid "Table Qrcode"
+msgstr ""
+
+#: includes/admin/Admin.php:584 includes/admin/Admin.php:2854
+msgid "Tables"
+msgstr ""
+
+#: includes/Core.php:1743
+msgid "Tagalog"
+msgstr ""
+
+#: includes/Core.php:1744
+msgid "Tahitian"
+msgstr ""
+
+#: includes/Core.php:1745
+msgid "Tajik"
+msgstr ""
+
+#: includes/api/Table.php:328
+msgid "Takeaway Not found"
+msgstr ""
+
+#: includes/api/Table.php:252
+msgid "Takeaway not found"
+msgstr ""
+
+#: lib/class-op-warehouse.php:723 templates/admin/warehouses.php:220
+msgid "Takeaway Qrcode"
+msgstr ""
+
+#: includes/Core.php:1746
+msgid "Tamil"
+msgstr ""
+
+#: includes/Core.php:1747
+msgid "Tatar"
+msgstr ""
+
+#: includes/Core.php:1937 templates/admin/report/print_z_report.php:134
+msgid "Tax"
+msgstr ""
+
+#: includes/admin/Admin.php:772
+msgid ""
+"Tax Class assign for POS system. Require refresh product list to take effect."
+msgstr ""
+
+#: includes/admin/Admin.php:675
+msgid ""
+"Tax class for current shipping method. Tax rate auto generate base on "
+"store/outlet address"
+msgstr ""
+
+#: templates/admin/report/print_z_report.php:130
+msgid "Tax Detail"
+msgstr ""
+
+#: includes/admin/Admin.php:674
+msgid "Tax for"
+msgstr ""
+
+#: lib/class-op-woo.php:1142 lib/class-op-woo.php:1175
+#: lib/class-op-woo.php:1220 lib/class-op-woo-order.php:2089
+msgid "Tax on POS"
+msgstr ""
+
+#: includes/admin/Admin.php:486
+msgid "Tax Rate"
+msgstr ""
+
+#: templates/admin/report/print_x_report.php:162
+msgid "Tax Total"
+msgstr ""
+
+#: includes/Core.php:1748
+msgid "Telugu"
+msgstr ""
+
+#: templates/admin/receipt_template_composer.php:51
+msgid "Template"
+msgstr ""
+
+#: templates/admin/print_barcode.php:112
+msgid "Template:"
+msgstr ""
+
+#: includes/Core.php:1749
+msgid "Thai"
+msgstr ""
+
+#: templates/emails/op-customer-receipt.php:151
+#: templates/emails/receipt.php:155
+#: templates/emails/plain/op-customer-receipt.php:151
+msgid "Thank you for your order!"
+msgstr ""
+
+#: lib/class-op-update.php:254
+msgid "Thank you! Your purchase code is valid."
+msgstr ""
+
+#: templates/admin/warehouses.php:102 templates/admin/warehouse/new.php:89
+msgid "The city in which your business is located."
+msgstr ""
+
+#: templates/admin/warehouses.php:114 templates/admin/warehouse/new.php:101
+msgid ""
+"The country and state or province, if any, in which your business is located."
+msgstr ""
+
+#: templates/admin/warehouses.php:121 templates/admin/warehouse/new.php:108
+msgid "The postal code, if any, in which your business is located."
+msgstr ""
+
+#: templates/admin/warehouses.php:88 templates/admin/warehouse/new.php:75
+msgid "The street address for your business location."
+msgstr ""
+
+#: includes/admin/Admin.php:1288
+msgid "The way of search when type keyword on search box on POS"
+msgstr ""
+
+#: includes/api/Customer.php:144 includes/front/Front.php:1795
+msgid "There are multi user with same term"
+msgstr ""
+
+#: includes/api/Auth.php:894 includes/front/Front.php:4483
+#, php-format
+msgid "There are new message from tables: %s"
+msgstr ""
+
+#: lib/class-op-discounts.php:166
+msgid "This coupon not for current customer"
+msgstr ""
+
+#: templates/admin/dashboard.php:19
+msgid ""
+"This function to reset cash balance on your all cashdrawers to 0. Are you "
+"sure ?"
+msgstr ""
+
+#: templates/admin/dashboard.php:33
+msgid ""
+"This function to reset debit balance on your all cashdrawers to 0. Are you "
+"sure ?"
+msgstr ""
+
+#: lib/class-op-table.php:54 lib/class-op-transaction.php:25
+#: lib/class-op-warehouse.php:36 lib/class-op-report.php:34
+#: lib/class-op-register.php:39
+msgid ""
+"This is where you can add new transaction that customers can use in your "
+"store."
+msgstr ""
+
+#: templates/admin/dashboard.php:215
+msgid "This Month"
+msgstr ""
+
+#: templates/admin/report/report_form.php:108
+msgid "This month"
+msgstr ""
+
+#: lib/class-op-woo.php:5048
+msgid "This setting determines which products will be listed on."
+msgstr ""
+
+#: templates/admin/dashboard.php:213 templates/admin/report/report_form.php:105
+msgid "This Week"
+msgstr ""
+
+#: includes/admin/Admin.php:978
+msgid "Those setting for receipt <strong>Default template</strong>."
+msgstr ""
+
+#: templates/admin/stock.php:11 templates/admin/products.php:17
+#: templates/admin/warehouse/inventory.php:24
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/Core.php:1750
+msgid "Tibetan"
+msgstr ""
+
+#: includes/Core.php:1751
+msgid "Tigrinya"
+msgstr ""
+
+#: includes/admin/Admin.php:577
+msgid "Tiles DashBoard"
+msgstr ""
+
+#: includes/admin/Admin.php:1132
+msgid "Time duration POS state checking (in mini seconds)"
+msgstr ""
+
+#: includes/admin/Admin.php:1131
+msgid "Time Frequency"
+msgstr ""
+
+#: includes/Core.php:1315
+msgid "Time Range is invalid. Maximum is 365 days"
+msgstr ""
+
+#: includes/admin/Admin.php:3724 includes/admin/Admin.php:3779
+msgid "Tip Amount"
+msgstr ""
+
+#: includes/admin/Admin.php:3529 includes/admin/Admin.php:4728
+#: includes/admin/Admin.php:4737
+#: templates/admin/report/report_sales_table.php:11
+msgid "Tip Total"
+msgstr ""
+
+#: lib/class-op-woo.php:388
+msgid "TIP:"
+msgstr ""
+
+#: templates/admin/report/report_form.php:126
+msgid "To"
+msgstr ""
+
+#: includes/admin/Admin.php:691
+msgid ""
+"To use this feature, your POS url should under HTTPS. OpenPOS Progressive "
+"Web Apps on Desktop can be ‘installed’ on the user’s device much like native "
+"apps. It’s fast. Feel integrated because they launched in the same way as "
+"other apps, and run in an app window, without an address bar or tabs. It is "
+"reliable because service workers can cache all of the assets they need to "
+"run. And it create an engaging experience for users."
+msgstr ""
+
+#: templates/admin/dashboard.php:211 templates/admin/report/report_form.php:103
+msgid "Today"
+msgstr ""
+
+#: includes/Core.php:1752
+msgid "Tonga"
+msgstr ""
+
+#: templates/admin/receipt_template_composer.php:35
+msgid "Top"
+msgstr ""
+
+#: bill/index.php:78 includes/Core.php:1899 customer/index.php:51
+#: includes/admin/Admin.php:6759 templates/emails/receipt.php:217
+#: templates/admin/orders.php:20 templates/front/bill.php:34
+#: templates/admin/report/print_x_report.php:122
+#: templates/admin/report/print_x_report.php:143
+#: templates/admin/report/print_z_report.php:119
+#: templates/admin/report/print_z_report.php:135
+#: templates/admin/report/print_z_report.php:145
+#: templates/admin/warehouse/adjust_stock.php:69
+msgid "Total"
+msgstr ""
+
+#: lib/class-op-report.php:244 lib/class-op-report.php:569
+msgid "Total Cart Discount"
+msgstr ""
+
+#: lib/class-op-report.php:242 lib/class-op-report.php:567
+msgid "Total Custom Transaction"
+msgstr ""
+
+#: lib/class-op-report.php:494
+msgid "Total Debit"
+msgstr ""
+
+#: includes/admin/Admin.php:3697
+msgid "Total IN"
+msgstr ""
+
+#: lib/class-op-report.php:243 lib/class-op-report.php:568
+msgid "Total Item Discount"
+msgstr ""
+
+#: lib/class-op-report.php:486 includes/admin/Admin.php:3740
+#: includes/admin/Admin.php:3749 includes/admin/Admin.php:4042
+#: includes/admin/Admin.php:4049
+msgid "Total Order"
+msgstr ""
+
+#: lib/class-op-report.php:348 lib/class-op-report.php:565
+#: lib/class-op-report.php:576 lib/class-op-report.php:1188
+#: includes/admin/Admin.php:4006 includes/admin/Admin.php:4256
+#: includes/admin/Admin.php:4345 includes/admin/Admin.php:4532
+#: includes/admin/Admin.php:4702 includes/admin/Admin.php:4870
+#: templates/admin/report/report_sales_chart.php:6
+msgid "Total Orders"
+msgstr ""
+
+#: includes/admin/Admin.php:3708
+msgid "Total OUT"
+msgstr ""
+
+#: includes/admin/Admin.php:4706
+msgid "Total Paid"
+msgstr ""
+
+#: includes/admin/Admin.php:4879 includes/admin/Admin.php:5166
+#: templates/admin/report/report_sales_chart.php:22
+msgid "Total Profit"
+msgstr ""
+
+#: includes/admin/Admin.php:6928
+msgid "TOTAL QTY"
+msgstr ""
+
+#: includes/admin/Admin.php:5171
+msgid "Total QTY"
+msgstr ""
+
+#: includes/admin/Admin.php:3900 includes/admin/Admin.php:3992
+#: includes/admin/Admin.php:4247 includes/admin/Admin.php:4336
+msgid "Total Qty"
+msgstr ""
+
+#: lib/class-op-report.php:350
+msgid "Total Refund"
+msgstr ""
+
+#: lib/class-op-report.php:241 lib/class-op-report.php:349
+#: lib/class-op-report.php:566 lib/class-op-report.php:577
+#: lib/class-op-report.php:1189 includes/admin/Admin.php:3904
+#: includes/admin/Admin.php:3996 includes/admin/Admin.php:4251
+#: includes/admin/Admin.php:4340 includes/admin/Admin.php:4536
+#: includes/admin/Admin.php:4874 includes/admin/Admin.php:5161
+#: templates/admin/report/report_sales_chart.php:14
+msgid "Total Sales"
+msgstr ""
+
+#: includes/admin/Admin.php:1309
+msgid "Total Search Result"
+msgstr ""
+
+#: includes/admin/Admin.php:4884
+#: templates/admin/report/report_sales_chart.php:30
+msgid "Total TIP"
+msgstr ""
+
+#: includes/admin/Admin.php:3741 includes/admin/Admin.php:3750
+#: includes/admin/Admin.php:3909 includes/admin/Admin.php:4001
+msgid "Total Tip"
+msgstr ""
+
+#: lib/class-op-transaction.php:23
+msgid "Transaction"
+msgstr ""
+
+#: includes/api/Transaction.php:262
+msgid "Transaction ID is required"
+msgstr ""
+
+#: includes/api/Transaction.php:171 includes/front/Front.php:1417
+msgid "Transaction is being processed. Please wait a moment."
+msgstr ""
+
+#: includes/api/Transaction.php:273
+msgid "Transaction not found"
+msgstr ""
+
+#: lib/class-op-transaction.php:22 lib/class-op-warehouse.php:697
+#: lib/class-op-warehouse.php:706 lib/class-op-register.php:373
+#: includes/admin/Admin.php:2835 includes/admin/Admin.php:3110
+#: includes/admin/Admin.php:3253
+msgid "Transactions"
+msgstr ""
+
+#: templates/admin/report/report_form.php:43
+msgid "Transactions Report"
+msgstr ""
+
+#: includes/Core.php:1753
+msgid "Tsonga"
+msgstr ""
+
+#: includes/Core.php:1730
+msgid "Tswana"
+msgstr ""
+
+#: includes/Core.php:1754
+msgid "Turkish"
+msgstr ""
+
+#: includes/Core.php:1755
+msgid "Turkmen"
+msgstr ""
+
+#: includes/Core.php:1756
+msgid "Twi"
+msgstr ""
+
+#: templates/admin/tables.php:100 templates/admin/receipt_templates.php:108
+#: templates/admin/receipt_templates.php:142
+#: templates/admin/report/report_form.php:35
+msgid "Type"
+msgstr ""
+
+#: includes/Core.php:1757
+msgid "Uighur"
+msgstr ""
+
+#: includes/Core.php:1758
+msgid "Ukrainian"
+msgstr ""
+
+#: includes/api/Api.php:80
+msgid "Unauthorized"
+msgstr ""
+
+#: includes/admin/Admin.php:816
+msgid "Unit"
+msgstr ""
+
+#: templates/admin/print_barcode.php:57
+msgid "Unit:"
+msgstr ""
+
+#: includes/api/Auth.php:678 includes/front/Front.php:5062
+#: includes/front/Front.php:5339 includes/front/Front.php:5379
+msgid "Unknow message"
+msgstr ""
+
+#: lib/class-op-woo.php:360 lib/class-op-woo.php:370
+#: lib/class-op-transaction.php:159 lib/class-op-update.php:220
+#: lib/class-op-update.php:271 includes/admin/Admin.php:2620
+#: includes/admin/Admin.php:2898 includes/admin/Admin.php:2925
+#: includes/admin/Admin.php:3298 includes/admin/Admin.php:3318
+#: templates/admin/receipt_templates.php:149
+msgid "Unknown"
+msgstr ""
+
+#: includes/admin/Admin.php:2917 includes/admin/Admin.php:2950
+#: templates/admin/sessions.php:24
+msgid "Unlink"
+msgstr ""
+
+#: lib/class-op-warehouse.php:133 includes/admin/Admin.php:1952
+#: templates/admin/receipt_template_composer.php:67
+#: templates/admin/warehouse/adjust_stock.php:83
+msgid "Update"
+msgstr ""
+
+#: lib/class-op-woo.php:134
+msgid "Update Custom Note"
+msgstr ""
+
+#: includes/Core.php:1759
+msgid "Urdu"
+msgstr ""
+
+#: includes/admin/Admin.php:935 templates/admin/print_barcode.php:116
+msgid ""
+"use [barcode with=\"\" height=\"\"] to adjust barcode image, [op_product "
+"attribute=\"attribute_name\"] with attribute name: <b>name, price ,"
+"regular_price, sale_price, width, height,length,weight</b> and accept html,"
+"inline style css string"
+msgstr ""
+
+#: includes/admin/Admin.php:1025
+msgid ""
+"use [payment_method], [customer_name], [customer_phone],[sale_person], "
+"[created_at], [order_number],[order_number_format],[order_note],"
+"[order_qrcode width=\"_number_\" height=\"_number_\"],[order_barcode  "
+"width=\"_number_\" height=\"_number_\"], [customer_email],[op_warehouse "
+"field=\"_fiel_name\"] - (_fiel_name : name, address, city, postal_code,"
+"country,phone,email), [op_register field=\"name\"] shortcode to adjust "
+"receipt information, accept html string"
+msgstr ""
+
+#: includes/admin/Admin.php:1032
+msgid ""
+"use [payment_method],[customer_name], [customer_phone], [sale_person], "
+"[created_at], [order_number],[order_number_format],[order_qrcode "
+"width=\"_number_\" height=\"_number_\"],[order_barcode  width=\"_number_\" "
+"height=\"_number_\"],[order_note], [customer_email], [op_warehouse "
+"field=\"_fiel_name\"] - (_fiel_name : name, address, city, postal_code,"
+"country,phone,email), [op_register field=\"name\"] shortcode to adjust "
+"receipt information, accept html string"
+msgstr ""
+
+#: includes/admin/Admin.php:507
+msgid "Use cart items Tax"
+msgstr ""
+
+#: includes/admin/Admin.php:404
+msgid "Use Product Tax Class"
+msgstr ""
+
+#: includes/admin/Admin.php:3736 includes/admin/Admin.php:3745
+#: includes/admin/Admin.php:3767 includes/admin/Admin.php:4038
+#: includes/admin/Admin.php:4045 includes/admin/Admin.php:4066
+#: templates/admin/sessions.php:19 templates/admin/report/print_x_report.php:90
+msgid "User"
+msgstr ""
+
+#: includes/front/Front.php:1178
+msgid "User Name and Password can not empty."
+msgstr ""
+
+#: includes/admin/Admin.php:1073
+msgid "Username + Password"
+msgstr ""
+
+#: includes/Core.php:1760
+msgid "Uzbek"
+msgstr ""
+
+#: includes/Core.php:1761
+msgid "Venda"
+msgstr ""
+
+#: customer/index.php:60
+msgid "Verification"
+msgstr ""
+
+#: customer/index.php:78 customer/index.php:82
+msgid "Verify data"
+msgstr ""
+
+#: templates/admin/warehouses.php:228 templates/admin/tables.php:215
+msgid "Verify URL"
+msgstr ""
+
+#: includes/admin/Admin.php:846
+msgid "Vertical Space"
+msgstr ""
+
+#: templates/admin/print_barcode.php:70
+msgid "Vertical Spacing:"
+msgstr ""
+
+#: lib/class-op-woo.php:4253
+msgid "via"
+msgstr ""
+
+#: includes/Core.php:1762
+msgid "Vietnamese"
+msgstr ""
+
+#: lib/class-op-report.php:476 lib/class-op-report.php:511
+#: includes/admin/Admin.php:2903 includes/admin/Admin.php:2930
+#: includes/admin/Admin.php:3532 includes/admin/Admin.php:3727
+#: includes/admin/Admin.php:3879 includes/admin/Admin.php:4029
+#: includes/admin/Admin.php:4227 includes/admin/Admin.php:4371
+#: includes/admin/Admin.php:4510 includes/admin/Admin.php:5366
+msgid "View"
+msgstr ""
+
+#: templates/admin/report/report_sales_table.php:14
+msgid "View "
+msgstr ""
+
+#: templates/help.php:9
+msgid "View current customer"
+msgstr ""
+
+#. %s: Order link.
+#: templates/emails/plain/email-order-details.php:51
+#, php-format
+msgid "View order: %s"
+msgstr ""
+
+#: includes/admin/Admin.php:2822
+msgid "Visit POS"
+msgstr ""
+
+#: includes/Core.php:1763
+msgid "Volapük"
+msgstr ""
+
+#: lib/class-op-register.php:341
+msgid "Waiter Mode - No checkout button"
+msgstr ""
+
+#: includes/Core.php:1764
+msgid "Walloon"
+msgstr ""
+
+#: lib/class-op-warehouse.php:33 lib/class-op-warehouse.php:34
+msgid "Warehouse"
+msgstr ""
+
+#. %s: Site title
+#: templates/emails/customer-completed-order.php:29
+#: templates/emails/plain/customer-completed-order.php:27
+msgid "We have finished processing your order."
+msgstr ""
+
+#: lib/class-op-transaction.php:351
+msgid "Website Order"
+msgstr ""
+
+#: includes/admin/Admin.php:7565
+msgid "Weight-Base Pricing"
+msgstr ""
+
+#: includes/Core.php:1765
+msgid "Welsh"
+msgstr ""
+
+#: includes/Core.php:1767
+msgid "Western Frisian"
+msgstr ""
+
+#: includes/admin/Admin.php:961
+#: templates/admin/receipt_template_composer.php:25
+msgid "Width"
+msgstr ""
+
+#: includes/admin/Admin.php:1194
+msgid "Width of image in pos in px"
+msgstr ""
+
+#: includes/Core.php:1766
+msgid "Wolof"
+msgstr ""
+
+#. Name of the plugin
+msgid "Woocommerce OpenPos"
+msgstr ""
+
+#: includes/admin/Admin.php:411
+msgid ""
+"Work with barcode scanner device only. I : item code , P : price , W : "
+"weight  , Q : quantity, E : expired . Example: \"DDIIIIIDPPPPC\" -   "
+"\"2081981002076\" With \"20\": string to detect barcode generate by scale, "
+"\"81981\" : product barcode , \"0207\" : price = 2.07$  "
+msgstr ""
+
+#: templates/admin/report/report_form.php:46
+msgid "X Report"
+msgstr ""
+
+#: lib/class-op-receipt.php:49
+msgid "X-Report"
+msgstr ""
+
+#: templates/admin/report/print_x_report.php:6
+msgid "x-report"
+msgstr ""
+
+#: includes/Core.php:1768
+msgid "Xhosa"
+msgstr ""
+
+#: lib/class-op-receipt.php:550
+msgid "xReport"
+msgstr ""
+
+#: includes/admin/Admin.php:425 includes/admin/Admin.php:436
+#: includes/admin/Admin.php:457 includes/admin/Admin.php:695
+#: includes/admin/Admin.php:706 includes/admin/Admin.php:719
+#: includes/admin/Admin.php:739 includes/admin/Admin.php:1110
+#: includes/admin/Admin.php:1123 includes/admin/Admin.php:1143
+#: includes/admin/Admin.php:1154 includes/admin/Admin.php:1165
+#: includes/admin/Admin.php:1176 includes/admin/Admin.php:1187
+#: includes/admin/Admin.php:1247 includes/admin/Admin.php:1258
+#: includes/admin/Admin.php:1269 includes/admin/Admin.php:1280
+#: includes/admin/Admin.php:1334
+msgid "Yes"
+msgstr ""
+
+#: templates/admin/dashboard.php:212 templates/admin/report/report_form.php:104
+msgid "Yesterday"
+msgstr ""
+
+#: includes/Core.php:1769
+msgid "Yiddish"
+msgstr ""
+
+#: includes/Core.php:1770
+msgid "Yiddish (old code)"
+msgstr ""
+
+#: includes/Core.php:1771
+msgid "Yoruba"
+msgstr ""
+
+#: includes/api/Order.php:1599 includes/api/Order.php:1737
+#: includes/front/Front.php:3133
+msgid ""
+"You can not close a order has been paid! Please complete order by click "
+"Check Payment button."
+msgstr ""
+
+#: includes/api/Table.php:336 includes/front/Front.php:3955
+msgid "You do not allow remove this"
+msgstr ""
+
+#: lib/class-op-woo.php:4784
+msgid "You have %d new orders from website"
+msgstr ""
+
+#: templates/emails/op-customer-receipt.php:109
+#: templates/emails/receipt.php:113
+#: templates/emails/plain/op-customer-receipt.php:109
+msgid "You have new order from POS."
+msgstr ""
+
+#: includes/api/Auth.php:280 includes/front/Front.php:1204
+msgid ""
+"You have no grant access to any Register POS. Please contact with admin to "
+"assign your account to POS Register."
+msgstr ""
+
+#: includes/api/Auth.php:275 includes/front/Front.php:1199
+msgid ""
+"You have no permission to access POS. Please contact with admin to resolve "
+"it."
+msgstr ""
+
+#: lib/class-op-woo-order.php:908
+msgid "Your Debit Total:"
+msgstr ""
+
+#: includes/api/Order.php:1379 includes/front/Front.php:4811
+msgid "Your email address is incorrect. Please check again!"
+msgstr ""
+
+#: includes/api/Auth.php:759 includes/front/Front.php:4355
+#: includes/front/Front.php:4383
+msgid "Your have no grant to any register"
+msgstr ""
+
+#: includes/api/Auth.php:226
+msgid "Your have reach to maximum api request limit. Please try again later."
+msgstr ""
+
+#: templates/admin/sessions.php:40
+msgid "Your Location"
+msgstr ""
+
+#: includes/api/Auth.php:748 includes/front/Front.php:4136
+#: includes/front/Front.php:4373
+msgid "Your login session has been clean. Please try login again"
+msgstr ""
+
+#: includes/api/Table.php:210 includes/front/Front.php:3805
+msgid "Your order has been deleted. Please scan order QRcode and try again."
+msgstr ""
+
+#: includes/api/Auth.php:658 includes/front/Front.php:1383
+msgid "Your password is incorrect. Please try again."
+msgstr ""
+
+#: lib/class-op-woo.php:4871
+msgid "Your password not match. Please check again"
+msgstr ""
+
+#: includes/api/Auth.php:645 includes/front/Front.php:1370
+msgid "Your PIN is incorrect. Please try again."
+msgstr ""
+
+#: includes/api/Table.php:499 includes/front/Front.php:5324
+msgid "Your request has been sent to our waiter. Please wait."
+msgstr ""
+
+#: includes/admin/Admin.php:7321
+msgid ""
+"Your setting has been update successfull. Don't forget Logout and Login POS "
+"again to take effect on POS panel !"
+msgstr ""
+
+#: includes/admin/Admin.php:6783
+msgid "Your warehouse do not exist."
+msgstr ""
+
+#: templates/admin/report/print_z_report.php:82
+msgid "Z Reading Report"
+msgstr ""
+
+#: templates/admin/report/print_x_report.php:81
+#: templates/admin/report/report_form.php:47
+msgid "Z Report"
+msgstr ""
+
+#: lib/class-op-report.php:31 lib/class-op-report.php:32
+msgid "Z-Report"
+msgstr ""
+
+#: templates/admin/report/print_z_report.php:6
+msgid "z-report"
+msgstr ""
+
+#: includes/Core.php:1772
+msgid "Zhuang"
+msgstr ""
+
+#: includes/Core.php:1773
+msgid "Zulu"
+msgstr ""

@@ -1,0 +1,68 @@
+<% var date = new Date(created_at_time); var tmonthNames = ["01", "02", "03", "04", "05", "06",
+  "07", "08", "09", "10", "11", "12"
+]; %>
+
+<div class="receipt-header">
+	<div class="header-left">
+        <h2>DELIVERY RECEIPT</h2>
+        <div class="company-info">
+            <p>Open POS Ltd</p>
+			<p>123 Main Street</p>
+			<p>Hamilton, OH 44416</p>
+			<p>(321) 456-7890</p>
+			<p>anhvnit@gmail.com</p>
+        </div>
+    </div>
+    <div class="header-right">
+        <table>
+            <tr>
+               <th>DATE</th>
+               <td class="receipt-date-value">
+               <p class="text-center">
+            <%-date.getFullYear() %>/<%- tmonthNames[date.getMonth()] %>/<%-date.getDate() %></p>
+               </td>
+            </tr>
+            <tr>
+               <th>RECEIPT NO.</th>
+               <td class="text-center"><p class="receipt-no-value"><%= order_number %></p></td>
+            </tr>
+        </table>
+        <p class="text-center receipt-info-title">RECIPIENT INFO</p>
+        <div class="receipt-info">
+           <p><%= shipping.shipping_information.firstname +" "+ shipping.shipping_information.lastname %></p>
+          <p><%= shipping.shipping_information.address %></p>
+		  <p><%= shipping.shipping_information.city %>, <%= shipping.shipping_information.state %>  <%= shipping.shipping_information.postcode %> </p>
+          <p><%= shipping.shipping_information.phone %></p>
+        </div>
+    </div>
+
+</div>
+<div class="receipt-body">
+<table class="list-items">
+<tr>
+   <th>DESCRIPTION </th>
+   <th>QTY</th>
+   <th>PRICE</th>
+   <th>TOTAL</th>
+</tr>
+<% items.forEach(function(item){ %>
+ <tr>
+   <td><%= item.name %></td>
+   <td class="text-center"><%= item.qty %></td>
+   <td class="text-center"><%= item.final_price_incl_tax.toFixed(2) %></td>
+   <td class="text-center"><%= item.total_incl_tax.toFixed(2) %></td>
+</tr>   
+<% }); %>
+<tr>
+   <td class="no-border" colspan="2"></td>
+   <td class="text-center">Total</td>
+   <td class="text-center"><%= sub_total_incl_tax.toFixed(2) %></td>
+</tr> 
+</table>
+</div>
+<div class="receipt-bottom">
+<p class="thank-you-label">Thank you</p>
+<p class="receipt-signature">
+<span>RECIPIENT SIGNATURE</span>
+</p>
+</div>
