@@ -3196,14 +3196,20 @@ class Openpos_Admin{
         $warehouse_meta_key = $op_warehouse->get_order_meta_key();
         $cashdrawer_meta_key = $op_register->get_order_meta_key();
        
+        // Get POS type for conditional labels
+        $pos_type = get_option('openpos_type', 'openpos_pos');
+        $is_salon = $pos_type === 'salon';
+        $revenue_label = $is_salon ? __('Service Revenue','openpos') : __('Sales','openpos');
+        $profit_label = $is_salon ? __('Net Revenue','openpos') : __('Profit','openpos');
+        
         $orders = array();
         $total_transaction = 0;
         $transactions = array();
         array_unshift( $chart_data, array(
             __('Date','openpos'),
-            __('Sales','openpos'),
+            $revenue_label,
             __('Transactions','openpos'),
-            __('Profit','openpos'),
+            $profit_label,
         ) );
         $pie_data = array();
         $dashboard_data = $this->dashboard_data(true);

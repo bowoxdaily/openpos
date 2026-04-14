@@ -1,6 +1,26 @@
 <?php
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 $op_nonce = wp_create_nonce( 'op_nonce' );
+
+// Get POS Type for conditional labels
+global $openpos_core;
+if(!isset($openpos_core)){
+    $openpos_core = new Openpos_Core();
+}
+$pos_type = get_option('openpos_type', 'openpos_pos');
+$is_salon = $pos_type === 'salon';
+
+// Conditional labels based on POS type
+$revenue_label = $is_salon ? __('Service Revenue', 'openpos') : __('Sales', 'openpos');
+$profit_label = $is_salon ? __('Net Revenue', 'openpos') : __('Profit', 'openpos');
+$by_register_label = $is_salon ? __('Revenue by Register', 'openpos') : __('Sale by Register', 'openpos');
+$by_outlet_label = $is_salon ? __('Revenue by Salon Branch', 'openpos') : __('Sale by Outlet', 'openpos');
+$by_therapist_label = $is_salon ? __('Revenue by Therapist', 'openpos') : __('Sales by Seller', 'openpos');
+$by_payment_label = $is_salon ? __('Payment Methods', 'openpos') : __('Sales by Payment', 'openpos');
+$dashboard_title = $is_salon ? __('Salon Dashboard', 'openpos') : __('POS Dashboard', 'openpos');
+$last_transactions_label = $is_salon ? __('Last Appointments', 'openpos') : __('Last Orders', 'openpos');
+$customer_label = $is_salon ? __('Client', 'openpos') : __('Customer', 'openpos');
+$all_revenue_label = $is_salon ? __('All Service Revenue', 'openpos') : __('All Sales', 'openpos');
 ?>
 <?php
 /**
@@ -12,7 +32,7 @@ $op_nonce = wp_create_nonce( 'op_nonce' );
 
 ?>
 <div class="op-admin-wrap wrap">
-<h1 class="wp-heading-inline"><?php echo __( 'POS Dashboard', 'openpos' ); ?></h1>
+<h1 class="wp-heading-inline"><?php echo $dashboard_title; ?></h1>
 <script type="text/javascript">
     (function($) {
         $('body').on('click','#reset-balance',function () {
@@ -80,11 +100,11 @@ $op_nonce = wp_create_nonce( 'op_nonce' );
                     labels: labels,
                     datasets: [
                     {
-                        label: '<?php echo __('Sales','openpos'); ?>',
+                        label: '<?php echo $revenue_label; ?>',
                         data: sale_data,
                     },
                     {
-                        label: '<?php echo __('Profit','openpos'); ?>',
+                        label: '<?php echo $profit_label; ?>',
                         data: commission_data,
                         borderColor: 'rgba(75, 192, 192, 1)',
                         backgroundColor: 'rgba(75, 192, 192, 0.2)',
@@ -95,7 +115,7 @@ $op_nonce = wp_create_nonce( 'op_nonce' );
                 options: {
                         title: {
                             display: true,
-                            text: '<?php echo __('All Sales','openpos'); ?>'
+                            text: '<?php echo $all_revenue_label; ?>'
                         }
                     }
             });
@@ -115,7 +135,7 @@ $op_nonce = wp_create_nonce( 'op_nonce' );
                 options: {
                     title: {
                         display: true,
-                        text: '<?php echo ($pie_type == 'register' ) ? __('Sale by Register','openpos') : __('Sale by Outlet','openpos'); ?>'
+                        text: '<?php echo ($pie_type == 'register' ) ? $by_register_label : $by_outlet_label; ?>'
                     }
                 }
             });
@@ -130,7 +150,7 @@ $op_nonce = wp_create_nonce( 'op_nonce' );
                 options: {
                         title: {
                             display: true,
-                            text: '<?php echo __('Sales by Seller','openpos'); ?>'
+                            text: '<?php echo $by_therapist_label; ?>'
                         }
                     }
             });
@@ -144,7 +164,7 @@ $op_nonce = wp_create_nonce( 'op_nonce' );
                 options: {
                         title: {
                             display: true,
-                            text: '<?php echo __('Sales by Payment','openpos'); ?>'
+                            text: '<?php echo $by_payment_label; ?>'
                         }
                     }
             });
@@ -250,13 +270,13 @@ $op_nonce = wp_create_nonce( 'op_nonce' );
     <div class=" row">
         <div class="last-orders col-md-8 col-sm-8 col-xs-12 col-lg-8 op-widget-container" >
             <div class="op-widget-content">
-                <div class="title"><label><?php echo __('Last Orders','openpos'); ?></label></div>
+                <div class="title"><label><?php echo $last_transactions_label; ?></label></div>
                 <div id="table_div_latest_orders">
                 <table class="table table-bordered" style="width: 100%;" id="lastest-order">
                     <thead>
                         <tr>
                         <th><?php echo __('#','openpos'); ?></th>
-                        <th><?php echo __('Customer','openpos'); ?></th>
+                        <th><?php echo $customer_label; ?></th>
                         <th><?php echo __('Grand Total','openpos'); ?></th>
                         <th><?php echo __('Sale By','openpos'); ?></th>
                         <th><?php echo __('Created At','openpos'); ?></th>
